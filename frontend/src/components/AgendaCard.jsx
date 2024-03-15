@@ -2,9 +2,11 @@ import React from "react";
 import Star from "../assets/Star.svg";
 
 function AgendaCard({ reverse, time, agenda, description }) {
+  let isMobile = window.innerWidth < 768;
+
   return (
     <div
-      className={`flex w-[50%] flex-col ${
+      className={`flex flex-col ${
         reverse ? "justify-center items-end" : "justify-center items-start"
       } gap-2`}
     >
@@ -18,7 +20,7 @@ function AgendaCard({ reverse, time, agenda, description }) {
         <h3 className="text-md text-[#255D8E] font-bold mt-2 ml-2">{time}</h3>
       </div>
       <p
-        className={`text-[#747478] w-[90%] ${
+        className={`text-[#747478] ${isMobile ? "w-[100%]" : "w-[60%]"} ${
           reverse ? "text-right " : "text-left"
         } leading-8`}
       >

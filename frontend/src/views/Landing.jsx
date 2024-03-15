@@ -5,9 +5,10 @@ import { ReactComponent as AboutBlur } from "../assets/AboutBlur.svg";
 import { ReactComponent as AgendaBlur } from "../assets/AgendaBlur.svg";
 import { ReactComponent as FooterBlur } from "../assets/FooterBlur.svg";
 import { ReactComponent as PitchBlur } from "../assets/PitchBlur.svg";
+import { ReactComponent as DEMORocket } from "../assets/DEMORocket.svg";
 
-import HeroBottomImage from "../assets/HeroBottomImage.png"
-import HeroTopImage from '../assets/HeroTopImage.png'
+import HeroBottomImage from "../assets/HeroBottomImage.png";
+import HeroTopImage from "../assets/HeroTopImage.png";
 
 import AgendaCard from "../components/AgendaCard";
 
@@ -15,6 +16,7 @@ import KeynoteSpeaker from "../assets/Keynote.png";
 import OpeningCeremony from "../assets/OpeningCeremony.png";
 import PitchCompetition from "../assets/PitchCompetition.png";
 import StartupExhibition from "../assets/StartupExhibition.png";
+import DoorsOpen from "../assets/DoorsOpen.png";
 
 import Tim from "../assets/Tim.png";
 import Blake from "../assets/Blake.png";
@@ -83,53 +85,72 @@ var sponsors = [
   },
 ];
 
-function Landing() {
+let isMobile = window.innerWidth < 768;
 
-    const navigate = useNavigate();
+function Landing() {
+  const navigate = useNavigate();
 
   return (
     <div className="w-screen min-h-screen overflow-x-hidden bg-[#080808]">
       {/* Hero Section */}
-      <div className="min-w-full text-center min-h-screen w-full relative h-full flex flex-col items-center text-white justify-center">
-        <h3 className="text-2xl font-bold tracking-wider text-[#C1C1CD]">
+      <div className="min-w-full p-8 text-center min-h-screen w-full relative h-full flex flex-col items-center text-white justify-center">
+        <h3 className="text-2xl relative z-20 font-bold tracking-wider text-[#C1C1CD]">
           April 11th • 10:30AM - 8:00PM • USC Trojan Grand Ballroom
         </h3>
         <h1
           id="DEMO-Shadow"
-          className="text-9xl font-black mt-2 bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent inline-block bg-clip-text"
+          className="text-9xl relative z-20 font-black mt-2 bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent inline-block bg-clip-text"
         >
           DEMO 2024
         </h1>
-        <h4 className="text-2xl text-[#C2C2CD] font-medium mt-4">
+        <h4 className="text-2xl  relative z-20 text-[#C2C2CD] font-medium mt-4">
           USC’s Largest Student Organized Entrepreneurship Conference
         </h4>
-        <h5 className="text-xl text-[#747478] font-medium mt-2">
+        <h5 className="text-xl relative z-20 text-[#f3f3f3] font-medium mt-6">
           Sponsored by the USC Lloyd Greif Center for Entrepreneurial Studies
         </h5>
-        <div className="flex flex-row w-full items-center mt-12 justify-center gap-8">
-          <button className="HeroButton-Shadow text-lg cursor-pointer font-semibold text-[#DEE0E3] p-2 px-6 rounded-lg bg-[#131315] border-2 border-[#1A4265]">
+        <div className="flex relative z-20 flex-row w-full items-center mt-12 justify-center gap-8">
+          <a
+            href="https://www.worldlabs.org/event/demo-2024-entrepreneurship-conference"
+            target="_blank"
+            rel="noreferrer"
+            className="HeroButton-Shadow text-lg cursor-pointer font-semibold text-[#DEE0E3] p-2 px-6 rounded-lg bg-[#131315] border-2 border-[#1A4265] hover:bg-[#1F1F23] hover:shadow-inner active:bg-[#0C0C0D] transition-all hover:shadow-slate-700"
+          >
             RSVP for DEMO
-          </button>
+          </a>
           {/* <button onClick={() => {navigate('/startups')}} className="HeroButton-Shadow text-lg cursor-pointer font-semibold text-[#DADEE2] p-2 px-6 rounded-lg bg-[#176EBA] border-2 border-[#131315]">
             DEMO 2024 Startups
           </button> */}
         </div>
         <HeroBlur className="absolute pointer-events-none bottom-0 w-auto" />
-        <img src={HeroBottomImage} className="image-contain w-[300px] h-[384px] bg-contain absolute bottom-0 left-0"/>
-        <img src={HeroTopImage} className="image-contain w-[350px] h-[300px] bg-contain absolute top-0 right-0"/>
-
+        <img
+          src={HeroBottomImage}
+          className={`image-contain w-[300px] h-[384px] bg-contain absolute bottom-0 left-0 ${
+            isMobile ? "hidden" : ""
+          }`}
+        />
+        <img
+          src={HeroTopImage}
+          className={`image-contain w-[350px] h-[300px] bg-contain absolute top-0 right-0 ${
+            isMobile ? "hidden" : ""
+          }`}
+        />
       </div>
 
       {/* About DEMO */}
-      <div className="min-w-full min-h-screen w-full relative h-full flex flex-col p-24 text-white">
+      <div
+        className={`min-w-full min-h-screen w-full relative h-full flex flex-col ${
+          isMobile ? "p-8" : "p-24"
+        } text-white`}
+      >
         <h3 className="text-[#747478] font-medium text-lg">What is DEMO?</h3>
-        <h1 className="text-5xl mt-2 font-bold h-16  bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent inline-block bg-clip-text">
+        <h1 className="text-5xl mt-2 font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent inline-block bg-clip-text">
           TroyLabs presents DEMO 2024
         </h1>
         <h2 className="text-xl font-semibold text-white mt-4">
           Empowering USC's Next Generation of Entrepreneurs
         </h2>
-        <p className="leading-10 font-medium mt-6 text-[#FEFEFE] max-w-[800px] min-w-[200px] w-[50%]">
+        <p className="leading-10 font-medium mt-6 text-[#FEFEFE] max-w-[800px] min-w-[300px] w-[50%]">
           DEMO is the largest student-run entrepreneurial conference sponsored
           by the USC Lloyd Greif Center for Entrepreneurial Studies. DEMO
           annually brings together startups, investors, students, and everyone
@@ -139,11 +160,20 @@ function Landing() {
           from idea to launch.
         </p>
         <div className="mt-10">
-          <button className="HeroButton-Shadow text-md cursor-pointer font-semibold text-[#DEE0E3] p-2 px-6 rounded-lg bg-[#131315] border-2 border-[#1A4265]">
+          <a
+            href="https://www.worldlabs.org/event/demo-2024-entrepreneurship-conference"
+            target="_blank"
+            rel="noreferrer"
+            className="HeroButton-Shadow text-md cursor-pointer font-semibold text-[#DEE0E3] p-2 px-6 rounded-lg bg-[#131315] border-2 border-[#1A4265] hover:bg-[#1F1F23] hover:shadow-inner active:bg-[#0C0C0D] transition-all hover:shadow-slate-700"
+          >
             Participate
-          </button>
+          </a>
         </div>
-        <div className="w-full flex items-center text-center justify-evenly mt-16">
+        <div
+          className={`${
+            isMobile ? "flex-col items-center" : "flex-row items-center"
+          } w-full flex  text-center justify-evenly mt-16 gap-8`}
+        >
           {aboutData.map((data) => {
             return (
               <div className="flex flex-col items-center justify-center gap-2">
@@ -155,30 +185,45 @@ function Landing() {
             );
           })}
         </div>
+        {!isMobile && (
+          <DEMORocket className="absolute pointer-events-none top-0 right-20 w-auto" />
+        )}
         <AboutBlur className="absolute pointer-events-none bottom-0 right-0 w-auto" />
       </div>
 
       {/* Agenda */}
-      <div className="min-w-full min-h-screen w-full relative h-full flex flex-col p-24 text-white">
+      <div
+        className={`min-w-full min-h-screen w-full relative h-full flex flex-col ${
+          isMobile ? "p-8" : "p-24"
+        } text-white`}
+      >
         <h3 className="text-[#747478] font-medium text-lg">April 11, 2024</h3>
-        <h1 className="text-5xl mt-2 h-16 font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent inline-block bg-clip-text">
+        <h1 className="text-5xl mt-2 font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent inline-block bg-clip-text">
           DEMO Agenda
         </h1>
         <h2 className="text-xl font-semibold text-white mt-4">
           A day full of speakers, pitches, and exhibitions
         </h2>
-        <div className="w-full h-64  mt-10 flex items-center">
+        <div className="w-full h-auto py-4  mt-10 flex items-center justify-between">
           <AgendaCard
             time={"10:30 AM"}
             reverse={false}
             agenda={"Doors Open"}
             description={"Doors for the Opening Ceremony will open at 10:30 AM"}
           />
+          <img
+            src={DoorsOpen}
+            className={`h-full bg-cover bg-center bg-no-repeat w-[40%] object-cover bg-white rounded-lg shadow-lg ${
+              isMobile ? "hidden" : ""
+            }`}
+          />
         </div>
-        <div className="w-full h-64  mt-2 flex items-center justify-between">
+        <div className="w-full h-auto py-4  mt-2 flex items-center justify-between">
           <img
             src={OpeningCeremony}
-            className="h-full  bg-cover bg-center bg-no-repeat w-[40%] bg-white rounded-lg"
+            className={`h-full bg-cover bg-center bg-no-repeat w-[40%] object-cover bg-white rounded-lg shadow-lg ${
+              isMobile ? "hidden" : ""
+            }`}
           />
 
           <AgendaCard
@@ -190,7 +235,7 @@ function Landing() {
             }
           />
         </div>
-        <div className="w-full h-64 mt-2 flex items-center justify-between">
+        <div className="w-full h-auto py-4 mt-2 flex items-center justify-between">
           <AgendaCard
             time={"11:45 AM"}
             reverse={false}
@@ -201,13 +246,17 @@ function Landing() {
           />
           <img
             src={KeynoteSpeaker}
-            className="h-full  bg-cover bg-center bg-no-repeat w-[40%] bg-white rounded-lg"
+            className={`h-full bg-cover bg-center bg-no-repeat w-[40%] object-cover bg-white rounded-lg shadow-lg ${
+              isMobile ? "hidden" : ""
+            }`}
           />
         </div>
-        <div className="w-full h-64 mt-2 flex items-center justify-between">
+        <div className="w-full h-auto py-4 mt-2 flex items-center justify-between">
           <img
             src={StartupExhibition}
-            className="h-full  bg-cover bg-center bg-no-repeat w-[40%] bg-white rounded-lg"
+            className={`h-full bg-cover bg-center bg-no-repeat w-[40%] object-cover bg-white rounded-lg shadow-lg ${
+              isMobile ? "hidden" : ""
+            }`}
           />
           <AgendaCard
             time={"12:30 PM"}
@@ -218,7 +267,7 @@ function Landing() {
             }
           />
         </div>
-        <div className="w-full h-64 mt-2 flex items-center justify-between">
+        <div className="w-full h-auto py-4 mt-2 flex items-center justify-between">
           <AgendaCard
             time={"5:30 PM"}
             reverse={false}
@@ -229,24 +278,30 @@ function Landing() {
           />
           <img
             src={PitchCompetition}
-            className="h-full bg-cover  bg-center bg-no-repeat w-[40%] bg-white rounded-lg"
+            className={`h-full bg-cover bg-center bg-no-repeat w-[40%] object-cover bg-white rounded-lg shadow-lg ${
+              isMobile ? "hidden" : ""
+            }`}
           />
         </div>
-        <AgendaBlur className="absolute pointer-events-none bottom-auto top-auto left-auto right-auto w-auto" />
+        <AgendaBlur className="absolute pointer-events-none bottom-auto top-auto left-auto right-auto w-auto opacity-65" />
       </div>
 
       {/* Pitch Competition */}
-      <div className="min-w-full min-h-screen w-full relative h-full flex flex-col p-24 text-white">
+      <div
+        className={`min-w-full min-h-screen w-full relative h-full flex flex-col ${
+          isMobile ? "p-8" : "p-24"
+        } text-white`}
+      >
         <h3 className="text-[#747478] font-medium text-lg">
           Innovation in Action
         </h3>
-        <h1 className="text-5xl mt-2 font-bold h-16  bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent inline-block bg-clip-text">
+        <h1 className="text-5xl mt-2 font-bold  bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent inline-block bg-clip-text">
           Pitch Competition
         </h1>
         <h2 className="text-xl font-semibold text-white mt-4">
           Emerging Startups, Expert Judges
         </h2>
-        <p className="leading-10 font-medium mt-6 text-[#FEFEFE] max-w-[800px] min-w-[200px] w-[50%]">
+        <p className={`leading-10 font-medium mt-6 text-[#FEFEFE] max-w-[800px] min-w-[200px] ${isMobile ? "w-[80%]" :"w-[50%]"}`}>
           Pitch Competition for a selected six startups will last from 5:30 PM
           to 7 PM, and winners will receive tuition-deductible prizes as awarded
           by the Lloyd Greif Center for Entrepreneurial Studies. 
@@ -256,7 +311,7 @@ function Landing() {
             Pitching Startups
           </button> */}
         </div>
-        <div className="w-full flex items-center text-center justify-start gap-32 mt-8">
+        <div className={`${isMobile ? "flex-col gap-16" : "gap-32"} w-full flex items-center text-center justify-start mt-8`}>
           {PrizeData.map((data) => {
             return (
               <div className="flex flex-col items-center justify-center gap-2">
@@ -269,7 +324,7 @@ function Landing() {
           })}
         </div>
         <h2 className="font-medium text-[#D3D3D8] text-lg mt-16">Our Judges</h2>
-        <div className="w-full flex items-center text-center justify-start gap-4 mt-4">
+        <div className={`${isMobile ? "flex-col items-start gap-8 mt-8" : "items-center gap-4 mt-4"} w-full flex text-center justify-start`}>
           {judges.map((judge) => {
             return (
               <div className="flex items-center justify-center gap-6">
@@ -303,7 +358,12 @@ function Landing() {
         </h2>
         <div className="w-full items-center flex flex-row justify-center gap-16 mt-8 ">
           {sponsors.map((sponsor) => {
-            return <img src={sponsor.image} className="relative z-10 w-48 h-48 bg-contain" />;
+            return (
+              <img
+                src={sponsor.image}
+                className="relative z-10 w-48 h-48 bg-contain"
+              />
+            );
           })}
         </div>
         <img

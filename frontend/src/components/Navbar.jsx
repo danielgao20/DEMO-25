@@ -6,7 +6,6 @@ function Navbar() {
   const navigate = useNavigate();
   let location = useLocation();
 
-
   var links = [
     {
       text: "Home",
@@ -23,7 +22,7 @@ function Navbar() {
   ];
 
   var current = location.pathname;
-  console.log(current)
+  console.log(current);
 
   return (
     <header className="w-full h-16 flex flex-row justify-between items-center px-8 p-4 fixed top-0 z-50">
@@ -52,9 +51,14 @@ function Navbar() {
           );
         })}
       </div>
-      <button className="HeroButton-Shadow text-sm cursor-pointer font-semibold text-[#DEE0E3] p-2 px-6 rounded-lg bg-[#131315] border-2 border-[#1A4265]">
+      <a
+        href="https://www.worldlabs.org/event/demo-2024-entrepreneurship-conference"
+        target="_blank"
+        rel="noreferrer"
+        className="HeroButton-Shadow text-sm cursor-pointer font-semibold text-[#DEE0E3] p-2 px-6 rounded-lg bg-[#131315] border-2 border-[#1A4265] hover:bg-[#1F1F23] hover:shadow-inner active:bg-[#0C0C0D] transition-all hover:shadow-slate-700"
+      >
         RSVP for DEMO
-      </button>
+      </a>
     </header>
   );
 }
