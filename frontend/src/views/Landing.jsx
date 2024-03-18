@@ -301,7 +301,11 @@ function Landing() {
         <h2 className="text-xl font-semibold text-white mt-4">
           Emerging Startups, Expert Judges
         </h2>
-        <p className={`leading-10 font-medium mt-6 text-[#FEFEFE] max-w-[800px] min-w-[200px] ${isMobile ? "w-[80%]" :"w-[50%]"}`}>
+        <p
+          className={`leading-10 font-medium mt-6 text-[#FEFEFE] max-w-[800px] min-w-[200px] ${
+            isMobile ? "w-[80%]" : "w-[50%]"
+          }`}
+        >
           Pitch Competition for a selected six startups will last from 5:30 PM
           to 7 PM, and winners will receive tuition-deductible prizes as awarded
           by the Lloyd Greif Center for Entrepreneurial Studies. 
@@ -311,7 +315,11 @@ function Landing() {
             Pitching Startups
           </button> */}
         </div>
-        <div className={`${isMobile ? "flex-col gap-16" : "gap-32"} w-full flex items-center text-center justify-start mt-8`}>
+        <div
+          className={`${
+            isMobile ? "flex-col gap-16" : "gap-32"
+          } w-full flex items-center text-center justify-start mt-8`}
+        >
           {PrizeData.map((data) => {
             return (
               <div className="flex flex-col items-center justify-center gap-2">
@@ -324,7 +332,13 @@ function Landing() {
           })}
         </div>
         <h2 className="font-medium text-[#D3D3D8] text-lg mt-16">Our Judges</h2>
-        <div className={`${isMobile ? "flex-col items-start gap-8 mt-8" : "items-center gap-4 mt-4"} w-full flex text-center justify-start`}>
+        <div
+          className={`${
+            isMobile
+              ? "flex-col items-start gap-8 mt-8"
+              : "items-center gap-4 mt-4"
+          } w-full flex text-center justify-start`}
+        >
           {judges.map((judge) => {
             return (
               <div className="flex items-center justify-center gap-6">
@@ -348,15 +362,23 @@ function Landing() {
       </div>
 
       {/* Thank You */}
-      <div className="min-w-full pb-96 min-h-screen w-full justify-center items-center relative h-full flex flex-col p-24 text-white">
-        <h1 className="text-8xl mt-2 font-bold h-32 bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent inline-block bg-clip-text">
+      <div
+        className={`${
+          isMobile ? "p-8 pb-8" : "p-24 pb-96"
+        } min-w-full min-h-screen w-full justify-center items-center relative h-full flex flex-col text-white`}
+      >
+        <h1
+          className={`${
+            isMobile ? "text-4xl mb-4" : "text-8xl"
+          } mt-2 font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent inline-block bg-clip-text`}
+        >
           A Huge Thank You!
         </h1>
-        <h2 className="text-lg font-medium tracking-wider text-white">
+        <h2 className="text-lg text-center font-medium tracking-wider text-white">
           Thank you for the support of our sponsors to provide opportunities at
           DEMO 2024!
         </h2>
-        <div className="w-full items-center flex flex-row justify-center gap-16 mt-8 ">
+        <div className={`${isMobile ? "flex-col gap-2" : "flex-row gap-16"} w-full items-center flex justify-center mt-8`} >
           {sponsors.map((sponsor) => {
             return (
               <img

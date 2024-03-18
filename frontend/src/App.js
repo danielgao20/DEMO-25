@@ -3,6 +3,7 @@ import Landing from "./views/Landing";
 import Navbar from "./components/Navbar";
 
 function App() {
+
   return (
     <Router>
       <div className="w-screen relative h-screen min-h-screen min-w-full bg-slate-100">
