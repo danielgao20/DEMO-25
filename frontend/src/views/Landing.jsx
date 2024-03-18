@@ -60,16 +60,19 @@ var judges = [
     name: "Blake Hatten",
     title: "VC at Honors Fund & CEAS Investments",
     picture: Blake,
+    linkedIn: "https://www.linkedin.com/in/blake-hatten-bab334110/",
   },
   {
     name: "Tim Li",
     title: "CEO & Co-Founder of LendAPI",
     picture: Tim,
+    linkedIn: "https://www.linkedin.com/in/timothytli/"
   },
   {
     name: "Christiane Maertens",
     title: "Founder of DoGoodery & Valor Bebidas",
     picture: Christiane,
+    linkedIn: "https://www.linkedin.com/in/christiane-a-maertens-6bb2b74/"
   },
 ];
 
@@ -347,7 +350,10 @@ function Landing() {
                   className="w-24 h-24 bg-contain rounded-full shadow-inner border-2 border-[#333]"
                 />
                 <div className="flex flex-col text-left items-start justify-center">
-                  <h3 className="font-medium text-[#3B88CC] text-xl">
+                  <h3
+                    className="font-medium text-[#3B88CC] text-xl hover:underline hover:underline-offset-4 cursor-pointer"
+                    onClick={() => window.open(judge.linkedIn, "_blank")}
+                  >
                     {judge.name}
                   </h3>
                   <h4 className="text-sm w-[80%] font-light mt-2 text-[#A9A9AD]">
