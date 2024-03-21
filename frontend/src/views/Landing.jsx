@@ -29,8 +29,6 @@ import Blackstone from "../assets/Blackstone.png";
 import Footer from "../assets/Footer.svg";
 import { useNavigate } from "react-router-dom";
 
-import StickyHeadTable from "./Jobboard";
-
 var aboutData = [
   {
     amount: 50,
@@ -68,13 +66,13 @@ var judges = [
     name: "Tim Li",
     title: "CEO & Co-Founder of LendAPI",
     picture: Tim,
-    linkedIn: "https://www.linkedin.com/in/timothytli/"
+    linkedIn: "https://www.linkedin.com/in/timothytli/",
   },
   {
     name: "Christiane Maertens",
     title: "Founder of DoGoodery & Valor Bebidas",
     picture: Christiane,
-    linkedIn: "https://www.linkedin.com/in/christiane-a-maertens-6bb2b74/"
+    linkedIn: "https://www.linkedin.com/in/christiane-a-maertens-6bb2b74/",
   },
 ];
 
@@ -104,7 +102,7 @@ function Landing() {
         </h3>
         <h1
           id="DEMO-Shadow"
-          className="text-9xl relative z-20 font-black mt-2 bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent inline-block bg-clip-text"
+          className="text-9xl relative z-20 font-black mt-2 bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text"
         >
           DEMO 2024
         </h1>
@@ -149,7 +147,7 @@ function Landing() {
         } text-white`}
       >
         <h3 className="text-[#747478] font-medium text-lg">What is DEMO?</h3>
-        <h1 className="text-5xl mt-2 font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent inline-block bg-clip-text">
+        <h1 className="text-5xl mt-2 font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text">
           TroyLabs presents DEMO 2024
         </h1>
         <h2 className="text-xl font-semibold text-white mt-4">
@@ -182,7 +180,7 @@ function Landing() {
           {aboutData.map((data) => {
             return (
               <div className="flex flex-col items-center justify-center gap-2">
-                <h1 className="text-7xl font-extrabold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent inline-block bg-clip-text">
+                <h1 className="text-7xl font-extrabold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text">
                   {data.amount}
                 </h1>
                 <h3 className="font-medium text-xl mt-2">{data.of}</h3>
@@ -196,22 +194,23 @@ function Landing() {
         <AboutBlur className="absolute pointer-events-none bottom-0 right-0 w-auto" />
       </div>
 
-      {/* Job Board */}
+      {/* [!!!!] Job Board & Startup Board should go in a separate page. */}
+
+      {/* Job Board
       <div
         className={`min-w-full min-h-screen w-full relative h-full flex flex-col ${
           isMobile ? "p-8" : "p-24"
         } text-white`}
       >
         <h3 className="text-[#747478] font-medium text-lg">What startups are attending?</h3>
-        <h1 className="text-5xl mt-2 font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent inline-block bg-clip-text mb-6">
+        <h1 className="text-5xl mt-2 font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text mb-6">
           DEMO 2024 Startups
         </h1>
-        {/* <h2 className="text-xl font-semibold text-white mt-4">
+<h2 className="text-xl font-semibold text-white mt-4">
           Empowering USC's Next Generation of Entrepreneurs
-        </h2> */}
+        </h2> 
         <StickyHeadTable />
-      </div>
-
+      </div> */}
 
       {/* Agenda */}
       <div
@@ -220,7 +219,7 @@ function Landing() {
         } text-white`}
       >
         <h3 className="text-[#747478] font-medium text-lg">April 11, 2024</h3>
-        <h1 className="text-5xl mt-2 font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent inline-block bg-clip-text">
+        <h1 className="text-5xl mt-2 font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text">
           DEMO Agenda
         </h1>
         <h2 className="text-xl font-semibold text-white mt-4">
@@ -317,7 +316,7 @@ function Landing() {
         <h3 className="text-[#747478] font-medium text-lg">
           Innovation in Action
         </h3>
-        <h1 className="text-5xl mt-2 font-bold  bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent inline-block bg-clip-text">
+        <h1 className="text-5xl mt-2 font-bold  bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text">
           Pitch Competition
         </h1>
         <h2 className="text-xl font-semibold text-white mt-4">
@@ -345,7 +344,7 @@ function Landing() {
           {PrizeData.map((data) => {
             return (
               <div className="flex flex-col items-center justify-center gap-2">
-                <h1 className="text-7xl font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent inline-block bg-clip-text">
+                <h1 className="text-7xl font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text">
                   {data.amount}
                 </h1>
                 <h3 className="font-medium text-xl mt-2">{data.award}</h3>
@@ -386,6 +385,38 @@ function Landing() {
         <PitchBlur className="absolute pointer-events-none bottom-0 w-auto" />
       </div>
 
+      {/* ADA */}
+      <div
+        className={`${
+          isMobile ? "p-8 pb-8" : "p-24"
+        } min-w-full w-full justify-center items-center relative flex flex-col text-white`}
+      >
+        <div className="flex flex-col items-center">
+          <h2 className="font-semibold text-center  bg-gradient-to-t from-[#116AB8] to-[#91BCE1] leading-normal text-transparent inline-block bg-clip-text text-3xl">
+            ADA Accommodation at the USC Trojan Grand Ballroom
+          </h2>
+          {/* line */}
+          <div
+            className={`${
+              isMobile ? "w-[60%]" : "w-[50%]"
+            } h-1 bg-gradient-to-t mt-6 mb-10 rounded-full from-[#116AB8] to-[#91BCE1]`}
+          ></div>
+          <p
+            className={`${
+              isMobile ? "w-[90%]" : "w-3/4"
+            }text-white text-center leading-loose text-lg`}
+          >
+            Individuals with disabilities who need accommodations to attend this
+            event may contact <b className="text-[#3B88CC]">troylabs@usc.edu</b>
+            . It is requested that individuals requiring accommodations or
+            auxiliary aids such as sign language interpreters and alternative
+            format materials notify us at least 7 days prior to the event. Every
+            reasonable effort will be made to provide reasonable accommodations
+            in an effective and timely manner.
+          </p>
+        </div>
+      </div>
+
       {/* Thank You */}
       <div
         className={`${
@@ -395,7 +426,7 @@ function Landing() {
         <h1
           className={`${
             isMobile ? "text-4xl mb-4" : "text-8xl"
-          } mt-2 font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent inline-block bg-clip-text`}
+          } mt-2 font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] leading-normal text-transparent inline-block bg-clip-text`}
         >
           A Huge Thank You!
         </h1>
@@ -403,7 +434,11 @@ function Landing() {
           Thank you for the support of our sponsors to provide opportunities at
           DEMO 2024!
         </h2>
-        <div className={`${isMobile ? "flex-col gap-2" : "flex-row gap-16"} w-full items-center flex justify-center mt-8`} >
+        <div
+          className={`${
+            isMobile ? "flex-col gap-2" : "flex-row gap-16"
+          } w-full items-center flex justify-center mt-8`}
+        >
           {sponsors.map((sponsor) => {
             return (
               <img
