@@ -29,6 +29,8 @@ import Blackstone from "../assets/Blackstone.png";
 import Footer from "../assets/Footer.svg";
 import { useNavigate } from "react-router-dom";
 
+import StickyHeadTable from "./Jobboard";
+
 var aboutData = [
   {
     amount: 50,
@@ -193,6 +195,23 @@ function Landing() {
         )}
         <AboutBlur className="absolute pointer-events-none bottom-0 right-0 w-auto" />
       </div>
+
+      {/* Job Board */}
+      <div
+        className={`min-w-full min-h-screen w-full relative h-full flex flex-col ${
+          isMobile ? "p-8" : "p-24"
+        } text-white`}
+      >
+        <h3 className="text-[#747478] font-medium text-lg">What startups are attending?</h3>
+        <h1 className="text-5xl mt-2 font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent inline-block bg-clip-text mb-6">
+          DEMO 2024 Startups
+        </h1>
+        {/* <h2 className="text-xl font-semibold text-white mt-4">
+          Empowering USC's Next Generation of Entrepreneurs
+        </h2> */}
+        <StickyHeadTable />
+      </div>
+
 
       {/* Agenda */}
       <div
