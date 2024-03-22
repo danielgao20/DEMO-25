@@ -23,3 +23,7 @@
 .HeroButton-Shadow {
   text-shadow: 0 5.04px 31.5px rgba(59, 136, 204, 0.3);
 }
+
+html {
+  background-color: #080808;
+}

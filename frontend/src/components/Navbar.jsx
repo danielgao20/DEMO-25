@@ -27,8 +27,9 @@ function Navbar() {
   console.log(current);
 
   return (
-    <header className="w-full h-16 flex flex-row justify-between items-center px-8 p-4 fixed top-0 z-50">
+    <header className="w-full h-16 flex flex-row justify-between items-center px-8 p-4 fixed top-0 z-50 bg-[#131313]/20 backdrop-blur">
       <img
+        alt="Demo 2024 Logo — Presented by TroyLabs"
         src={DEMOLogo}
         className="h-full w-auto cursor-pointer"
         onClick={() => {
@@ -38,14 +39,14 @@ function Navbar() {
       {!isMobile && (
         <>
           <div className="flex flex-row h-full items-center justify-center gap-4">
-            {links.map((link) => {
+            {links.map(link => {
               return (
                 <button
                   onClick={() => {
                     navigate(link.url);
                   }}
                   className={`p-4 font-semibold ${
-                    current == link.url
+                    current === link.url
                       ? "text-[#2668A1] underline underline-offset-8"
                       : "text-[#A2A2A5]"
                   }`}
