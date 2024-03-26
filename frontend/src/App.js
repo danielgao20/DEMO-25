@@ -1,6 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Landing from "./views/Landing";
 import Navbar from "./components/Navbar";
+import Startupgrid from "./views/Startupgrid";
+
+
 
 function App() {
   return (
@@ -10,6 +13,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Landing />} />
+          <Route path="/startups" element={<Startupgrid />} />
         </Routes>
       </div>
     </Router>
