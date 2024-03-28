@@ -56,12 +56,12 @@ var PrizeData = [
 ];
 
 var judges = [
-  {
-    name: "Blake Hatten",
-    title: "VC at Honors Fund & CEAS Investments",
-    picture: Blake,
-    linkedIn: "https://www.linkedin.com/in/blake-hatten-bab334110/",
-  },
+  // {
+  //   name: "Blake Hatten",
+  //   title: "VC at Honors Fund & CEAS Investments",
+  //   picture: Blake,
+  //   linkedIn: "https://www.linkedin.com/in/blake-hatten-bab334110/",
+  // },
   {
     name: "Tim Li",
     title: "CEO & Co-Founder of LendAPI",
@@ -393,7 +393,7 @@ function Landing() {
       >
         <div className="flex flex-col items-center">
           <h2 className="font-semibold text-center  bg-gradient-to-t from-[#116AB8] to-[#91BCE1] leading-normal text-transparent inline-block bg-clip-text text-3xl">
-            ADA Accommodation at the USC Trojan Grand Ballroom
+            ADA Accommodation at the USC Trojan Grand Ballroom and TCC 227
           </h2>
           {/* line */}
           <div
