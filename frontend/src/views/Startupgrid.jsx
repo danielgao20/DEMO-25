@@ -1,5 +1,4 @@
 import React from 'react'
-import { ReactComponent as StartupCardDesign } from "../assets/StartupCardDesign.svg";
 import { ReactComponent as Startuppageblur1 } from "../assets/Startuppageblur1.svg";
 import StartupCard from '../components/StartupCard';
 import StartupSearch from '../components/StartupSearch';
@@ -7,58 +6,76 @@ import StartupSearch from '../components/StartupSearch';
 
 var startupData = [
     {
-        name: "Revsend",
-        sector: "AI",
-        logo: "Revsend logo",
-        cardcolor: "blue",
-    },
-    {
         name: "Revsend2",
         sector: "AI",
         logo: "Revsend logo",
         cardcolor: "blue",
+        description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
+        link: "www.linkedin.com/company/troy-labs",
+        industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
     },
     {
-        name: "Revsend3",
+        name: "Revsend3 ",
         sector: "AI",
         logo: "Revsend logo",
         cardcolor: "blue",
+        description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
+        link: "www.linkedin.com/company/troy-labs",
+        industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
     },
     {
-        name: "Revsend",
+        name: "Revsend4",
         sector: "AI",
         logo: "Revsend logo",
         cardcolor: "blue",
+        description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
+        link: "www.linkedin.com/company/troy-labs",
+        industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
     },
     {
-        name: "Revsend2",
+        name: "Revsend5",
         sector: "AI",
         logo: "Revsend logo",
         cardcolor: "blue",
+        description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
+        link: "www.linkedin.com/company/troy-labs",
+        industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
     },
     {
-        name: "Revsend3",
+        name: "Revsend6",
         sector: "AI",
         logo: "Revsend logo",
         cardcolor: "blue",
+        description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
+        link: "www.linkedin.com/company/troy-labs",
+        industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
     },
     {
-        name: "Revsend",
+        name: "Revsend7",
         sector: "AI",
         logo: "Revsend logo",
         cardcolor: "blue",
+        description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
+        link: "www.linkedin.com/company/troy-labs",
+        industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
     },
     {
-        name: "Revsend2",
+        name: "Revsend8",
         sector: "AI",
         logo: "Revsend logo",
         cardcolor: "blue",
+        description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
+        link: "www.linkedin.com/company/troy-labs",
+        industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
     },
     {
-        name: "Revsend3",
+        name: "Revsend9",
         sector: "AI",
         logo: "Revsend logo",
         cardcolor: "blue",
+        description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
+        link: "www.linkedin.com/company/troy-labs",
+        industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
     },
   ];
 const Startupgrid = () => {
@@ -83,7 +100,7 @@ const Startupgrid = () => {
       
         <div className="grid grid-cols-4 gap-8 mt-6 ml-10 mr-10">
             {startupData.map((startup, index) => (
-                <StartupCard key={index} name={startup.name} sector={startup.sector} logo={startup.logo} cardcolor={startup.cardcolor} />
+                <StartupCard key={index} name={startup.name} sector={startup.sector} logo={startup.logo} cardcolor={startup.cardcolor} description={startup.description} link={startup.link} industries={startup.industries}/>
             ))}
         </div>
         </span>
@@ -93,3 +110,5 @@ const Startupgrid = () => {
 }
 
 export default Startupgrid;
+
+

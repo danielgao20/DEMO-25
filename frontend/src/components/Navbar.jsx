@@ -13,10 +13,10 @@ function Navbar() {
       text: "Home",
       url: "/",
     },
-    // {
-    //   text: "Startups",
-    //   url: "/startups",
-    // },
+    {
+      text: "Startups",
+      url: "/startups",
+    },
     // {
     //   text: "Map",
     //   url: "/map",
