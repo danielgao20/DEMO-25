@@ -2,6 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Landing from "./views/Landing";
 import Navbar from "./components/Navbar";
 import Startupgrid from "./views/Startupgrid";
+import SponsorUs from "./views/SponsorUs";
+
 
 
 
@@ -14,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/startups" element={<Startupgrid />} />
+          <Route path="/sponsorus" element={<SponsorUs />} />
         </Routes>
       </div>
     </Router>

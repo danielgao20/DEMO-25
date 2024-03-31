@@ -21,6 +21,7 @@ import DoorsOpen from "../assets/DoorsOpen.png";
 import Tim from "../assets/Tim.png";
 import Blake from "../assets/Blake.png";
 import Christiane from "../assets/Christiane.png";
+import Arabian from "../assets/Arabian.jpg";
 
 import USG from "../assets/USG.png";
 import Greif from "../assets/Greif.png";
@@ -56,12 +57,12 @@ var PrizeData = [
 ];
 
 var judges = [
-  // {
-  //   name: "Blake Hatten",
-  //   title: "VC at Honors Fund & CEAS Investments",
-  //   picture: Blake,
-  //   linkedIn: "https://www.linkedin.com/in/blake-hatten-bab334110/",
-  // },
+  {
+    name: "Arabian Prince",
+    title: "Entrepreneurial industry leader & founder in music and tech ",
+    picture: Arabian,
+    linkedIn: "https://www.linkedin.com/in/ogarabianprincenwa/",
+  },
   {
     name: "Tim Li",
     title: "CEO & Co-Founder of LendAPI",
@@ -391,6 +392,13 @@ function Landing() {
           isMobile ? "p-8 pb-8" : "p-24"
         } min-w-full w-full justify-center items-center relative flex flex-col text-white`}
       >
+        {/* <h1 className="text-5xl mt-2 font-bold  bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text">
+          Interested in sponsoring DEMO?
+        </h1> */}
+
+
+
+
         <div className="flex flex-col items-center">
           <h2 className="font-semibold text-center  bg-gradient-to-t from-[#116AB8] to-[#91BCE1] leading-normal text-transparent inline-block bg-clip-text text-3xl">
             ADA Accommodation at the USC Trojan Grand Ballroom and TCC 227
