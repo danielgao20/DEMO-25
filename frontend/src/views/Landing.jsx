@@ -58,12 +58,6 @@ var PrizeData = [
 
 var judges = [
   {
-    name: "Arabian Prince",
-    title: "Entrepreneurial industry leader & founder in music and tech ",
-    picture: Arabian,
-    linkedIn: "https://www.linkedin.com/in/ogarabianprincenwa/",
-  },
-  {
     name: "Tim Li",
     title: "CEO & Co-Founder of LendAPI",
     picture: Tim,
@@ -74,6 +68,12 @@ var judges = [
     title: "Founder of DoGoodery & Valor Bebidas",
     picture: Christiane,
     linkedIn: "https://www.linkedin.com/in/christiane-a-maertens-6bb2b74/",
+  },
+  {
+    name: "Arabian Prince",
+    title: "Entrepreneurial Industry Leader & Founder in Music and Tech",
+    picture: Arabian,
+    linkedIn: "https://www.linkedin.com/in/ogarabianprincenwa/",
   },
 ];
 
@@ -395,9 +395,6 @@ function Landing() {
         {/* <h1 className="text-5xl mt-2 font-bold  bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text">
           Interested in sponsoring DEMO?
         </h1> */}
-
-
-
 
         <div className="flex flex-col items-center">
           <h2 className="font-semibold text-center mb-10 bg-gradient-to-t from-[#116AB8] to-[#91BCE1] leading-normal text-transparent inline-block bg-clip-text text-3xl">
