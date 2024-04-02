@@ -20,7 +20,7 @@ function Navbar() {
       url: "/",
       action: () => navigate("/")
     },
-    // {
+    // { /test
     //   text: "Startups",
     //   url: "/startups",
     //   action: () => navigate("/startups")
