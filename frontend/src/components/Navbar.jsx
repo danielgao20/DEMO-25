@@ -20,11 +20,11 @@ function Navbar() {
       url: "/",
       action: () => navigate("/")
     },
-    // {
-    //   text: "Startups",
-    //   url: "/startups",
-    //   action: () => navigate("/startups")
-    // },
+    {
+      text: "Startups",
+      url: "/startups",
+      action: () => navigate("/startups")
+    },
     {
       text: "Sponsor Us",
       url: "", // Empty or '#' if you don't have a separate path for Sponsor Us
