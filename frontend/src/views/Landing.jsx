@@ -259,7 +259,7 @@ function Landing() {
         </div>
         <div className="w-full h-auto py-4 mt-2 flex items-center justify-between">
           <AgendaCard
-            time={"11:45 AM"}
+            time={"11:30 AM"}
             reverse={false}
             agenda={"Keynote Speaker"}
             description={
