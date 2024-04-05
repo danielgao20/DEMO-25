@@ -155,7 +155,7 @@ const StartupCard = ({name, sector, logo, cardcolor, description, link, industri
                 blockScroll={true}
             >
                 {/* Modal content */}
-                <div style={{ position: 'relative' }}>
+                <div style={{ position: 'relative' , paddingRight: '17px' }}>
                     <img src={TopoImage} alt="topo" className="absolute inset-0 translate-x-5 -mt-35"/>
                     <div style={{position: 'relative', zIndex: '1', paddingLeft: '20px', paddingTop: '20px'}}>
 
