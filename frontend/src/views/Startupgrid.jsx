@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { ReactComponent as Startuppageblur1 } from "../assets/Startuppageblur1.svg";
 import StartupCard from '../components/StartupCard';
 import StartupSearch from '../components/StartupSearch';
+import cam from '../assets/cam.png'
 
 const allStartupData = [
     {
@@ -11,7 +12,25 @@ const allStartupData = [
         description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
         link: "www.linkedin.com/company/troy-labs",
         industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
-        stage: "Series A"
+        team: [
+            {
+                "name": "Cameron Saidock",
+                "role": "Co-Founder of TroyLabs",
+                "headshot": cam,
+                "linkedin": "https://www.linkedin.com/in/cameronsaidock/",
+                "email": "cameron1@example.com"
+            },
+            {
+                "name": "Cameron Saidock",
+                "role": "Co-Founder",
+                "headshot": cam,
+                "linkedin": "https://www.linkedin.com/in/cameronsaidock/",
+                "email": "cameron@example.com"
+            },
+            //more possible founders
+        ],
+        stage: "Series A",
+        recruiting: ["Software Engineer", "Marketer", "UI Designer", "Financial Analyst"],
     },
     {
         name: "Annacopa",
@@ -20,7 +39,25 @@ const allStartupData = [
         description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
         link: "www.linkedin.com/company/troy-labs",
         industries: ["Artificial Intelligence", "Environment Tech"],
-        stage: "Series A"
+        team: [
+            {
+                "name": "Cameron Saidock",
+                "role": "Co-Founder of TroyLabs",
+                "headshot": cam,
+                "linkedin": "https://www.linkedin.com/in/cameronsaidock/",
+                "email": "cameron1@example.com"
+            },
+            {
+                "name": "Cameron Saidock",
+                "role": "Co-Founder",
+                "headshot": cam,
+                "linkedin": "https://www.linkedin.com/in/cameronsaidock/",
+                "email": "cameron@example.com"
+            },
+            //more possible founders
+        ],
+        stage: "Series A",
+        recruiting: ["Software Engineer", "Marketer", "UI Designer", "Financial Analyst"],
     },
     {
         name: "TL",
@@ -29,7 +66,25 @@ const allStartupData = [
         description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
         link: "www.linkedin.com/company/troy-labs",
         industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
-        stage: "Pre-Seed"
+        team: [
+            {
+                "name": "Cameron Saidock",
+                "role": "Co-Founder of TroyLabs",
+                "headshot": cam,
+                "linkedin": "https://www.linkedin.com/in/cameronsaidock/",
+                "email": "cameron1@example.com"
+            },
+            {
+                "name": "Cameron Saidock",
+                "role": "Co-Founder",
+                "headshot": cam,
+                "linkedin": "https://www.linkedin.com/in/cameronsaidock/",
+                "email": "cameron@example.com"
+            },
+            //more possible founders
+        ],
+        stage: "Pre-Seed",
+        recruiting: ["Software Engineer", "Marketer", "UI Designer", "Financial Analyst"],
     },
     {
         name: "TroyLabs",
@@ -38,7 +93,25 @@ const allStartupData = [
         description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
         link: "www.linkedin.com/company/troy-labs",
         industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
-        stage: "Series A"
+        team: [
+            {
+                "name": "Cameron Saidock",
+                "role": "Co-Founder of TroyLabs",
+                "headshot": cam,
+                "linkedin": "https://www.linkedin.com/in/cameronsaidock/",
+                "email": "cameron1@example.com"
+            },
+            {
+                "name": "Cameron Saidock",
+                "role": "Co-Founder",
+                "headshot": cam,
+                "linkedin": "https://www.linkedin.com/in/cameronsaidock/",
+                "email": "cameron@example.com"
+            },
+            //more possible founders
+        ],
+        stage: "Series A",
+        recruiting: ["Software Engineer", "Marketer", "UI Designer", "Financial Analyst"],
     },
     {
         name: "Biotech Beauty",
@@ -47,7 +120,25 @@ const allStartupData = [
         description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
         link: "www.linkedin.com/company/troy-labs",
         industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
-        stage: "Seed"
+        team: [
+            {
+                "name": "Cameron Saidock",
+                "role": "Co-Founder of TroyLabs",
+                "headshot": cam,
+                "linkedin": "https://www.linkedin.com/in/cameronsaidock/",
+                "email": "cameron1@example.com"
+            },
+            {
+                "name": "Cameron Saidock",
+                "role": "Co-Founder",
+                "headshot": cam,
+                "linkedin": "https://www.linkedin.com/in/cameronsaidock/",
+                "email": "cameron@example.com"
+            },
+            //more possible founders
+        ],
+        stage: "Seed",
+        recruiting: ["Software Engineer", "Marketer", "UI Designer", "Financial Analyst"],
     },
     {
         name: "Evryn",
@@ -56,7 +147,25 @@ const allStartupData = [
         description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
         link: "www.linkedin.com/company/troy-labs",
         industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
-        stage: "Pre-Seed"
+        team: [
+            {
+                "name": "Cameron Saidock",
+                "role": "Co-Founder of TroyLabs",
+                "headshot": cam,
+                "linkedin": "https://www.linkedin.com/in/cameronsaidock/",
+                "email": "cameron1@example.com"
+            },
+            {
+                "name": "Cameron Saidock",
+                "role": "Co-Founder",
+                "headshot": cam,
+                "linkedin": "https://www.linkedin.com/in/cameronsaidock/",
+                "email": "cameron@example.com"
+            },
+            //more possible founders
+        ],
+        stage: "Pre-Seed",
+        recruiting: ["Software Engineer", "Marketer", "UI Designer", "Financial Analyst"],
     },
     {
         name: "Test",
@@ -65,7 +174,25 @@ const allStartupData = [
         description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
         link: "www.linkedin.com/company/troy-labs",
         industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
-        stage: "Series A"
+        team: [
+            {
+                "name": "Cameron Saidock",
+                "role": "Co-Founder of TroyLabs",
+                "headshot": cam,
+                "linkedin": "https://www.linkedin.com/in/cameronsaidock/",
+                "email": "cameron1@example.com"
+            },
+            {
+                "name": "Cameron Saidock",
+                "role": "Co-Founder",
+                "headshot": cam,
+                "linkedin": "https://www.linkedin.com/in/cameronsaidock/",
+                "email": "cameron@example.com"
+            },
+            //more possible founders
+        ],
+        stage: "Series A",
+        recruiting: ["Software Engineer", "Marketer", "UI Designer", "Financial Analyst"],
     },
     {
         name: "Hello",
@@ -74,14 +201,32 @@ const allStartupData = [
         description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
         link: "www.linkedin.com/company/troy-labs",
         industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
-        stage: "Series A"
+        team: [
+            {
+                "name": "Cameron Saidock",
+                "role": "Co-Founder of TroyLabs",
+                "headshot": cam,
+                "linkedin": "https://www.linkedin.com/in/cameronsaidock/",
+                "email": "cameron1@example.com"
+            },
+            {
+                "name": "Cameron Saidock",
+                "role": "Co-Founder",
+                "headshot": cam,
+                "linkedin": "https://www.linkedin.com/in/cameronsaidock/",
+                "email": "cameron@example.com"
+            },
+            //more possible founders
+        ],
+        stage: "Series A",
+        recruiting: ["Software Engineer", "Marketer", "UI Designer", "Financial Analyst"],
     }
   ]
 
 const Startupgrid = () => {
 
     const [startupData, setStartupData] = useState(allStartupData)
-    
+
     return (
         <div className="w-screen min-h-screen bg-[#080808]">
       {/* Hero Section */}
@@ -103,7 +248,7 @@ const Startupgrid = () => {
       
         <div className="grid grid-cols-4 gap-8 mt-6 ml-10 mr-10">
             {startupData.map((startup, index) => (
-                <StartupCard key={index} name={startup.name} sector={startup.sector} logo={startup.logo} cardcolor={startup.cardcolor} description={startup.description} link={startup.link} industries={startup.industries}/>
+                <StartupCard key={index} name={startup.name} sector={startup.sector} logo={startup.logo} cardcolor={startup.cardcolor} description={startup.description} link={startup.link} industries={startup.industries} team={startup.team} recruiting={startup.recruiting}/>
             ))}
         </div>
         </span>
