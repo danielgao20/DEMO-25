@@ -165,7 +165,7 @@ const allStartupData = [
             //more possible founders
         ],
         stage: "Pre-Seed",
-        recruiting: ["Software Engineer", "Marketer", "UI/UX Designer", "Social Media"],
+        recruiting: ["Software Engineer", "Marketer", "UI/UX Designer"],
     },
     {
         name: "Test",
@@ -192,7 +192,7 @@ const allStartupData = [
             //more possible founders
         ],
         stage: "Series A",
-        recruiting: ["Photographer", "Web Developer", "Business Operations", "Product Manager"],
+        recruiting: ["Marketer", "Software Engineer", "Business Operations", "Product Manager"],
     },
     {
         name: "Hello",
