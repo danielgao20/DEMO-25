@@ -1,84 +1,87 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { ReactComponent as Startuppageblur1 } from "../assets/Startuppageblur1.svg";
 import StartupCard from '../components/StartupCard';
 import StartupSearch from '../components/StartupSearch';
 
+const allStartupData = [
+    {
+        name: "Revsend",
+        sector: "AI",
+        logo: "Revsend logo",
+        cardcolor: "blue",
+        description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
+        link: "www.linkedin.com/company/troy-labs",
+        industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
+    },
+    {
+        name: "Annacopa",
+        sector: "AI",
+        logo: "Revsend logo",
+        cardcolor: "blue",
+        description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
+        link: "www.linkedin.com/company/troy-labs",
+        industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
+    },
+    {
+        name: "TL",
+        sector: "AI",
+        logo: "Revsend logo",
+        cardcolor: "blue",
+        description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
+        link: "www.linkedin.com/company/troy-labs",
+        industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
+    },
+    {
+        name: "TroyLabs",
+        sector: "AI",
+        logo: "Revsend logo",
+        cardcolor: "blue",
+        description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
+        link: "www.linkedin.com/company/troy-labs",
+        industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
+    },
+    {
+        name: "Biotech Beauty",
+        sector: "AI",
+        logo: "Revsend logo",
+        cardcolor: "blue",
+        description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
+        link: "www.linkedin.com/company/troy-labs",
+        industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
+    },
+    {
+        name: "Evryn",
+        sector: "AI",
+        logo: "Revsend logo",
+        cardcolor: "blue",
+        description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
+        link: "www.linkedin.com/company/troy-labs",
+        industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
+    },
+    {
+        name: "Test",
+        sector: "AI",
+        logo: "Revsend logo",
+        cardcolor: "blue",
+        description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
+        link: "www.linkedin.com/company/troy-labs",
+        industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
+    },
+    {
+        name: "Hello",
+        sector: "AI",
+        logo: "Revsend logo",
+        cardcolor: "blue",
+        description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
+        link: "www.linkedin.com/company/troy-labs",
+        industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
+    }
+  ]
 
-var startupData = [
-    {
-        name: "Revsend2",
-        sector: "AI",
-        logo: "Revsend logo",
-        cardcolor: "blue",
-        description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
-        link: "www.linkedin.com/company/troy-labs",
-        industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
-    },
-    {
-        name: "Revsend3 ",
-        sector: "AI",
-        logo: "Revsend logo",
-        cardcolor: "blue",
-        description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
-        link: "www.linkedin.com/company/troy-labs",
-        industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
-    },
-    {
-        name: "Revsend4",
-        sector: "AI",
-        logo: "Revsend logo",
-        cardcolor: "blue",
-        description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
-        link: "www.linkedin.com/company/troy-labs",
-        industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
-    },
-    {
-        name: "Revsend5",
-        sector: "AI",
-        logo: "Revsend logo",
-        cardcolor: "blue",
-        description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
-        link: "www.linkedin.com/company/troy-labs",
-        industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
-    },
-    {
-        name: "Revsend6",
-        sector: "AI",
-        logo: "Revsend logo",
-        cardcolor: "blue",
-        description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
-        link: "www.linkedin.com/company/troy-labs",
-        industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
-    },
-    {
-        name: "Revsend7",
-        sector: "AI",
-        logo: "Revsend logo",
-        cardcolor: "blue",
-        description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
-        link: "www.linkedin.com/company/troy-labs",
-        industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
-    },
-    {
-        name: "Revsend8",
-        sector: "AI",
-        logo: "Revsend logo",
-        cardcolor: "blue",
-        description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
-        link: "www.linkedin.com/company/troy-labs",
-        industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
-    },
-    {
-        name: "Revsend9",
-        sector: "AI",
-        logo: "Revsend logo",
-        cardcolor: "blue",
-        description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
-        link: "www.linkedin.com/company/troy-labs",
-        industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
-    },
-  ];
 const Startupgrid = () => {
+
+    const [startupData, setStartupData] = useState(allStartupData)
+    
     return (
         <div className="w-screen min-h-screen bg-[#080808]">
       {/* Hero Section */}
@@ -96,7 +99,7 @@ const Startupgrid = () => {
         
       </div>
       <span>
-        <StartupSearch />
+        <StartupSearch allStartupData={allStartupData} filter={setStartupData} />
       
         <div className="grid grid-cols-4 gap-8 mt-6 ml-10 mr-10">
             {startupData.map((startup, index) => (
