@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#grain {
+  background: url("../assets/Grain.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  z-index: 1000;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+#DEMO-Shadow {
+  text-shadow: 0 4.38px 27.4px rgba(59, 136, 204, 0.4);
+}
+
+.HeroButton-Shadow {
+  text-shadow: 0 5.04px 31.5px rgba(59, 136, 204, 0.3);
+}

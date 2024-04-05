@@ -42,9 +42,10 @@ function Navbar() {
       {!isMobile && (
         <>
           <div className="flex flex-row h-full items-center justify-center gap-4">
-            {links.map((link) => {
+            {links.map((link, index) => {
               return (
                 <button
+                  key={index}
                   onClick={() => {
                     navigate(link.url);
                   }}
