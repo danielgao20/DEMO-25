@@ -30,7 +30,7 @@ const allStartupData = [
             //more possible founders
         ],
         stage: "Series A",
-        recruiting: ["Software Engineer", "Marketer", "UI Designer", "Financial Analyst"],
+        recruiting: ["Software Engineer", "Marketer", "UI/UX Designer", "Financial Analyst"],
     },
     {
         name: "Annacopa",
@@ -57,7 +57,7 @@ const allStartupData = [
             //more possible founders
         ],
         stage: "Series A",
-        recruiting: ["Software Engineer", "Marketer", "UI Designer", "Financial Analyst"],
+        recruiting: ["Software Engineer", "Marketer", "UI/UX Designer", "Financial Analyst"],
     },
     {
         name: "TL",
@@ -84,7 +84,7 @@ const allStartupData = [
             //more possible founders
         ],
         stage: "Pre-Seed",
-        recruiting: ["Software Engineer", "Marketer", "UI Designer", "Financial Analyst"],
+        recruiting: ["Software Engineer", "Marketer", "UI/UX Designer", "Financial Analyst"],
     },
     {
         name: "TroyLabs",
@@ -111,7 +111,7 @@ const allStartupData = [
             //more possible founders
         ],
         stage: "Series A",
-        recruiting: ["Software Engineer", "Marketer", "UI Designer", "Financial Analyst"],
+        recruiting: ["Software Engineer", "Marketer", "UI/UX Designer", "Financial Analyst"],
     },
     {
         name: "Biotech Beauty",
@@ -138,7 +138,7 @@ const allStartupData = [
             //more possible founders
         ],
         stage: "Seed",
-        recruiting: ["Software Engineer", "Marketer", "UI Designer", "Financial Analyst"],
+        recruiting: ["Software Engineer", "Marketer", "UI/UX Designer", "Financial Analyst"],
     },
     {
         name: "Evryn",
@@ -165,7 +165,7 @@ const allStartupData = [
             //more possible founders
         ],
         stage: "Pre-Seed",
-        recruiting: ["Software Engineer", "Marketer", "UI Designer", "Financial Analyst"],
+        recruiting: ["Software Engineer", "Marketer", "UI/UX Designer", "Social Media"],
     },
     {
         name: "Test",
@@ -192,7 +192,7 @@ const allStartupData = [
             //more possible founders
         ],
         stage: "Series A",
-        recruiting: ["Software Engineer", "Marketer", "UI Designer", "Financial Analyst"],
+        recruiting: ["Photographer", "Web Developer", "Business Operations", "Product Manager"],
     },
     {
         name: "Hello",
@@ -219,7 +219,7 @@ const allStartupData = [
             //more possible founders
         ],
         stage: "Series A",
-        recruiting: ["Software Engineer", "Marketer", "UI Designer", "Financial Analyst"],
+        recruiting: ["Software Engineer", "Marketer", "UI/UX Designer", "Financial Analyst"],
     }
   ]
 
