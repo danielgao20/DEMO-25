@@ -10,6 +10,11 @@ import SEGraphic from "../assets/segraphic.png"
 import DesignGraphic from "../assets/designgraphic.png"
 import MarketGraphic from "../assets/marketgraphic.png"
 import FinancialGraphic from "../assets/financialgraphic.png"
+import WebDevGraphic from "../assets/webgraphic.png"
+import SocialGraphic from "../assets/socialgraphic.png"
+import PMGraphic from "../assets/pmgraphic.png"
+import BusinessGraphic from "../assets/businessgraphic.png"
+import PhotoGraphic from "../assets/photographic.png"
 
 
 const customModalStyles = {
@@ -39,10 +44,20 @@ const RecruitingItem = ({ position }) => {
                 return { color: 'rgba(15, 76, 130, 0.75)', graphic: SEGraphic };
             case 'Marketer':
                 return { color: 'rgba(220, 65, 35, 0.75)', graphic: MarketGraphic };
-            case 'UI Designer':
+            case 'UI/UX Designer':
                 return { color: 'rgba(103, 104, 171, 0.75)', graphic: DesignGraphic };
             case 'Financial Analyst':
                 return { color: 'rgba(0, 153, 123, 0.75)', graphic: FinancialGraphic };
+            case 'Social Media':
+                return { color: 'rgba(217, 79, 112, 0.75)', graphic: SocialGraphic };
+            case 'Web Developer':
+                return { color: 'rgba(2136, 177, 75, 0.75)', graphic: WebDevGraphic };
+            case 'Business Operations':
+                return { color: 'rgba(148, 149, 151, 0.75)', graphic: BusinessGraphic };
+            case 'Product Manager':
+                return { color: 'rgba(181, 113, 112, 0.75)', graphic: PMGraphic };
+            case 'Photographer':
+                return { color: 'rgba(95, 74, 139, 0.75)', graphic: PhotoGraphic };
             default:
                 return { color: 'rgba(0, 0, 0, 0)', graphic: null }; // Default color and no graphic if position doesn't match
         }
