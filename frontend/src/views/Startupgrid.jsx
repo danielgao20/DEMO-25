@@ -6,75 +6,75 @@ import StartupSearch from '../components/StartupSearch';
 const allStartupData = [
     {
         name: "Revsend",
-        sector: "AI",
         logo: "Revsend logo",
         cardcolor: "blue",
         description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
         link: "www.linkedin.com/company/troy-labs",
         industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
+        stage: "Series A"
     },
     {
         name: "Annacopa",
-        sector: "AI",
         logo: "Revsend logo",
         cardcolor: "blue",
         description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
         link: "www.linkedin.com/company/troy-labs",
-        industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
+        industries: ["Artificial Intelligence", "Environment Tech"],
+        stage: "Series A"
     },
     {
         name: "TL",
-        sector: "AI",
         logo: "Revsend logo",
         cardcolor: "blue",
         description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
         link: "www.linkedin.com/company/troy-labs",
         industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
+        stage: "Pre-Seed"
     },
     {
         name: "TroyLabs",
-        sector: "AI",
         logo: "Revsend logo",
         cardcolor: "blue",
         description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
         link: "www.linkedin.com/company/troy-labs",
         industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
+        stage: "Series A"
     },
     {
         name: "Biotech Beauty",
-        sector: "AI",
         logo: "Revsend logo",
         cardcolor: "blue",
         description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
         link: "www.linkedin.com/company/troy-labs",
         industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
+        stage: "Seed"
     },
     {
         name: "Evryn",
-        sector: "AI",
         logo: "Revsend logo",
         cardcolor: "blue",
         description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
         link: "www.linkedin.com/company/troy-labs",
         industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
+        stage: "Pre-Seed"
     },
     {
         name: "Test",
-        sector: "AI",
         logo: "Revsend logo",
         cardcolor: "blue",
         description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
         link: "www.linkedin.com/company/troy-labs",
         industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
+        stage: "Series A"
     },
     {
         name: "Hello",
-        sector: "AI",
         logo: "Revsend logo",
         cardcolor: "blue",
         description: "Lorem ipsum dolor sit amet consectetur. Risus orci sit velit feugiat egestas nibh lectus enim scelerisque.",
         link: "www.linkedin.com/company/troy-labs",
         industries: ["SAAS", "Artificial Intelligence", "Environment Tech"],
+        stage: "Series A"
     }
   ]
 
