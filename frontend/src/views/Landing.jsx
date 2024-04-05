@@ -19,13 +19,21 @@ import StartupExhibition from "../assets/StartupExhibition.png";
 import DoorsOpen from "../assets/DoorsOpen.png";
 
 import Tim from "../assets/Tim.png";
-import Blake from "../assets/Blake.png";
 import Christiane from "../assets/Christiane.png";
 import Arabian from "../assets/Arabian.jpg";
+import Gordon from "../assets/gordonho1.jpg";
+
+import OES from "../assets/OES.png";
+import Prometheus from "../assets/Prometheus.png";
+import RevSend from "../assets/RevSend.png";
+import Underdose from "../assets/Underdose.png";
+import Jargon from "../assets/Jargon.png";
+import p220 from "../assets/220.png";
 
 import USG from "../assets/USG.png";
 import Greif from "../assets/Greif.png";
 import Blackstone from "../assets/Blackstone.png";
+import Apsy from "../assets/apsy.png";
 
 import Footer from "../assets/Footer.svg";
 import { useNavigate } from "react-router-dom";
@@ -56,10 +64,49 @@ var PrizeData = [
   },
 ];
 
+const judgeData = [
+  {
+    id: 1,
+    name: 'Blake Hatten',
+    image: OES,
+    alt: 'Blake Hatten',
+  },
+  {
+    id: 2,
+    name: 'Tim Li',
+    image: Prometheus,
+    alt: 'Tim Li',
+  },
+  {
+    id: 3,
+    name: 'Christiane Maertens',
+    image: RevSend,
+    alt: 'Christiane Maertens',
+  },
+  {
+    id: 4,
+    name: 'Judge 4',
+    image: Underdose,
+    alt: 'Judge 4',
+  },
+  {
+    id: 5,
+    name: 'Judge 5',
+    image: Jargon,
+    alt: 'Judge 5',
+  },
+  {
+    id: 6,
+    name: 'Judge 6',
+    image: p220,
+    alt: 'Judge 6',
+  },
+];
+
 var judges = [
   {
     name: "Tim Li",
-    title: "CEO & Co-Founder of LendAPI",
+    title: "CEO & CoFounder of LendAPI",
     picture: Tim,
     linkedIn: "https://www.linkedin.com/in/timothytli/",
   },
@@ -75,6 +122,12 @@ var judges = [
     picture: Arabian,
     linkedIn: "https://www.linkedin.com/in/ogarabianprincenwa/",
   },
+  {
+    name: "Gordon Ho",
+    title: "President of Xpertainment",
+    picture: Gordon,
+    linkedIn: "https://www.linkedin.com/in/gordonkho/",
+  },
 ];
 
 var sponsors = [
@@ -86,6 +139,9 @@ var sponsors = [
   },
   {
     image: Blackstone,
+  },
+  {
+    image: Apsy,
   },
 ];
 
@@ -308,12 +364,29 @@ function Landing() {
         <AgendaBlur className="absolute pointer-events-none bottom-auto top-auto left-auto right-auto w-auto opacity-65" />
       </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       {/* Pitch Competition */}
+      
       <div
         className={`min-w-full min-h-screen w-full relative h-full flex flex-col ${
           isMobile ? "p-8" : "p-24"
         } text-white`}
       >
+      <div className="flex mt-8">
+      <div className="w-8/12">
         <h3 className="text-[#747478] font-medium text-lg">
           Innovation in Action
         </h3>
@@ -325,18 +398,34 @@ function Landing() {
         </h2>
         <p
           className={`leading-10 font-medium mt-6 text-[#FEFEFE] max-w-[800px] min-w-[200px] ${
-            isMobile ? "w-[80%]" : "w-[50%]"
+            isMobile ? "w-[80%]" : "w-[60%]"
           }`}
         >
           Pitch Competition for a selected six startups will last from 5:30 PM
           to 7 PM, and winners will receive tuition-deductible prizes as awarded
           by the Lloyd Greif Center for Entrepreneurial Studies. 
         </p>
-        <div className="mt-10">
+        <div className="mt-5">
           {/* <button className="HeroButton-Shadow text-md cursor-pointer font-semibold text-[#DEE0E3] p-2 px-6 rounded-lg bg-[#131315] border-2 border-[#1A4265]">
             Pitching Startups
           </button> */}
+          
+          
         </div>
+        <div className="flex relative z-20 flex-row w-full items-left mt-12 justify-left gap-8">
+          <a
+            href="https://www.worldlabs.org/event/demo-2024-entrepreneurship-conference"
+            target="_blank"
+            rel="noreferrer"
+            className="HeroButton-Shadow text-lg cursor-pointer font-normal text-[#DEE0E3] p-2 px-6 rounded-lg bg-[#131315] border-2 border-[#1A4265] hover:bg-[#1F1F23] hover:shadow-inner active:bg-[#0C0C0D] transition-all hover:shadow-slate-700"
+          >
+            DEMO 2024 Startups
+          </a>
+          {/* <button onClick={() => {navigate('/startups')}} className="HeroButton-Shadow text-lg cursor-pointer font-semibold text-[#DADEE2] p-2 px-6 rounded-lg bg-[#176EBA] border-2 border-[#131315]">
+            DEMO 2024 Startups
+          </button> */}
+        </div>
+        
         <div
           className={`${
             isMobile ? "flex-col gap-16" : "gap-32"
@@ -353,6 +442,30 @@ function Landing() {
             );
           })}
         </div>
+        </div>
+        
+        <div className="w-1/2 grid grid-cols-2 grid-rows-3 gap-1">
+          {judgeData.map((judge) => (
+            <div key={judge.id}>
+              <img
+                src={judge.image}
+                alt={judge.alt}
+                className="w-3/4 h-auto object-cover rounded-lg"
+              />
+            </div>
+          ))}
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
         <h2 className="font-medium text-[#D3D3D8] text-lg mt-16">Our Judges</h2>
         <div
           className={`${
@@ -385,6 +498,18 @@ function Landing() {
         </div>
         <PitchBlur className="absolute pointer-events-none bottom-0 w-auto" />
       </div>
+      
+
+
+
+
+
+
+
+
+
+
+
 
       {/* ADA */}
       <div
