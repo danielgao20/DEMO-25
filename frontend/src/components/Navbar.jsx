@@ -1,6 +1,6 @@
 import React from "react";
 import DEMOLogo from "../assets/DEMOLogo.png";
-import SponsorshipPdf from '../assets/DEMOsponsorship.pdf';
+import SponsorshipPdf from "../assets/DEMOsponsorship.pdf";
 import { useLocation, useNavigate } from "react-router-dom";
 
 function Navbar() {
@@ -10,15 +10,18 @@ function Navbar() {
   let isMobile = window.innerWidth < 768;
 
   const openSponsorPdf = () => {
-    window.open(SponsorshipPdf, '_blank');
+    window.open(SponsorshipPdf, "_blank");
   };
-
 
   var links = [
     {
       text: "Home",
       url: "/",
-      action: () => navigate("/")
+      action: () => navigate("/"),
+    },
+    {
+      text: "Map",
+      url: "/map",
     },
     // {
     //   text: "Startups",
@@ -28,7 +31,7 @@ function Navbar() {
     {
       text: "Sponsor Us",
       url: "", // Empty or '#' if you don't have a separate path for Sponsor Us
-      action: openSponsorPdf // This will be the function to open the PDF
+      action: openSponsorPdf, // This will be the function to open the PDF
     },
     // {
     //   text: "Map",
