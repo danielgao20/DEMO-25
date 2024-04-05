@@ -16,7 +16,7 @@ export default function StartupSearch({allStartupData, filter}) {
 
   return (
     <div className="flex flex-row justify-between items-center ml-10 mr-10 text-white">
-      <div className="w-[25%] flex flex-row justify-between">
+      <div className="w-[25%] flex flex-row gap-x-8">
         <Sort title="Industry" options={["All", "AI", "Healthcare", "Retail", "SAAS"]} filter={setIndustry} />
         <Sort title="Stage" options={["All", "Pre-Seed", "Seed", "Series A"]} filter={setStage} />
       </div>
