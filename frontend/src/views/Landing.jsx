@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import { ReactComponent as HeroBlur } from "../assets/HeroBlur.svg";
 import { ReactComponent as AboutBlur } from "../assets/AboutBlur.svg";
@@ -29,6 +29,7 @@ import Mendocino from "../assets/Mendocino.png";
 import FreshBrothers from "../assets/FreshBrothers.png";
 
 import GlennFox from "../assets/GlennFox.png";
+import Carol from "../assets/Carol.jpg";
 
 import Tim from "../assets/Tim.png";
 import Christiane from "../assets/Christiane.png";
@@ -147,6 +148,7 @@ var keynoteSpeakers = [
     photo: EllenChen,
     title: "Co-Founder and Board Member of Mendocino Farms,  Investor/Advisor",
     company: Mendocino,
+    linkedIn: "https://www.linkedin.com/in/ellen-chen-a20b809/",
     description: `Since stepping down from the “day to day” of running Mendocino Farms, a premium fast casual gourmet sandwich and salad concept that she co-founded in 2005, Ellen has focused her time, energy and passion supporting female and minority founded businesses.  Ellen is using her twenty years of experience growing food brands to help early-stage founders understand their purpose, operationalize their values, get the resources they need and hopefully avoid some of the mistakes she made. 
     Ellen continues to offer the restaurant group a big business perspective with an entrepreneur's passion. In 2015 Nation’s Restaurant News included her on their annual Power List, and 2020 Nation’s Restaurant News named her the 50 most influential women in foodservice.    She sits on the Board of Directors of Mendocino Farms and Sugared + Bronzed as well as Advisor to Zitti, Curbit, Womaness and Vibrant Funds. She believes strongly in a need to give back to her community and is a Founding Board Member of Teach AAPI and AAPI LA an initiative launched by the Mayor’s office in Los Angeles. `,
   },
@@ -155,6 +157,7 @@ var keynoteSpeakers = [
     photo: ScottGoldberg,
     title: "VP Supply Chain & Development/CoFounder at Fresh Brothers",
     company: FreshBrothers,
+    linkedIn: "https://www.linkedin.com/in/scott-goldberg-409321109/",
     description: `Scott Goldberg was born in Chicago, Illinois, where he grew up immersed in the city’s rich pizza culture. At 19, he opened Miller Pizza Co. in Gary Indiana. After 25 years of success, Scott & his family moved to LA when his brothers reached out and said “we need to bring your pizza to the west coast.” Fresh Brothers now has 23 stores plus operations at LAX and 4 stadiums. “Its all about the love of people and pizza”`,
   },
 ];
@@ -174,10 +177,33 @@ var sponsors = [
   },
 ];
 
-let isMobile = window.innerWidth < 768;
+
 
 function Landing() {
+  const [isMobile, setIsMobile] = useState(
+    window.matchMedia("(max-width: 768px)").matches
+  );
+
+  useEffect(() => {
+    const mq = window.matchMedia("(max-width: 768px)");
+    mq.addListener(evt => setIsMobile(evt.matches));
+  }, []);
+
+
   const navigate = useNavigate();
+  const [isExpanded, setIsExpanded] = useState(false);
+  const toggleExpanded = () => {
+    setIsExpanded(!isExpanded);
+  };
+
+  const fullText = `Dr. Carol Folt serves as the twelfth president of the University of Southern California. She is a highly experienced leader, internationally recognized life scientist, and award-winning teacher. In leading USC, Dr. Folt brings broad executive and leadership experience across the academy, including arts and sciences, professional schools, and academic medicine. Throughout her career, Dr. Folt has earned a reputation for always placing students at the center, advancing academic excellence and innovation, setting ambitious goals, prioritizing shared governance, and focusing on the future. Prior to her appointment at USC in July 2019, Dr. Folt led the University of North Carolina at Chapel Hill – 
+  one of the nation’s most distinguished and research-intensive universities – from 2013 to 2019. At UNC, she set a bold course for the university’s future by spearheading a historic capital campaign, raising billions of dollars; building the school’s first-ever strategic plan in collaboration with every school and department; fighting to make college education accessible and affordable; and inspiring thousands of Tar Heels to embrace the arts and sustainability. Under her leadership, UNC was repeatedly named the No. 1 value in public higher education, surpassed $1 billion in annual research expenditures for the first time in school history (No. 5 in the nation overall), and set admissions records every year. Prior to her tenure at UNC, Dr. Folt served in various leadership roles at Dartmouth College, including as interim president, provost, dean of faculty, and Dartmouth Professor of Biological Sciences. An Akron, Ohio, native, Dr. Folt earned her bachelor’s degree in aquatic biology and a master’s degree in biology from the University of California, Santa Barbara. She received her doctorate in ecology from the University of California, Davis, and did postdoctoral work at the W.K.
+  Kellogg Biological Station of Michigan State University.`;
+
+  // Split the full text approximately in half for the "Read More" functionality
+  const halfTextIndex = Math.ceil(fullText.length / 2);
+  const firstHalfText = fullText.substring(0, halfTextIndex);
+  const secondHalfText = fullText.substring(halfTextIndex);
 
   return (
     <div className="w-screen min-h-screen overflow-x-hidden bg-[#080808]">
@@ -423,6 +449,43 @@ function Landing() {
             Mendocino Farms & Fresh Brothers Pizza
           </h2>
         </div>
+
+        <div
+          className={`${
+            isMobile ? "flex-col" : "flex-row"
+          } w-full flex-start mt-10 gap-16 h-full flex`}
+        >
+          <div className="w-full justify-between h-full flex flex-col transition-all">
+            <p className="text-4xl font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text">
+              Opening Speech – Carol Folt, PhD
+            </p>
+            <p className="text-xl mt-2 font-semibold text-white">
+              President of the University of Southern California
+            </p>
+            <p
+              className={`${
+                isMobile ? "w-full" : "w-3/4"
+              } text-sm text-gray-300 mt-4 leading-loose font-light transition-all duration-700 ease-in-out `}
+            >
+              {isExpanded ? fullText : `${firstHalfText}...`}
+            </p>
+            <div className="w-full flex items-center">
+              <button
+                onClick={toggleExpanded}
+                className="text-blue-500 hover:text-blue-700 transition duration-300 ease-in-out mt-2"
+              >
+                {isExpanded ? "Read Less" : "Read More"}
+              </button>
+            </div>
+          </div>
+          <img
+            src={Carol}
+            className={`${
+              isMobile ? "w-full" : "w-[27.5%]"
+            } rounded-lg shadow-lg border border-blue-500 shadow-blue-500 object-cover`}
+          />
+        </div>
+
         <div className="w-full relative z-20 h-auto py-4 gap-16 mt-12 flex flex-col items-center justify-between">
           {keynoteSpeakers.map((speaker, index) => {
             return (
@@ -441,7 +504,10 @@ function Landing() {
                     isMobile ? "w-full" : "w-[60%]"
                   } h-full flex flex-col`}
                 >
-                  <p className="text-4xl font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text">
+                  <p
+                    onClick={() => window.open(speaker.linkedIn, "_blank")}
+                    className="text-4xl cursor-pointer font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text"
+                  >
                     {speaker.name}
                   </p>
                   <p className="text-xl mt-2 font-semibold text-white">
@@ -478,7 +544,7 @@ function Landing() {
                 the Marshall School of Business. His current projects focus on
                 neural systems for emotion regulation, high stakes training, and
                 developing entrepreneurial mindset skills in founders and
-                business leaders. Glenn received his Ph.D. in Neuroscience from
+                business leaders.Glenn received his Ph.D. in Neuroscience from
                 USC, where he focused on the neural correlates of gratitude,
                 empathy, and neuroplasticity. Currently, Glenn is the Director
                 and Founder of the USC Found Well Initiative which aims to
@@ -646,7 +712,11 @@ function Landing() {
                 className="w-64 h-64 object-cover rounded-3xl shadow-lg shadow-blue-500 border-blue-500 border-[1px]"
                 alt={judge.name}
               />
-              <div className={`${isMobile ? "mt-12" : "ml-12"} flex w-full items-start h-full justify-start flex-col`}>
+              <div
+                className={`${
+                  isMobile ? "mt-12" : "ml-12"
+                } flex w-full items-start h-full justify-start flex-col`}
+              >
                 <h1
                   onClick={() => window.open(judge.linkedIn, "_blank")}
                   className="font-bold cursor-pointer bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text text-3xl"
@@ -685,8 +755,16 @@ function Landing() {
           </p>
         </h2>
 
-        <div className={`${isMobile ? "flex-col" : "flex-row"} relative z-20 w-full mt-16 gap-8 justify-evenly items-center flex`}>
-          <div className={`${isMobile ? "w-full" : "w-1/4"} items-center text-center justify-center h-full flex flex-col`}>
+        <div
+          className={`${
+            isMobile ? "flex-col" : "flex-row"
+          } relative z-20 w-full mt-16 gap-8 justify-evenly items-center flex`}
+        >
+          <div
+            className={`${
+              isMobile ? "w-full" : "w-1/4"
+            } items-center text-center justify-center h-full flex flex-col`}
+          >
             <img
               src={Arushi}
               className="shadow-lg shadow-blue-500 w-72 h-72 rounded-full mb-6 object-cover"
