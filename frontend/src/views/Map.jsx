@@ -325,6 +325,7 @@ function InteractiveMap() {
         style={{
           width: "20%",
           height: "100vh",
+          // backgroundColor: "#f0f0f0",
           backgroundColor: "#f0f0f0",
           padding: "1.5rem",
           paddingTop: "3rem",
