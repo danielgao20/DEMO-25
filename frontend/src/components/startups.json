@@ -129,7 +129,7 @@
     "description": "A Date & Nut Energy Bite which uses a minimal ingredient panel of organic superfoods with dates as the #1 ingredient resulting in a fresh and soft texture that doesn't get stuck in your teeth and is naturally sweet with no added sugar and no preservatives.",
     "link": "https://bahamii.com",
     "industries": [
-      "Consumer Products/CPG",
+      "Consumer Products", "CPG",
       "Food"
     ],
     "team": [
@@ -158,7 +158,7 @@
     "description": "Started with a simple mission in mind—to democratize content for all, as we believe that content is the world’s new currency and is utilized to fulfill the insatiable desire for human connection, therefore we want to allow anyone, anywhere, to seamlessly book a shoot at any time.",
     "link": "https://www.biodevek.com",
     "industries": [
-      "Consumer Products/CPG",
+      "Consumer Products", "CPG",
       "Media"
     ],
     "team": [
@@ -203,7 +203,7 @@
     "link": "https://buzzwa.co",
     "industries": [
       "AI/ML",
-      "Consumer Products/CPG"
+      "Consumer Products", "CPG"
     ],
     "team": [
       {
@@ -593,7 +593,7 @@
   "description": "Lav salad dressings are made from Armenian-inspired, whole food ingredients and packaged in single-serve packets for easy, on-the-go use.",
   "link": "https://www.dresslav.com",
   "industries": [
-    "Consumer Products/CPG"
+    "Consumer Products", "CPG"
   ],
   "team": [
     {
@@ -959,7 +959,7 @@
     "logo": "ShapeShift",
     "description": "Computer vision-powered fitness coach at home and in the gym",
     "link": "",
-    "industries": ["AI/ML", "Consumer Products/CPG", "SaaS"],
+    "industries": ["AI/ML", "Consumer Products" , "CPG", "SaaS"],
     "team": [
       {
         "name": "Aryan Barik",
@@ -995,7 +995,7 @@
     "logo": "Stellace",
     "description": "Stellace is raising consciousness through sleep.",
     "link": "https://stellace.com",
-    "industries": ["Fashion", "Technology"],
+    "industries": ["Fashion", "Information Technology"],
     "team": [
       {
         "name": "Mario Apuzzo",
@@ -1013,7 +1013,7 @@
     "logo": "Tanbii",
     "description": "Tanbii is an impact-first innovative company that inspires eco-conscious individuals to cut carbon footprints through a gamified and rewarding approach.",
     "link": "https://tanbii.com",
-    "industries": ["Education", "Technology"],
+    "industries": ["Education", "Information Technology"],
     "team": [
       {
         "name": "Sky Xiang",
@@ -1042,7 +1042,7 @@
     "logo": "TERRATOKES",
     "description": "TERRATOKES is a cannabis lifestyle brand with a mission to elevate people's smoking experience with an eco-friendly solution.",
     "link": "https://www.terratokes.com/",
-    "industries": ["Consumer Products/CPG", "Cannabis"],
+    "industries": ["Consumer Products", "CPG", "Cannabis"],
     "team": [
       {
         "name": "Jun Matsuo",
@@ -1096,7 +1096,7 @@
     "logo": "ThirdPlace",
     "description": "A task-based platform to engage, build, and reward your brand community.",
     "link": "",
-    "industries": ["Real Estate", "Technology"],
+    "industries": ["Real Estate", "Information Technology"],
     "team": [
       {
         "name": "Ryan Yeung",
@@ -1141,7 +1141,7 @@
     "logo": "underdose",
     "description": "The most important card in your wallet: discreet, portable, all-in-one fentanyl testing",
     "link": "",
-    "industries": ["Health & Wellness", "Technology"],
+    "industries": ["Health & Wellness", "Information Technology"],
     "team": [
       {
         "name": "Tatum Verona",
@@ -1162,7 +1162,7 @@
     "logo": "UpDonor",
     "description": "UpDonor provides integrated fundraising, accounting, donor management, and operational software for nonprofits and community organizations",
     "link": "https://updonor.org",
-    "industries": ["Non-Profit", "Technology"],
+    "industries": ["Non-Profit", "Information Technology"],
     "team": [
       {
         "name": "Matthew Grant",
