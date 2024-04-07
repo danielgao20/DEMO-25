@@ -15,7 +15,8 @@
             ""
         ],
         "founder_headshots": ["Serena_Allen.png"],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
     },
     {
         "name": "AiStudy",
@@ -34,7 +35,8 @@
             ""
         ],
         "founder_headshots": ["Adam_Yang.jpg"],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
     },
     {
         "name": "Amino Avenue",
@@ -66,7 +68,8 @@
                 "description": "We are a dynamic robotics startup at the forefront of innovation, seeking a highly motivated and talented individual for a paid Product Management Internship. This role is pivotal in managing the client-facing aspects of our business. The ideal candidate will have a keen eye for design and a solid understanding of technology development principles.",
                 "documents_required": "Cover Letter"
               }
-        ]
+        ],
+        "build": false
     },
     {
         "name": "Anacapa",
@@ -93,7 +96,8 @@
                 "description": "We are a dynamic robotics startup at the forefront of innovation, seeking a highly motivated and talented individual for a paid Product Management Internship. This role is pivotal in managing the client-facing aspects of our business. The ideal candidate will have a keen eye for design and a solid understanding of technology development principles.",
                 "documents_required": "Resume, Cover Letter, Portfolio, LinkedIn"
               }
-        ]
+        ],
+        "build": false
     },
     {
         "name": "ARLingo",
@@ -109,7 +113,8 @@
             ""
         ],
         "founder_headshots": ["Rylan_Pozniak_Daniels.jpeg"],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
     },
     {
         "name": "Bahamii",
@@ -129,7 +134,8 @@
             ""
         ],
         "founder_headshots": ["Aaron_Nazarian.JPG", "Noah_Nazarian.JPG"],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
     },
     {
         "name": "Beige",
@@ -147,7 +153,8 @@
             ""
         ],
         "founder_headshots": ["Kawser_Khan.png"],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
     },
     {
         "name": "BIOMED, INC.",
@@ -165,7 +172,8 @@
             ""
         ],
         "founder_headshots": ["Bobby_Ntoya.png"],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
     },
     {
         "name": "Buzzwa Core",
@@ -194,7 +202,8 @@
                 "description": "",
                 "documents_required": "Resume"
             }
-        ]
+        ],
+        "build": false
     },
     {
         "name": "Catalyst Robotics",
@@ -217,7 +226,8 @@
             "Detravious_Jamari_Brinkley.JPG", 
             "Bella_Nava.jpeg"
         ],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
     },
     {
         "name": "Convoice",
@@ -235,7 +245,8 @@
             ""
         ],
         "founder_headshots": ["Yuxing_Zhou.png"],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
     },
     {
         "name": "Degreely",
@@ -252,7 +263,8 @@
             ""
         ],
         "founder_headshots": ["Danny_Pugh.jpeg", "Garrett_Sanderson.jpeg"],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
     },
     {
         "name": "Digistone",
@@ -272,7 +284,8 @@
             ""
         ],
         "founder_headshots": ["Darcell_Edwards.jpeg", "Ketana_Chadalavada.png"],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
     },
     {
         "name": "Dual-X Studio",
@@ -288,7 +301,8 @@
             ""
         ],
         "founder_headshots": ["Ellie_Cai.jpg"],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
     },
     {
         "name": "EVRYN",
@@ -345,7 +359,8 @@
                 "description": "4 hrs/week. Duration 6-8 weeks (flexible) Role: Identify and execute on opportunities to improve user experience Take initiative to research and learn emerging technologies Branding design responsibilities Understanding of the beauty and skincare industry landscape in regards to web design Strong sense for predicting user behavior Strong web/visual design portfolio Strong intuitive feel for design",
                 "documents_required": "Resume, Portfolio, LinkedIn"
               }
-        ]
+        ],
+        "build": false
     },
     {
         "name": "Fair & Square",
@@ -361,7 +376,8 @@
             ""
         ],
         "founder_headshots": ["Alex_Duong.jpg"],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
     },
     {
         "name": "Guard ProStamp Inc.",
@@ -377,7 +393,8 @@
             ""
         ],
         "founder_headshots": ["Bo_Ying_Liu.jpg"],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
     },
     {
         "name": "Hatchet",
@@ -397,7 +414,8 @@
             "Dylan_Lewis.jpg", 
             "Alex_Forgosh.heic"
         ],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
     },
     {
         "name": "Intuition Intelligence Inc.",
@@ -426,7 +444,8 @@
                 "description": "To modify the UI/UX of Web & Apps",
                 "documents_required": "Resume"
               }
-        ]
+        ],
+        "build": false
     },
     {
         "name": "Jargon",
@@ -446,7 +465,8 @@
             "Sheila_Wang.jpeg",
             "Jason_Wiemels.heic"
         ],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
     },
     {
         "name": "Joja Entertainment LLC",
@@ -464,7 +484,8 @@
         "founder_headshots": [
             "Danial_Gondal.png"
         ],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
     },
     {
         "name": "KADAK",
@@ -484,7 +505,8 @@
             "Lakshya_Bothra.png",
             "Srishti_Chopra.png"
         ],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
     },
     {
         "name": "Laminar Copilot",
@@ -504,7 +526,8 @@
             "Kevin_Park.png",
             "Moses_Liu.jpeg"
         ],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
     },
     {
         "name": "Lav",
@@ -522,7 +545,8 @@
         "founder_headshots": [
             "Natalie_Felikian.jpeg"
         ],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
     },
     {
         "name": "Lionistic",
@@ -549,7 +573,8 @@
                 "description": "As a Social Media Intern at Lionistic, you will play a crucial role in shaping our online presence and engaging with our community. This position is perfect for a college student seeking to gain hands-on experience in social media management, content creation, and digital marketing.",
                 "documents_required": "Resume, LinkedIn"
               }
-        ]
+        ],
+        "build": false
     },
     {
         "name": "Maplehouse",
@@ -567,7 +592,8 @@
         "founder_headshots": [
             "Tyler_Shooshani.jpeg"
         ],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
     },
     {
         "name": "Nexus",
@@ -585,7 +611,8 @@
         "founder_headshots": [
             "Saurabh_Ghanekar.jpeg"
         ],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
     },
     {
         "name": "NutriMind",
@@ -605,7 +632,8 @@
             "Yihan_Luo.jpg",
             "Yixin_Sun.png"
         ],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
     },
     {
         "name": "OfSpectrum",
@@ -641,7 +669,8 @@
                 "description": "We are looking for engineers and researchers in federated learning.",
                 "documents_required": "Resume"
               }
-        ]
+        ],
+        "build": false
     },
     {
         "name": "Orbital Entertainment Supply",
@@ -661,7 +690,8 @@
             "Anna_Shaposhnik.jpg",
             "Luc_Hosy.jpeg"
         ],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
     },
     {
         "name": "Packa.Design",
@@ -690,7 +720,8 @@
                 "description": "We're on the lookout for a creative and results-driven Marketing and Social Media Coordinator to elevate our brand's presence and connect with our community like never before. Requirements: - Experience marketing and leveraging social media - Photo, and video experience   - Graphic design skills in figma or other visual tools",
                 "documents_required": "Portfolio"
               }
-        ]
+        ],
+        "build": false
     },
     {
         "name": "Prometheus Data",
@@ -709,7 +740,8 @@
             "Samuel_Cheng.jpeg",
             "Yu_Zhang.jpg"
         ],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
     },
     {
         "name": "Quinta",
@@ -729,7 +761,8 @@
             "Julian_Lopez_Birlain.JPG",
             "Miguel_Gutierrez_Elizondo.jpg"
         ],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
     },
     {
         "name": "Recei",
@@ -749,7 +782,8 @@
             "Joshua_McCampbell.jpeg",
             "Mohammed_Alamgir.jpeg"
         ],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
     },
     {
         "name": "RevSend",
@@ -792,7 +826,8 @@
                 "description": "Training in cutting-edge sales technology like Apollo.io and OpenAI  Tasks: Lead generation, client management, market research using advanced tools. Assist in strategy formulation and presentation development. Engage with prospects, aid in deal completion. Collaborate with marketing and product teams. Perks: Learn and use latest sales tech. Develop a foundation for a tech sales career",
                 "documents_required": "Resume, Portfolio"
               }
-        ]
+        ],
+        "build": false
     },
     {
         "name": "Schej",
@@ -811,7 +846,8 @@
             "Jonathan_Liu.jpg",
             "Tony_Xin.jpeg"
         ],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
     },
     {
         "name": "SeekEatsLA",
@@ -827,7 +863,8 @@
         "founder_headshots": [
             "Phillip_Lau.jpg"
         ],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
       },
       {
         "name": "SentiMind",
@@ -844,7 +881,8 @@
             "Mahkameh_Rasouli.jpg",
             "Pooyan_Mobtahel.JPG"
         ],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
       },
       {
         "name": "ShapeShift",
@@ -862,7 +900,8 @@
         "founder_headshots": [
             "Aryan_Barik.jpg"
         ],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
       },
       {
         "name": "Skyguard",
@@ -882,7 +921,8 @@
         "founder_headshots": [
             "Xichen_Gao.jpg"
         ],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
       },
       {
         "name": "Stellace",
@@ -902,7 +942,8 @@
         "founder_headshots": [
             "Mario_Apuzzo.png"
         ],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
       },
       {
         "name": "Tanbii",
@@ -947,7 +988,8 @@
                 "description": "Join Tanbii, where sustainability meets gaming! As a UI/UX Designer, collaborate on cutting-edge eco-gaming software. Create wireframes, prototypes, and graphics for web and mobile apps. Drive user experience improvements and support our mission to reduce carbon emissions.",
                 "documents_required": "Resume, Portfolio, LinkedIn"
               }
-        ]
+        ],
+        "build": false
       },
       {
         "name": "TERRATOKES",
@@ -979,7 +1021,8 @@
                 "description": "1. We can teach you how to follow a posting schedule 2. We can tech you how to generate content 3. We can teach you social media strategies  We are looking for someone who:  1. Interested in helping our company with branding  2. Can generate content for our social media 3. Willing to be the expert in a field: tiktok, insta, X, Reddit",
                 "documents_required": "Resume"
               }
-        ]
+        ],
+        "build": false
       },
       {
         "name": "The Indiestry",
@@ -1011,7 +1054,8 @@
                 "description": "We are looking for back end developers to help expand the site, add features, and join the development team! We are also looking for marketers to help with physical and digital marketing, and join the marketing team!",
                 "documents_required": "Resume, Portfolio"
               }
-        ]
+        ],
+        "build": false
       },
       {
         "name": "ThirdPlace",
@@ -1033,7 +1077,8 @@
         "founder_headshots": [
             "Ryan_Yeung.jpeg"
         ],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
       },
       {
         "name": "TwoTwenty Hard Seltzer",
@@ -1062,7 +1107,8 @@
                 "description": "We are looking for driven and outgoing individuals who are interested in getting exposure to an exciting and disruptive startup in the alcoholic drink industry. We are London-born company with bold branding and delicious, premium hard seltzers. We need positive and energetic individuals who relish the challenge of taking on big corporate players within this space.",
                 "documents_required": "Resume"
               }
-        ]
+        ],
+        "build": false
       },
       {
         "name": "ūnderdose",
@@ -1099,7 +1145,8 @@
                 "description": "I’m looking for an operations manager to (1) Oversee the end-to-end supply chain management process, (2) Establish and maintain relationships with suppliers and vendors, and (3) Streamline processes and workflows to enhance productivity and reduce lead times.",
                 "documents_required": "Resume, LinkedIn"
               }
-        ]
+        ],
+        "build": false
       },
       {
         "name": "UpDonor",
@@ -1119,7 +1166,8 @@
         "email": [
             ""
         ],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
       },
       {
         "name": "ViBo Health",
@@ -1139,7 +1187,8 @@
         "founder_headshots": [
             "Gil_Travish.png"
         ],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
       },
       {
         "name": "WellTra.AI",
@@ -1162,6 +1211,7 @@
             "Omar_Abdullateef.jpeg",
             "Anees_Abdullateef.jpeg"
         ],
-        "recruiting_for": []
+        "recruiting_for": [],
+        "build": false
       }
 ]
