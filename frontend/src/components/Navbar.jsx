@@ -22,6 +22,7 @@ function Navbar() {
     {
       text: "Map",
       url: "/map",
+      action: () => navigate("/map")
     },
     {
       text: "Startups",
