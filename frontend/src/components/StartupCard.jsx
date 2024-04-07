@@ -72,7 +72,7 @@ const RecruitingItem = ({ position }) => {
 };
 
 
-const StartupCard = ({name, sector, logo, cardcolor, description, link, industries, team, recruiting}) => {
+const StartupCard = ({description, sector, name, logo, cardcolor, link, industries, team, recruiting}) => {
     const [modalIsOpen, setModalIsOpen] = useState(false);
 
     useEffect(() => {
@@ -106,15 +106,18 @@ const StartupCard = ({name, sector, logo, cardcolor, description, link, industri
                             <h2 className="text-xl font-extralight">{sector}</h2>
                         </div>
                     </div>
-                    <div className="flex justify-center items-center mb-4" >
-                        <span className="text-lg mt-0 translate-y-32" >
-
-                            <img src={logo} alt="logo"/>
-
-                        </span>
+                    <div className ="relative">
+                        <div className="flex justify-center items-center mb-4">
+                            <div className="flex justify-center items-center mb-4"
+                                 style={{width: 'auto', height: '175px', zIndex: "20"}}>
+                            <span className="text-lg mt-0 translate-y-32">
+                                <img src={logo} alt="logo"/>
+                            </span>
+                            </div>
+                        </div>
+                        <img src={StartupCardImage} alt="design" className=" h-fit -ml-5 rotate-10 translate-y-20"
+                             style={{maxWidth: '387px', zIndex: "-1"}}/>
                     </div>
-                    <img src={StartupCardImage} alt="design" className=" h-fit -ml-5 rotate-10 translate-y-20 " style={{maxWidth: '387px'}} />
-
                     {/*<StartupCardDesign className=" h-fit w-[110%] -ml-5 rotate-10 translate-y-20" />*/}
                     <div className="flex justify-center">
                         {/* Insert rocket icon here, you might use an img tag or inline svg */}
@@ -130,9 +133,9 @@ const StartupCard = ({name, sector, logo, cardcolor, description, link, industri
                             <h2 className="text-xl font-extralight">{sector}</h2>
                         </div>
                     </div>
-                    <div className="flex flex-col items-start mb-4 mx-4">
-                        <span className="text-md mt-0 mb-4 translate-y-32">{description}</span>
-                        <button className="text-md mt-2 translate-y-32" onClick={openModal}>View ➔</button>
+                    <div className="flex flex-col items-start mb-4 mx-4 ">
+                        <span className="text-md mt-32 mb-5">{description}</span>
+                        <button className="text-md mt-0" onClick={openModal}>View ➔</button>
                     </div>
                     <div className="flex justify-center"></div>
                 </div>
@@ -208,7 +211,7 @@ const StartupCard = ({name, sector, logo, cardcolor, description, link, industri
 
                         <div className="mt-4">
                             <h2 className="text-lg font-semibold">Recruiting For</h2>
-                            <div className="grid grid-cols-4 gap-4 mt-4 shadow-lg mb-20">
+                            <div className="grid grid-cols-4 gap-4 mt-4 mb-20">
                                 {recruiting.map((position, index) => (
                                     <RecruitingItem key={index} position={position}/>
                                 ))}

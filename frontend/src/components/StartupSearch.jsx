@@ -8,7 +8,7 @@ export default function StartupSearch({allStartupData, filter}) {
   const [stage, setStage] = useState('All');
 
   useEffect(() => {
-    const filteredSearchData = allStartupData.filter((data) => data.name.toLowerCase().includes(search.toLowerCase()) && 
+    const filteredSearchData = allStartupData.filter((data) => data.name.toLowerCase().includes(search.toLowerCase()) &&
       (industry === "All" || data.industries.includes(industry)) && 
       (stage === "All" || data.stage === stage));
     filter(filteredSearchData);
@@ -17,8 +17,8 @@ export default function StartupSearch({allStartupData, filter}) {
   return (
     <div className="flex flex-row justify-between items-center ml-10 mr-10 text-white">
       <div className="w-[25%] flex flex-row gap-x-8">
-        <Sort title="Industry" options={["All", "AI", "Healthcare", "Retail", "SAAS"]} filter={setIndustry} />
-        <Sort title="Stage" options={["All", "Pre-Seed", "Seed", "Series A"]} filter={setStage} />
+        <Sort title="Industry" options={["All", "AI/ML", "Climate", "Food", "SaaS"]} filter={setIndustry} />
+        <Sort title="Recruitment" options={["All", "Hiring"]} filter={setStage} />
       </div>
       <div className="relative my-5 ml-10 left-0 mb-10 w-[20%]">
         <input
