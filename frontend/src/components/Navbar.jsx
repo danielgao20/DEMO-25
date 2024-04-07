@@ -37,6 +37,7 @@ function Navbar() {
     {
       text: "Map",
       url: "/map",
+      action: () => navigate("/map")
     },
     {
       text: "Startups",
@@ -94,11 +95,11 @@ function Navbar() {
       ) : (
         // Mobile view
         <>
-          <button onClick={toggleMenu} className="text-white">
+          {/* <button onClick={toggleMenu} className="text-white">
             {menuOpen ? <XIcon className="h-6 w-6" /> : <MenuIcon className="h-6 w-6" />}
           </button>
           {menuOpen && (
-            <div className="absolute top-16 right-0 w-1/3 bg-[#131313]/90 backdrop-blur-md p-5 flex flex-col items-center justify-center">
+            <div className="absolute z-20 top-16 right-0 w-2/4 bg-[#131313]/20 backdrop-blur p-5 flex flex-col items-center justify-center">
               {links.map((link, index) => (
                 <button
                   key={index}
@@ -107,14 +108,14 @@ function Navbar() {
                     toggleMenu();
                   }}
                   className={`p-3 font-semibold w-full text-center ${
-                    location.pathname === link.url ? "text-[#2668A1]" : "text-[#A2A2A5]"
+                    location.pathname === link.url ? "text-[#2668A1]" : "text-white"
                   }`}
                 >
                   {link.text}
                 </button>
               ))}
             </div>
-          )}
+          )} */}
         </>
       )}
     </header>
