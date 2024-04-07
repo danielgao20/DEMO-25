@@ -614,7 +614,7 @@ function Landing() {
         <div
           className={`${
             isMobile ? "grid-cols-1" : "grid-cols-4"
-          } grid grid-cols-4 gap-4 w-full h-full mt-6 justify-center`}
+          } grid gap-4 w-full h-full mt-6 justify-center`}
         >
           {[
             { place: "First Place", amount: "20k" },
