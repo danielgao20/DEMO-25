@@ -34,11 +34,11 @@ function Navbar() {
       url: "/",
       action: () => navigate("/"),
     },
-    {
-      text: "Map",
-      url: "/map",
-      action: () => navigate("/map")
-    },
+    // {
+    //   text: "Map",
+    //   url: "/map",
+    //   action: () => navigate("/map")
+    // },
     {
       text: "Startups",
       url: "/startups",
