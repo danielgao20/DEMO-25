@@ -411,6 +411,23 @@
     "logo": "Schej/LOGO.png"
   },
   {
+    "Company Name": "Joja Entertainment LLC",
+    "Company Industry": "Entertainment, Media",
+    "Origin Year of Company": 2023.0,
+    "Company Website": "https://jojaentertainment.com",
+    "description": "A Pakistani streaming service designed for the diaspora.",
+    "Founder Full Name": "Danial Gondal",
+    "Founder Email Address": "jzliu@usc.edu",
+    "Founder LinkedIn": "https://www.linkedin.com/in/danialgondal/",
+    "Co-Founder Full Name": "Tony Xin",
+    "Co-Founder LinkedIn": "https://www.linkedin.com/in/tony-xin/",
+    "id": 28,
+    "company": "Joja Entertainment LLC",
+    "x": "467.5",
+    "y": "805",
+    "logo": "Schej/LOGO.png"
+  },
+  {
     "Company Name": "Laminar Copilot",
     "Company Industry": "Transportation, SaaS",
     "Origin Year of Company": 2023.0,
@@ -459,6 +476,12 @@
     "logo": "BuzzwaCore/LOGO.png"
   },
   {
+    "company": "Guard ProStamp",
+    "id": 32,
+    "x": "467.5",
+    "y": "615.5"
+  },
+  {
     "Company Name": "Fair & Square",
     "Company Industry": "Consumer Products/CPG",
     "Origin Year of Company": 2022.0,
@@ -471,6 +494,18 @@
     "x": "515.5",
     "y": "994.5",
     "logo": "FairAndSquare/LOGO.png"
+  },
+  {
+    "company": "22 Hard Seltzer",
+    "id": 34,
+    "x": "515.5",
+    "y": "940.0"
+  },
+  {
+    "company": "Intuition Intelligence",
+    "id": 35,
+    "x": "515.5",
+    "y": "880.0"
   },
   {
     "Company Name": "Packa.Design",
@@ -567,6 +602,12 @@
     "logo": "AminoAvenue/LOGO.png"
   },
   {
+    "company": "Third Place",
+    "id": 42,
+    "x": "599.5",
+    "y": "920"
+  },
+  {
     "Company Name": "OfSpectrum",
     "Company Industry": "AI/ML, Entertainment, Cybersecurity",
     "Origin Year of Company": 2024.0,
@@ -595,6 +636,12 @@
     "x": "599.5",
     "y": "806.5",
     "logo": "Beige/LOGO.png"
+  },
+  {
+    "id": 45,
+    "company": "Orbital Entertainment",
+    "x": "599.5",
+    "y": "740.5"
   },
   {
     "Company Name": "Dual-X Studio",

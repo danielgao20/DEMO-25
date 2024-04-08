@@ -37,16 +37,12 @@ function Navbar() {
     {
       text: "Map",
       url: "/map",
-<<<<<<< HEAD
       action: () => navigate("/map"),
-=======
-      action: () => navigate("/map")
     },
     {
       text: "Startups",
       url: "/startups",
-      action: () => navigate("/startups")
->>>>>>> 310693e9f693d9df8f6bf0c25b6d163b561d590d
+      action: () => navigate("/startups"),
     },
     {
       text: "Sponsor Us",

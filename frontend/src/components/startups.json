@@ -5,11 +5,7 @@
     "cardcolor": "blue",
     "description": "AirVitalize collects urban outdoor air pollution to improve public health and the environment.",
     "link": "https://www.airvitalize.tech",
-    "industries": [
-      "Climate",
-      "Consumer Products",
-      "CPG"
-    ],
+    "industries": ["Climate", "Consumer Products", "CPG"],
     "team": [
       {
         "name": "Serena Allen",
@@ -28,11 +24,7 @@
     "cardcolor": "blue",
     "description": "AiStudy is an AI company that revolutionizes English as Second Language (ESL) Test preparation experience by providing low-priced, highly personalized, and aggregated learning model to maximize students’ efficiency.",
     "link": "",
-    "industries": [
-      "AI/ML",
-      "Education",
-      "SaaS"
-    ],
+    "industries": ["AI/ML", "Education", "SaaS"],
     "team": [
       {
         "name": "Adam Yang",
@@ -58,9 +50,7 @@
     "cardcolor": "blue",
     "description": "Amino Avenue: embark your weightloss/health journey with our low-calorie, low-sugar, and lactose-free boba beverages.",
     "link": "https://aminoave.com/",
-    "industries": [
-      "Food"
-    ],
+    "industries": ["Food"],
     "team": [
       {
         "name": "Jenna Jiaying Wu",
@@ -86,9 +76,7 @@
     "cardcolor": "blue",
     "description": "We leverage robotics to cut high quality gems for jewelers",
     "link": "https://www.anacaparobotics.com/",
-    "industries": [
-      "Manufacturing"
-    ],
+    "industries": ["Manufacturing"],
     "team": [
       {
         "name": "Adam Asfaha",
@@ -107,9 +95,7 @@
     "cardcolor": "blue",
     "description": "ARLingo is the first immersive language learning app for Apple Vision Pro.",
     "link": "https://apps.apple.com/us/app/arlingo/id6476958841",
-    "industries": [
-      "Education"
-    ],
+    "industries": ["Education"],
     "team": [
       {
         "name": "Rylan Pozniak Daniels",
@@ -128,10 +114,7 @@
     "cardcolor": "blue",
     "description": "A Date & Nut Energy Bite which uses a minimal ingredient panel of organic superfoods with dates as the #1 ingredient resulting in a fresh and soft texture that doesn't get stuck in your teeth and is naturally sweet with no added sugar and no preservatives.",
     "link": "https://bahamii.com",
-    "industries": [
-      "Consumer Products", "CPG",
-      "Food"
-    ],
+    "industries": ["Consumer Products", "CPG", "Food"],
     "team": [
       {
         "name": "Aaron Nazarian",
@@ -157,10 +140,7 @@
     "cardcolor": "blue",
     "description": "Started with a simple mission in mind—to democratize content for all, as we believe that content is the world’s new currency and is utilized to fulfill the insatiable desire for human connection, therefore we want to allow anyone, anywhere, to seamlessly book a shoot at any time.",
     "link": "https://www.biodevek.com",
-    "industries": [
-      "Consumer Products", "CPG",
-      "Media"
-    ],
+    "industries": ["Consumer Products", "CPG", "Media"],
     "team": [
       {
         "name": "Kawser Khan",
@@ -179,10 +159,7 @@
     "cardcolor": "blue",
     "description": "BIOMED is a pioneering biotech company integrating 3D bioprinting, Big Data, DNA analysis, and AI to offer personalized, precision medicine, making healthcare accessible and equitable across all demographics.",
     "link": "https://www.biodevek.com",
-    "industries": [
-      "BioTech",
-      "Healthcare"
-    ],
+    "industries": ["BioTech", "Healthcare"],
     "team": [
       {
         "name": "Bobby Ntoya",
@@ -201,10 +178,7 @@
     "cardcolor": "blue",
     "description": "AI-powered sound reactive lights.",
     "link": "https://buzzwa.co",
-    "industries": [
-      "AI/ML",
-      "Consumer Products", "CPG"
-    ],
+    "industries": ["AI/ML", "Consumer Products", "CPG"],
     "team": [
       {
         "name": "Ezra Bird",
@@ -230,10 +204,7 @@
     "cardcolor": "blue",
     "description": "Helping healthcare providers expand access and reduce costs through autonomous vehicles",
     "link": "https://www.catalystrobotics.com",
-    "industries": [
-      "AI/ML",
-      "Healthcare"
-    ],
+    "industries": ["AI/ML", "Healthcare"],
     "team": [
       {
         "name": "Detravious Jamari Brinkley",
@@ -259,11 +230,7 @@
     "cardcolor": "blue",
     "description": "Easiest platform for anyone to build LLM-powered voice agents to automate business phone calls",
     "link": "https://convoice.ai",
-    "industries": [
-      "AI/ML",
-      "E-Commerce",
-      "Enterprise"
-    ],
+    "industries": ["AI/ML", "E-Commerce", "Enterprise"],
     "team": [
       {
         "name": "Yuxing Zhou",
@@ -282,9 +249,7 @@
     "cardcolor": "blue",
     "description": "Enabling innovative high schools to manage complex academic schedules saving administrative effort and offering more student personalization.",
     "link": "https://degreely.com/",
-    "industries": [
-      "Education"
-    ],
+    "industries": ["Education"],
     "team": [
       {
         "name": "Danny Pugh",
@@ -310,9 +275,7 @@
     "cardcolor": "blue",
     "description": "Digistone offers personalized digital memorials through NFC tags and 3D-printed objects, preserving cherished memories of loved ones for eternal remembrance.",
     "link": "https://digistone.io",
-    "industries": [
-      "Consumer Products", "CPG"
-    ],
+    "industries": ["Consumer Products", "CPG"],
     "team": [
       {
         "name": "Darcell Edwards",
@@ -338,9 +301,7 @@
     "cardcolor": "blue",
     "description": "Dual-X Studio crafts narrative-driven games that spotlight underrepresented groups, particularly Asian female gamers.",
     "link": "",
-    "industries": [
-      "Entertainment"
-    ],
+    "industries": ["Entertainment"],
     "team": [
       {
         "name": "Ellie(Ziyan) Cai",
@@ -359,10 +320,7 @@
     "cardcolor": "blue",
     "description": "EVRYN is a three-step, one-minute skincare routine to energize and refresh athletic women on the go, featuring facial cleansing wipes, a facial mist, and a moisturizing stick.",
     "link": "https://evrynskincare.com/",
-    "industries": [
-      "E-Commerce",
-      "Consumer Products", "CPG"
-    ],
+    "industries": ["E-Commerce", "Consumer Products", "CPG"],
     "team": [
       {
         "name": "Riya Daga",
@@ -381,10 +339,7 @@
     "cardcolor": "blue",
     "description": "We make gut friendly crackers inspired by childhood favorite snacks, like Cheezits and Teddy Grahams.",
     "link": "https://itsfairandsquare.com",
-    "industries": [
-      "E-Commerce",
-      "Retail"
-    ],
+    "industries": ["E-Commerce", "Retail"],
     "team": [
       {
         "name": "Alex Duong",
@@ -403,9 +358,7 @@
     "cardcolor": "card",
     "description": "Empower licensed professionals in architecture and engineering to safeguard the authenticity of their license stamps using our cutting-edge SaaS platform, preventing fraudulent use and ensuring the integrity of the industry",
     "link": "",
-    "industries": [
-      "SaaS"
-    ],
+    "industries": ["SaaS"],
     "team": [
       {
         "name": "Bo Ying Liu",
@@ -424,9 +377,7 @@
     "cardcolor": "blue",
     "description": "Hatchet is a command technology for fire chiefs to coordinate, track, and rescue their crews",
     "link": "https://www.tryhatchet.com/",
-    "industries": [
-      "Information Technology"
-    ],
+    "industries": ["Information Technology"],
     "team": [
       {
         "name": "Dylan Lewis",
@@ -452,11 +403,7 @@
     "cardcolor": "blue",
     "description": "Get 'Peak Performance' from your content using AI / ML",
     "link": "http://intuitionintelligence.com/",
-    "industries": [
-      "AI/ML",
-      "Entertainment",
-      "SaaS"
-    ],
+    "industries": ["AI/ML", "Entertainment", "SaaS"],
     "team": [
       {
         "name": "Yusuf Ansari",
@@ -482,10 +429,7 @@
     "cardcolor": "blue",
     "description": "Jargon helps integrate language learning into the learners' day based on entirely personalized questions, ensuring consistent engagement with the language, in-context understanding of its vocabulary, and effortless gaining knowledge throughout the day.",
     "link": "",
-    "industries": [
-      "AI/ML",
-      "Education"
-    ],
+    "industries": ["AI/ML", "Education"],
     "team": [
       {
         "name": "Sheila Wang",
@@ -511,10 +455,7 @@
     "cardcolor": "blue",
     "description": "A Pakistani streaming service designed for the diaspora.",
     "link": "https://jojaentertainment.com",
-    "industries": [
-      "Entertainment",
-      "Media"
-    ],
+    "industries": ["Entertainment", "Media"],
     "team": [
       {
         "name": "Danial Gondal",
@@ -527,244 +468,215 @@
     "stage": "",
     "recruiting": []
   },
-{
-  "name": "KADAK",
-  "logo": "Kadak",
-  "cardcolor": "",
-  "description": "Starbucks but for authentic Indian beverages.",
-  "link": "",
-  "industries": [
-    "Food",
-    "Hospitality",
-    "Retail"
-  ],
-  "team": [
-    {
-      "name": "Lakshya Bothra",
-      "role": "Co-Founder of KADAK",
-      "headshot": "Lakshya_Bothra",
-      "linkedin": "https://www.linkedin.com/in/lakshya-bothra/",
-      "email": ""
-    },
-    {
-      "name": "Srishti Chopra",
-      "role": "Co-Founder of KADAK",
-      "headshot": "Srishti_Chopra",
-      "linkedin": "http://www.linkedin.com/in/srishtichopra",
-      "email": ""
-    }
-  ],
-  "stage": "",
-  "recruiting": []
-},
-{
-  "name": "Laminar Copilot",
-  "logo": "Laminar_Copilot",
-  "cardcolor": "",
-  "description": "Laminar Copilot is a software solution for Amazon Freight Partners that increases operational and cost efficiency.",
-  "link": "",
-  "industries": [
-    "Transportation",
-    "SaaS"
-  ],
-  "team": [
-    {
-      "name": "Kevin Park",
-      "role": "Co-Founder of Laminar Copilot",
-      "headshot": "Kevin_Park",
-      "linkedin": "https://www.linkedin.com/in/kevin-park-a0378a107/",
-      "email": ""
-    },
-    {
-      "name": "Moses Liu",
-      "role": "Co-Founder of Laminar Copilot",
-      "headshot": "Moses_Liu",
-      "linkedin": "https://www.linkedin.com/in/moses-liu-a0378a107/",
-      "email": ""
-    }
-  ],
-  "stage": "",
-  "recruiting": []
-},
-{
-  "name": "Lav",
-  "logo": "Lav",
-  "cardcolor": "",
-  "description": "Lav salad dressings are made from Armenian-inspired, whole food ingredients and packaged in single-serve packets for easy, on-the-go use.",
-  "link": "https://www.dresslav.com",
-  "industries": [
-    "Consumer Products", "CPG"
-  ],
-  "team": [
-    {
-      "name": "Natalie Felikian",
-      "role": "Founder of Lav",
-      "headshot": "Natalie_Felikian",
-      "linkedin": "https://www.linkedin.com/in/natalie-felikian/",
-      "email": ""
-    }
-  ],
-  "stage": "",
-  "recruiting": []
-},
-{
-  "name": "Lionistic",
-  "logo": "Lionistic",
-  "cardcolor": "",
-  "description": "Embrace the future with us through products crafted to empower.",
-  "link": "https://lionistic.xyz/",
-  "industries": [
-    "Information Technology"
-  ],
-  "team": [
-    {
-      "name": "Navya Singh",
-      "role": "Founder of Lionistic",
-      "headshot": "Navya_Singh",
-      "linkedin": "https://www.linkedin.com/in/navya-singh/",
-      "email": "navyasingh@lionistic.xyz"
-    }
-  ],
-  "stage": "Hiring",
-  "recruiting": ["Marketer"]
-},
-{
-  "name": "Maplehouse",
-  "logo": "Maplehouse",
-  "cardcolor": "",
-  "description": "Quiet comfort luxury apparel, for the off-duty college student.",
-  "link": "https://www.maplehouse.co",
-  "industries": [
-    "Consumer Products", "CPG",
-    "Fashion"
-  ],
-  "team": [
-    {
-      "name": "Tyler Shooshani",
-      "role": "Founder of Maplehouse",
-      "headshot": "Tyler_Shooshani",
-      "linkedin": "https://www.linkedin.com/in/tyler-shooshani/",
-      "email": ""
-    }
-  ],
-  "stage": "",
-  "recruiting": []
-},
-{
-  "name": "Nexus",
-  "logo": "Nexus",
-  "cardcolor": "",
-  "description": "A unified toolkit to streamline research journey",
-  "link": "",
-  "industries": [
-    "AI/ML",
-    "Education",
-    "SaaS"
-  ],
-  "team": [
-    {
-      "name": "Saurabh Ghanekar",
-      "role": "Founder of Nexus",
-      "headshot": "Saurabh_Ghanekar",
-      "linkedin": "https://www.linkedin.com/in/saurabh-ghanekar/",
-      "email": ""
-    }
-  ],
-  "stage": "",
-  "recruiting": []
-},
-{
-  "name": "NutriMind",
-  "logo": "NutriMind",
-  "cardcolor": "",
-  "description": "NutriMind distinguishes itself in the preventative healthcare and wellness market through personalized health plans and dietary recommendations, catering to individual user data and preferences",
-  "link": "",
-  "industries": [
-    "E-Commerce",
-    "Healthcare"
-  ],
-  "team": [
-    {
-      "name": "Yihan Luo",
-      "role": "Co-Founder of NitriMind",
-      "headshot": "Yihan_Luo",
-      "linkedin": "https://www.linkedin.com/in/yihan-luo/",
-      "email": ""
-    },
-    {
-      "name": "Yixin Sun",
-      "role": "Co-Founder of NitriMind",
-      "headshot": "Yixin_Sun",
-      "linkedin": "https://www.linkedin.com/in/yixin-sun66/",
-      "email": ""
-    }
-  ],
-  "stage": "",
-  "recruiting": []
-},
-{
-  "name": "OfSpectrum",
-  "logo": "OfSpectrum",
-  "cardcolor": "",
-  "description": "OfSpectrum is an AI-driven company dedicated to protecting everyone’s voice from deepfake manipulation and building a future for legitimate usage of generative AI.",
-  "link": "https://www.ofspectrum.com/home",
-  "industries": [
-    "AI/ML",
-    "Entertainment",
-    "Cybersecurity"
-  ],
-  "team": [
-    {
-      "name": "Yechen Wang",
-      "role": "Co-Founder of OfSpectrum",
-      "headshot": "Yechen_Wang",
-      "linkedin": "https://www.linkedin.com/in/yechen-wang/",
-      "email": "ofspectrum@gmail.com"
-    },
-    {
-      "name": "Yishu Huang",
-      "role": "Co-Founder of OfSpectrum",
-      "headshot": "Yishu_Huang",
-      "linkedin": "",
-      "email": "ofspectrum@gmail.com"
-    }
-  ],
-  "stage": "Hiring",
-  "recruiting": ["Software Engineer"]
-},
-{
-  "name": "Orbital Entertainment Supply",
-  "logo": "Orbital_Entertainment_Supply",
-  "cardcolor": "",
-  "description": "Orbital Entertainment Supply (ORBES) enables creative zero-gravity cinematography and space storytelling starting with an robot to easily position and control a camera in zero-g planes and space stations.",
-  "link": "https://www.orbes.space",
-  "industries": [
-    "Aerospace & Defense",
-    "Entertainment",
-    "Media"
-  ],
-  "team": [
-    {
-      "name": "Anna Shaposhnik",
-      "role": "Co-Founder of Orbital Entertainment Supply",
-      "headshot": "Anna_Shaposhnik",
-      "linkedin": "https://www.linkedin.com/in/sheepianna/",
-      "email": ""
-    },
-    {
-      "name": "Luc Hosy",
-      "role": "Co-Founder of Orbital Entertainment Supply",
-      "headshot": "Luc_Hosy",
-      "linkedin": "https://www.linkedin.com/in/luchosy/",
-      "email": ""
-    }
-  ],
-  "stage": "",
-  "recruiting": []
-},
+  {
+    "name": "KADAK",
+    "logo": "Kadak",
+    "cardcolor": "",
+    "description": "Starbucks but for authentic Indian beverages.",
+    "link": "",
+    "industries": ["Food", "Hospitality", "Retail"],
+    "team": [
+      {
+        "name": "Lakshya Bothra",
+        "role": "Co-Founder of KADAK",
+        "headshot": "Lakshya_Bothra",
+        "linkedin": "https://www.linkedin.com/in/lakshya-bothra/",
+        "email": ""
+      },
+      {
+        "name": "Srishti Chopra",
+        "role": "Co-Founder of KADAK",
+        "headshot": "Srishti_Chopra",
+        "linkedin": "http://www.linkedin.com/in/srishtichopra",
+        "email": ""
+      }
+    ],
+    "stage": "",
+    "recruiting": []
+  },
+  {
+    "name": "Laminar Copilot",
+    "logo": "Laminar_Copilot",
+    "cardcolor": "",
+    "description": "Laminar Copilot is a software solution for Amazon Freight Partners that increases operational and cost efficiency.",
+    "link": "",
+    "industries": ["Transportation", "SaaS"],
+    "team": [
+      {
+        "name": "Kevin Park",
+        "role": "Co-Founder of Laminar Copilot",
+        "headshot": "Kevin_Park",
+        "linkedin": "https://www.linkedin.com/in/kevin-park-a0378a107/",
+        "email": ""
+      },
+      {
+        "name": "Moses Liu",
+        "role": "Co-Founder of Laminar Copilot",
+        "headshot": "Moses_Liu",
+        "linkedin": "https://www.linkedin.com/in/moses-liu-a0378a107/",
+        "email": ""
+      }
+    ],
+    "stage": "",
+    "recruiting": []
+  },
+  {
+    "name": "Lav",
+    "logo": "Lav",
+    "cardcolor": "",
+    "description": "Lav salad dressings are made from Armenian-inspired, whole food ingredients and packaged in single-serve packets for easy, on-the-go use.",
+    "link": "https://www.dresslav.com",
+    "industries": ["Consumer Products", "CPG"],
+    "team": [
+      {
+        "name": "Natalie Felikian",
+        "role": "Founder of Lav",
+        "headshot": "Natalie_Felikian",
+        "linkedin": "https://www.linkedin.com/in/natalie-felikian/",
+        "email": ""
+      }
+    ],
+    "stage": "",
+    "recruiting": []
+  },
+  {
+    "name": "Lionistic",
+    "logo": "Lionistic",
+    "cardcolor": "",
+    "description": "Embrace the future with us through products crafted to empower.",
+    "link": "https://lionistic.xyz/",
+    "industries": ["Information Technology"],
+    "team": [
+      {
+        "name": "Navya Singh",
+        "role": "Founder of Lionistic",
+        "headshot": "Navya_Singh",
+        "linkedin": "https://www.linkedin.com/in/navya-singh/",
+        "email": "navyasingh@lionistic.xyz"
+      }
+    ],
+    "stage": "Hiring",
+    "recruiting": ["Marketer"]
+  },
+  {
+    "name": "Maplehouse",
+    "logo": "Maplehouse",
+    "cardcolor": "",
+    "description": "Quiet comfort luxury apparel, for the off-duty college student.",
+    "link": "https://www.maplehouse.co",
+    "industries": ["Consumer Products", "CPG", "Fashion"],
+    "team": [
+      {
+        "name": "Tyler Shooshani",
+        "role": "Founder of Maplehouse",
+        "headshot": "Tyler_Shooshani",
+        "linkedin": "https://www.linkedin.com/in/tyler-shooshani/",
+        "email": ""
+      }
+    ],
+    "stage": "",
+    "recruiting": []
+  },
+  {
+    "name": "Nexus",
+    "logo": "Nexus",
+    "cardcolor": "",
+    "description": "A unified toolkit to streamline research journey",
+    "link": "",
+    "industries": ["AI/ML", "Education", "SaaS"],
+    "team": [
+      {
+        "name": "Saurabh Ghanekar",
+        "role": "Founder of Nexus",
+        "headshot": "Saurabh_Ghanekar",
+        "linkedin": "https://www.linkedin.com/in/saurabh-ghanekar/",
+        "email": ""
+      }
+    ],
+    "stage": "",
+    "recruiting": []
+  },
+  {
+    "name": "NutriMind",
+    "logo": "NutriMind",
+    "cardcolor": "",
+    "description": "NutriMind distinguishes itself in the preventative healthcare and wellness market through personalized health plans and dietary recommendations, catering to individual user data and preferences",
+    "link": "",
+    "industries": ["E-Commerce", "Healthcare"],
+    "team": [
+      {
+        "name": "Yihan Luo",
+        "role": "Co-Founder of NitriMind",
+        "headshot": "Yihan_Luo",
+        "linkedin": "https://www.linkedin.com/in/yihan-luo/",
+        "email": ""
+      },
+      {
+        "name": "Yixin Sun",
+        "role": "Co-Founder of NitriMind",
+        "headshot": "Yixin_Sun",
+        "linkedin": "https://www.linkedin.com/in/yixin-sun66/",
+        "email": ""
+      }
+    ],
+    "stage": "",
+    "recruiting": []
+  },
+  {
+    "name": "OfSpectrum",
+    "logo": "OfSpectrum",
+    "cardcolor": "",
+    "description": "OfSpectrum is an AI-driven company dedicated to protecting everyone’s voice from deepfake manipulation and building a future for legitimate usage of generative AI.",
+    "link": "https://www.ofspectrum.com/home",
+    "industries": ["AI/ML", "Entertainment", "Cybersecurity"],
+    "team": [
+      {
+        "name": "Yechen Wang",
+        "role": "Co-Founder of OfSpectrum",
+        "headshot": "Yechen_Wang",
+        "linkedin": "https://www.linkedin.com/in/yechen-wang/",
+        "email": "ofspectrum@gmail.com"
+      },
+      {
+        "name": "Yishu Huang",
+        "role": "Co-Founder of OfSpectrum",
+        "headshot": "Yishu_Huang",
+        "linkedin": "",
+        "email": "ofspectrum@gmail.com"
+      }
+    ],
+    "stage": "Hiring",
+    "recruiting": ["Software Engineer"]
+  },
+  {
+    "name": "Orbital Entertainment Supply",
+    "logo": "Orbital_Entertainment_Supply",
+    "cardcolor": "",
+    "description": "Orbital Entertainment Supply (ORBES) enables creative zero-gravity cinematography and space storytelling starting with an robot to easily position and control a camera in zero-g planes and space stations.",
+    "link": "https://www.orbes.space",
+    "industries": ["Aerospace & Defense", "Entertainment", "Media"],
+    "team": [
+      {
+        "name": "Anna Shaposhnik",
+        "role": "Co-Founder of Orbital Entertainment Supply",
+        "headshot": "Anna_Shaposhnik",
+        "linkedin": "https://www.linkedin.com/in/sheepianna/",
+        "email": ""
+      },
+      {
+        "name": "Luc Hosy",
+        "role": "Co-Founder of Orbital Entertainment Supply",
+        "headshot": "Luc_Hosy",
+        "linkedin": "https://www.linkedin.com/in/luchosy/",
+        "email": ""
+      }
+    ],
+    "stage": "",
+    "recruiting": []
+  },
   {
     "name": "Packa.Design",
-    "logo": "Packa_Design",
+    "logo": "PackaDesign",
     "description": "We elevate smoking experiences through our ecosystem of modular magnetic smokeware.",
     "link": "https://www.packa.design",
     "industries": ["Retail"],
@@ -785,9 +697,7 @@
       }
     ],
     "stage": "Hiring",
-    "recruiting": [
-      "Marketer"
-    ]
+    "recruiting": ["Marketer"]
   },
   {
     "name": "Prometheus Data",
@@ -880,11 +790,7 @@
       }
     ],
     "stage": "Hiring",
-    "recruiting": [
-      "Software Engineer",
-      "Business Operations",
-      "Marketer"
-    ]
+    "recruiting": ["Software Engineer", "Business Operations", "Marketer"]
   },
   {
     "name": "Schej",
@@ -959,7 +865,7 @@
     "logo": "ShapeShift",
     "description": "Computer vision-powered fitness coach at home and in the gym",
     "link": "",
-    "industries": ["AI/ML", "Consumer Products" , "CPG", "SaaS"],
+    "industries": ["AI/ML", "Consumer Products", "CPG", "SaaS"],
     "team": [
       {
         "name": "Aryan Barik",
@@ -1031,11 +937,7 @@
       }
     ],
     "stage": "Hiring",
-    "recruiting": [
-      "Software Engineer",
-      "Marketer",
-      "UI/UX Designer"
-    ]
+    "recruiting": ["Software Engineer", "Marketer", "UI/UX Designer"]
   },
   {
     "name": "TERRATOKES",
@@ -1060,9 +962,7 @@
       }
     ],
     "stage": "Hiring",
-    "recruiting": [
-      "Marketer"
-    ]
+    "recruiting": ["Marketer"]
   },
   {
     "name": "The Indiestry",
@@ -1087,9 +987,7 @@
       }
     ],
     "stage": "Hiring",
-    "recruiting": [
-      "Marketer", "UI/UX Designer"
-    ]
+    "recruiting": ["Marketer", "UI/UX Designer"]
   },
   {
     "name": "ThirdPlace",
@@ -1132,9 +1030,7 @@
       }
     ],
     "stage": "Hiring",
-    "recruiting": [
-      "Software Engineer"
-    ]
+    "recruiting": ["Software Engineer"]
   },
   {
     "name": "ūnderdose",
@@ -1152,10 +1048,7 @@
       }
     ],
     "stage": "Hiring",
-    "recruiting": [
-      "Marketer",
-      "Business Operations"
-    ]
+    "recruiting": ["Marketer", "Business Operations"]
   },
   {
     "name": "UpDonor",
@@ -1218,5 +1111,4 @@
     "stage": "",
     "recruiting": []
   }
-
 ]
