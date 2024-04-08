@@ -42,7 +42,7 @@ function Navbar() {
     {
       text: "Startups",
       url: "/startups",
-      action: () => navigate("/startups")
+      action: () => navigate("/startups"),
     },
     {
       text: "Sponsor Us",
