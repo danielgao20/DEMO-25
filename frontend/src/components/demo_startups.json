@@ -74,7 +74,7 @@
     {
         "name": "Anacapa",
         "sector": "Manufacturing",
-        "logo": "",
+        "logo": "Anacapa.png",
         "description": "We leverage robotics to cut high quality gems for jewelers",
         "website_link": "https://www.anacaparobotics.com/",
         "linkedin": ["https://www.linkedin.com/in/adiam-k-asfaha/"],
@@ -159,7 +159,7 @@
     {
         "name": "BIOMED, INC.",
         "sector": "BioTech, Healthcare",
-        "logo": "",
+        "logo": "Biomed.png",
         "description": "BIOMED is a pioneering biotech company integrating 3D bioprinting, Big Data, DNA analysis, and AI to offer personalized, precision medicine, making healthcare accessible and equitable across all demographics.",
         "website_link": "https://www.biodevek.com",
         "linkedin": [
@@ -532,7 +532,7 @@
     {
         "name": "Lav",
         "sector": "Consumer Products/CPG",
-        "logo": "No Access",
+        "logo": "Lav",
         "description": "Lav salad dressings are made from Armenian-inspired, whole food ingredients and packaged in single-serve packets for easy, on-the-go use.",
         "website_link": "https://www.dresslav.com",
         "linkedin": [
@@ -617,7 +617,7 @@
     {
         "name": "NutriMind",
         "sector": "E-Commerce, Healthcare",
-        "logo": "No Access",
+        "logo": "NutriMind.png",
         "description": "NutriMind distinguishes itself in the preventative healthcare and wellness market through personalized health plans and dietary recommendations, catering to individual user data and preferences",
         "website_link": "",
         "linkedin": [
@@ -788,7 +788,7 @@
     {
         "name": "RevSend",
         "sector": "Enterprise, SaaS",
-        "logo": "No Access",
+        "logo": "RevSend.png",
         "description": "RevSend transforms business relationships by offering an innovative platform for sending personalized, impactful gifts that enhance customer engagement and drive revenue growth.",
         "website_link": "https://revsend.com",
         "linkedin": [
@@ -870,7 +870,7 @@
         "name": "SentiMind",
         "sector": "BioTech, Healthcare",
         "website_link": "https://www.sentimind.com",
-        "logo": "No Access",
+        "logo": "SentiMind.png",
         "description": "AI Solutions for Empowering Patients Emotions",
         "linkedin": ["https://linkedin.com/in/mahkamehrasouli/", "https://se.linkedin.com/in/pooyanm"],
         "founder_names": ["Mahkameh Rasouli", "Pooyan Mobtahej"],

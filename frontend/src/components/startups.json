@@ -82,7 +82,7 @@
   },
   {
     "name": "Anacapa",
-    "logo": "",
+    "logo": "Anacapa",
     "cardcolor": "blue",
     "description": "We leverage robotics to cut high quality gems for jewelers",
     "link": "https://www.anacaparobotics.com/",
@@ -175,7 +175,7 @@
   },
   {
     "name": "BIOMED, INC.",
-    "logo": "",
+    "logo": "Biomed",
     "cardcolor": "blue",
     "description": "BIOMED is a pioneering biotech company integrating 3D bioprinting, Big Data, DNA analysis, and AI to offer personalized, precision medicine, making healthcare accessible and equitable across all demographics.",
     "link": "https://www.biodevek.com",
@@ -588,7 +588,7 @@
 },
 {
   "name": "Lav",
-  "logo": "",
+  "logo": "Lav",
   "cardcolor": "",
   "description": "Lav salad dressings are made from Armenian-inspired, whole food ingredients and packaged in single-serve packets for easy, on-the-go use.",
   "link": "https://www.dresslav.com",
@@ -675,7 +675,7 @@
 },
 {
   "name": "NutriMind",
-  "logo": "",
+  "logo": "NutriMind",
   "cardcolor": "",
   "description": "NutriMind distinguishes itself in the preventative healthcare and wellness market through personalized health plans and dietary recommendations, catering to individual user data and preferences",
   "link": "",
@@ -866,7 +866,7 @@
   },
   {
     "name": "RevSend",
-    "logo": "",
+    "logo": "RevSend",
     "description": "RevSend transforms business relationships by offering an innovative platform for sending personalized, impactful gifts.",
     "link": "https://revsend.com",
     "industries": ["Enterprise", "SaaS"],
@@ -931,7 +931,7 @@
   },
   {
     "name": "SentiMind",
-    "logo": "",
+    "logo": "SentiMind",
     "description": "AI Solutions for Empowering Patients Emotions",
     "link": "https://www.sentimind.com",
     "industries": ["BioTech", "Healthcare"],
@@ -1177,7 +1177,7 @@
   },
   {
     "name": "ViBo Health",
-    "logo": "",
+    "logo": "ViBo_Health",
     "description": "ViBo Health is Smart Health Tracking: Detecting disease early with a quick, non-invasive scanner",
     "link": "https://www.vibo.health",
     "industries": ["Healthcare", "Technology"],

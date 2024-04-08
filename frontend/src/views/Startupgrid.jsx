@@ -121,10 +121,34 @@ import underdose from "../assets/logos/underdose.png"
 import UpDonor from "../assets/logos/UpDonor.png"
 import WellTraAI from "../assets/logos/WellTra.AI.png"
 
+import Anacapa from "../assets/logos/Anacapa.png"
+import Biomed from "../assets/logos/Biomed.png"
+import Lav from "../assets/logos/Lav.png"
+import Nutrimind from "../assets/logos/Nutrimind.png"
+import RevSend from "../assets/logos/RevSend.png"
+import SentiMind from "../assets/logos/SentiMind.png"
+import ViBo_Health from "../assets/logos/ViBo_Health.png"
+
+
+
 const getLogo = (logoName) => {
     switch(logoName){
         case "AirVitalize_Innovations":
             return AirVitalize_Innovations;
+        case "ViBo_Health":
+            return ViBo_Health;
+        case "Anacapa":
+            return Anacapa;
+        case "Biomed":
+            return Biomed;
+        case "Lav":
+            return Lav;
+        case "NutriMind":
+            return Nutrimind;
+        case "RevSend":
+            return RevSend;
+        case "SentiMind":
+            return SentiMind;
         case "AiStudy":
             return AiStudy;
         case "Amino_Avenue":
