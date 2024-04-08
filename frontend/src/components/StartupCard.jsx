@@ -95,7 +95,7 @@ const StartupCard = ({description, sector, name, logo, cardcolor, link, industri
 
 
     return (
-        <div className={`rounded flip-card bg-gray-900 overflow-hidden w-full h-[100%] p-4 text-white my-8`}>
+        <div className={`flip-card bg-gray-900 overflow-hidden w-full h-[100%] p-4 text-white my-8`}>
             <div className="flip-card-inner">
                 <div className="flip-card-front">
                     <div className="flex justify-between items-center mb-4 ml-5 mr-5 mt-4">
@@ -109,10 +109,10 @@ const StartupCard = ({description, sector, name, logo, cardcolor, link, industri
                     <div className ="relative">
                         <div className="flex justify-center items-center mb-4">
                             <div className="flex justify-center items-center mb-4"
-                                 style={{width: 'auto', height: '50px', zIndex: "20"}}>
-                                <span className="text-lg mt-20 translate-y-32 w-3/4">
-                                    <img className='rounded-md object-contain' src={logo} alt="logo"/>
-                                </span>
+                                 style={{width: 'auto', height: '175px', zIndex: "20"}}>
+                            <span className="text-lg mt-0 translate-y-32">
+                                <img src={logo} alt="logo"/>
+                            </span>
                             </div>
                         </div>
                         <img src={StartupCardImage} alt="design" className=" h-fit -ml-5 rotate-10 translate-y-20"
@@ -134,7 +134,7 @@ const StartupCard = ({description, sector, name, logo, cardcolor, link, industri
                         </div>
                     </div>
                     <div className="flex flex-col items-start mb-4 mx-4 ">
-                        <span className="text-md mt-24 mb-5">{description}</span>
+                        <span className="text-md mt-32 mb-5">{description}</span>
                         <button className="text-md mt-0" onClick={openModal}>View ➔</button>
                     </div>
                     <div className="flex justify-center"></div>
