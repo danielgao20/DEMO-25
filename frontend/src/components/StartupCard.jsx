@@ -107,9 +107,9 @@ const StartupCard = ({description, sector, name, logo, cardcolor, link, industri
                         </div>
                     </div>
                     <div className ="relative">
-                        <div className="flex justify-center items-center mb-4">
+                        <div className="flex justify-center items-center mt-10">
                             <div className="flex justify-center items-center mb-4"
-                                 style={{width: 'auto', height: '175px', zIndex: "20"}}>
+                                 style={{width: 'auto', height: '90px', zIndex: "20"}}>
                             <span className="text-lg mt-0 translate-y-32">
                                 <img src={logo} alt="logo"/>
                             </span>
