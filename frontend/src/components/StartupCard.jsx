@@ -209,17 +209,29 @@ const StartupCard = ({description, sector, name, logo, cardcolor, link, industri
                         </div>
 
 
-                        <div className="mt-4">
+                        {/* <div className="mt-4">
                             <h2 className="text-lg font-semibold">Recruiting For</h2>
                             <div className="grid grid-cols-4 gap-4 mt-4 mb-20">
                                 {recruiting.map((position, index) => (
                                     <RecruitingItem key={index} position={position}/>
                                 ))}
                             </div>
-                        </div>
+                        </div> */}
+
+                        {recruiting.length > 0 && (
+                            <div className="mt-4">
+                                <h2 className="text-lg font-semibold">Recruiting For</h2>
+                                <div className="grid grid-cols-4 gap-4 mt-4 mb-20">
+                                    {recruiting.map((position, index) => (
+                                        <RecruitingItem key={index} position={position} />
+                                    ))}
+                                </div>
+                            </div>
+                        )}
+
 
                         <div className="text-center absolute left-0 right-0 mt-20 mb-10">
-                            <button className="text-md text-blue-500 hover:underline" onClick={closeModal}>Back</button>
+                            <button className="text-md text-blue-500 hover:underline mb-8" onClick={closeModal}>Back</button>
                         </div>
                     </div>
                 </div>
