@@ -46,14 +46,9 @@ function Navbar() {
     },
     {
       text: "Sponsor Us",
-      url: "", // Empty or '#' if you don't have a separate path for Sponsor Us
-      action: openSponsorPdf, // This will be the function to open the PDF
+      url: "",
+      action: openSponsorPdf,
     },
-    // {
-    //   text: "Map",
-    //   url: "/map",
-    //   action: () => navigate("/map")
-    // },
   ];
 
   var current = location.pathname;
