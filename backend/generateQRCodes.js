@@ -54,6 +54,7 @@ const startupNames = [
   "UpDonor",
   "ViBo Health",
   "WellTra.Ai",
+  "Intuition Intelligence"
 ];
 
 console.log(startupNames.length)

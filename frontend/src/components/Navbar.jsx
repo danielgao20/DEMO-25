@@ -1,13 +1,28 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import DEMOLogo from "../assets/DEMOLogo.png";
 import SponsorshipPdf from "../assets/DEMOsponsorship.pdf";
 import { useLocation, useNavigate } from "react-router-dom";
+import { MenuIcon, XIcon } from "@heroicons/react/solid";
 
 function Navbar() {
   const navigate = useNavigate();
   let location = useLocation();
 
-  let isMobile = window.innerWidth < 768;
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  useEffect(() => {
+    function handleResize() {
+      setIsMobile(window.innerWidth < 768);
+    }
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
 
   const openSponsorPdf = () => {
     window.open(SponsorshipPdf, "_blank");
@@ -22,13 +37,17 @@ function Navbar() {
     {
       text: "Map",
       url: "/map",
+<<<<<<< HEAD
       action: () => navigate("/map"),
+=======
+      action: () => navigate("/map")
     },
-    // {
-    //   text: "Startups",
-    //   url: "/startups",
-    //   action: () => navigate("/startups")
-    // },
+    {
+      text: "Startups",
+      url: "/startups",
+      action: () => navigate("/startups")
+>>>>>>> 310693e9f693d9df8f6bf0c25b6d163b561d590d
+    },
     {
       text: "Sponsor Us",
       url: "", // Empty or '#' if you don't have a separate path for Sponsor Us
@@ -50,28 +69,25 @@ function Navbar() {
         alt="Demo 2024 Logo — Presented by TroyLabs"
         src={DEMOLogo}
         className="h-full w-auto cursor-pointer"
-        onClick={() => {
-          navigate("/");
-        }}
+        onClick={() => navigate("/")}
       />
-      {!isMobile && (
+      {!isMobile ? (
+        // Desktop view
         <>
           <div className="flex flex-row h-full items-center justify-center gap-4">
-            {links.map((link, index) => {
-              return (
-                <button
-                  key={index} // Added a key here for best practices
-                  onClick={link.action} // Changed to use the action specified in the links array
-                  className={`p-4 font-semibold ${
-                    current === link.url
-                      ? "text-[#2668A1] underline underline-offset-8"
-                      : "text-[#A2A2A5]"
-                  }`}
-                >
-                  {link.text}
-                </button>
-              );
-            })}
+            {links.map((link, index) => (
+              <button
+                key={index}
+                onClick={link.action}
+                className={`p-4 font-semibold ${
+                  location.pathname === link.url
+                    ? "text-[#2668A1] underline underline-offset-8"
+                    : "text-[#A2A2A5]"
+                }`}
+              >
+                {link.text}
+              </button>
+            ))}
           </div>
           <a
             href="https://www.worldlabs.org/event/demo-2024-entrepreneurship-conference"
@@ -81,6 +97,37 @@ function Navbar() {
           >
             RSVP for DEMO
           </a>
+        </>
+      ) : (
+        // Mobile view
+        <>
+          <button onClick={toggleMenu} className="text-white">
+            {menuOpen ? (
+              <XIcon className="h-6 w-6" />
+            ) : (
+              <MenuIcon className="h-6 w-6" />
+            )}
+          </button>
+          {menuOpen && (
+            <div className="absolute z-20 top-16 right-0 w-2/4 bg-[#131313]/50 backdrop-blur-md p-5 flex flex-col items-center justify-center">
+              {links.map((link, index) => (
+                <button
+                  key={index}
+                  onClick={() => {
+                    link.action();
+                    toggleMenu();
+                  }}
+                  className={`p-3 font-semibold w-full text-center ${
+                    location.pathname === link.url
+                      ? "text-[#2668A1]"
+                      : "text-white"
+                  }`}
+                >
+                  {link.text}
+                </button>
+              ))}
+            </div>
+          )}
         </>
       )}
     </header>
