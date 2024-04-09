@@ -75,6 +75,7 @@ const RecruitingItem = ({ position }) => {
 const StartupCard = ({description, sector, name, logo, cardcolor, link, industries, team, recruiting}) => {
     const [modalIsOpen, setModalIsOpen] = useState(false);
 
+
     useEffect(() => {
         // Prevent scrolling on the original page when the modal is open
         if (modalIsOpen) {
@@ -164,7 +165,7 @@ const StartupCard = ({description, sector, name, logo, cardcolor, link, industri
                         <div className="mt-4">
                             <h2 className="text-lg font-semibold">Website</h2>
                             <div className="mb-10">
-                                <a href={"https://" + link} target="_blank"
+                                <a href={link} target="_blank"
                                    className="text-md text-blue-500 hover:underline mb-10">{link}</a>
                             </div>
                         </div>
