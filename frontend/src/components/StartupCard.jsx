@@ -109,7 +109,7 @@ const StartupCard = ({description, name, logo, cardcolor, link, industries, team
     };
 
     return (
-        <div className={`flip-card bg-gray-900 overflow-hidden w-full h-[100%] p-4 text-white my-8`}>
+        <div className={`flip-card bg-gray-900 overflow-hidden w-full h-[100%] p-4 text-white my-8 rounded-md`}>
             <div className="flip-card-inner">
                 <div className="flip-card-front">
                     <div className="flex justify-between items-center mb-4 ml-5 mr-5 mt-4">

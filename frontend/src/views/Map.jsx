@@ -36,7 +36,9 @@ function InteractiveMap() {
         style={{
           width: "20%",
           height: "100vh",
-          backgroundColor: "#1e5889",
+          // backgroundColor: "#1e5889",
+          backgroundColor: "transparent",
+          borderRight: "1px solid white",
           padding: "1.5rem",
           paddingTop: "5.5rem",
           display: "flex",
@@ -58,10 +60,10 @@ function InteractiveMap() {
                 color: "white",
                 display: "flex",
                 background: "black",
-                padding: "0.75rem 1.5rem",
+                padding: "0.4rem 1rem",
                 borderRadius: 10,
-                backgroundColor: "black",
-                border: "white solid 0.1rem",
+                backgroundColor: "#131315",
+                border: "#1A4265 solid 0.15rem",
                 width: "max-content",
               }}
               onClick={() => handleMouseClick(null)}
