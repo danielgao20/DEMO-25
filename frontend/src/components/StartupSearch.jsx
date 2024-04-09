@@ -6,8 +6,10 @@ export default function StartupSearch({allStartupData, filter}) {
   const [search, setSearch] = useState('');
   const [industry, setIndustry] = useState('All');
   const [stage, setStage] = useState('All');
+  const [isMobile, setIsMobile] = useState(window.matchMedia("(max-width: 768px)").matches);
 
-  useEffect(() => {
+
+    useEffect(() => {
     const filteredSearchData = allStartupData.filter((data) => data.name.toLowerCase().includes(search.toLowerCase()) &&
       (industry === "All" || data.industries.includes(industry)) && 
       (stage === "All" || data.stage === stage));
@@ -27,7 +29,7 @@ export default function StartupSearch({allStartupData, filter}) {
           required
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-          className={`bg-transparent border-x-0 border-b border-t-0 border-white pt-6 pb-2 px-0 text-lg text-white focus:outline-none pl-6`}
+          className={`bg-transparent border-x-0 border-b border-t-0 border-white pt-6 pb-2 px-0 text-lg text-white focus:outline-none pl-6 ${isMobile ? 'w-full' : ''}`}
         />
         <SearchIcon color="white" style={{position: 'absolute', left: 0, bottom: "15px"}}/> 
       </div>
