@@ -11,6 +11,7 @@ export default function StartupSearch({allStartupData, filter}) {
     const filteredSearchData = allStartupData.filter((data) => data.name.toLowerCase().includes(search.toLowerCase()) &&
       (industry === "All" || data.industries.includes(industry)) && 
       (stage === "All" || data.stage === stage));
+    console.log(filteredSearchData)
     filter(filteredSearchData);
   }, [search, industry, stage])
 

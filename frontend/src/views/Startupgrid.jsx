@@ -5,13 +5,7 @@ import StartupSearch from "../components/StartupSearch";
 import startupsData from "../components/startups.json";
 
 const Startupgrid = () => {
-  const [startupData, setStartupData] = useState([]);
-
-  useEffect(() => {
-    //from startups.json
-    setStartupData(startupsData);
-    console.log(startupsData)
-  }, []);
+  const [startupData, setStartupData] = useState(startupsData);
 
   return (
     <div className="w-screen min-h-screen bg-[#080808]">
@@ -29,15 +23,13 @@ const Startupgrid = () => {
         </h4>
       </div>
       <span>
-        <StartupSearch allStartupData={startupData} filter={setStartupData} />
-
+        <StartupSearch allStartupData={startupsData} filter={setStartupData} />
         <div className="grid grid-cols-4 gap-8 mt-6 ml-10 mr-10">
           {startupData.map((startup, index) => {
             return (
               <StartupCard
                 key={index}
                 name={startup.name}
-                sector={startup.sector}
                 logo={startup.logo}
                 cardcolor={startup.cardcolor}
                 description={startup.description}
