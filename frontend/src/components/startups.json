@@ -488,6 +488,20 @@
         "headshot": "/headshots/Jason_Wiemels.png",
         "linkedin": "https://www.linkedin.com/in/jwiemels/",
         "email": ""
+      },
+      {
+        "name": "David Bai",
+        "role": "Co-Founder",
+        "headshot": "/headshots/David_Bai.png",
+        "linkedin": "https://www.linkedin.com/in/david-bai/",
+        "email": ""
+      },
+      {
+        "name": "Vijay Kumaravelrajan",
+        "role": "Co-Founder",
+        "headshot": "/headshots/Vijay_Kumaravelrajan.jpg",
+        "linkedin": "https://www.linkedin.com/in/vijay-kumaravelrajan/",
+        "email": ""
       }
     ],
     "stage": "",
