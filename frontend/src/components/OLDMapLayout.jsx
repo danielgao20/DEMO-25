@@ -37,7 +37,6 @@ function MapLayout() {
     setHoveredTable(null);
   };
 
-  console.log(hoveredTable);
 
   return (
     <>
