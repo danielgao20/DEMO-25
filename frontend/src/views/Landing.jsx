@@ -236,7 +236,7 @@ function Landing() {
         </h5>
         <div className="flex relative z-20 flex-row w-full items-center mt-12 justify-center gap-8">
           <a
-            href="https://www.worldlabs.org/event/demo-2024-entrepreneurship-conference"
+            href="https://www.eventbrite.com/e/809233237397"
             target="_blank"
             rel="noreferrer"
             className="HeroButton-Shadow text-lg cursor-pointer font-semibold text-[#DEE0E3] p-2 px-6 rounded-lg bg-[#131315] border-2 border-[#1A4265] hover:bg-[#1F1F23] hover:shadow-inner active:bg-[#0C0C0D] transition-all hover:shadow-slate-700"
@@ -286,7 +286,7 @@ function Landing() {
         </p>
         <div className="mt-10">
           <a
-            href="https://www.worldlabs.org/event/demo-2024-entrepreneurship-conference"
+            href="https://www.eventbrite.com/e/809233237397"
             target="_blank"
             rel="noreferrer"
             className="HeroButton-Shadow text-md cursor-pointer font-semibold text-[#DEE0E3] p-2 px-6 rounded-lg bg-[#131315] border-2 border-[#1A4265] hover:bg-[#1F1F23] hover:shadow-inner active:bg-[#0C0C0D] transition-all hover:shadow-slate-700"
@@ -600,7 +600,7 @@ function Landing() {
             </div>
             <div className="flex relative z-20 flex-row w-full items-left mt-12 justify-left gap-8">
               <a
-                href="https://www.worldlabs.org/event/demo-2024-entrepreneurship-conference"
+                href="https://www.eventbrite.com/e/809233237397"
                 target="_blank"
                 rel="noreferrer"
                 className="HeroButton-Shadow text-lg cursor-pointer font-normal text-[#DEE0E3] p-2 px-6 rounded-lg bg-[#131315] border-2 border-[#1A4265] hover:bg-[#1F1F23] hover:shadow-inner active:bg-[#0C0C0D] transition-all hover:shadow-slate-700"
