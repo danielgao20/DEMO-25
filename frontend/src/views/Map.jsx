@@ -172,11 +172,11 @@ const getLogo = (logoName) => {
       return Degreely;
     case "Digistone":
       return Digistone;
-    case "Dual_X_Studio":
+    case "Dual-X_Studio":
       return Dual_X_Studio;
     case "EVRYN":
       return EVRYN;
-    case "Fair_Square":
+    case "Fair_&_Square":
       return Fair_Square;
     case "Guard_ProStamp_Inc":
       return Guard_ProStamp_Inc;
@@ -416,6 +416,10 @@ function InteractiveMap() {
     setSelectedTable(tableId);
   };
 
+  useEffect(() => {
+    console.log(getLogo(tablesData[46]));
+  }, []);
+
   return (
     <div style={{ display: "flex" }}>
       <div
@@ -455,30 +459,42 @@ function InteractiveMap() {
               <ArrowBack />
               <span style={{ marginRight: "1rem" }}>Back</span>
             </button>
-            <img
-              src={getLogo(tablesData[selectedTable].logo.split(".")[0])}
-              alt="Company logo"
-              style={{
-                marginTop: "2rem",
-                marginRight: "1rem",
-                width: "100%",
-                maxHeight: "10rem",
-                objectFit: "cover",
-              }}
-            />
-            <div
-              style={{ color: "white", marginTop: "2rem" }}
-              className="font-sans text-md font-medium"
+            <a
+              href={tablesData[selectedTable].website_link}
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Industry: {tablesData[selectedTable].sector}
+              <img
+                src={getLogo(tablesData[selectedTable].logo.split(".")[0])}
+                alt="Company logo"
+                style={{
+                  marginTop: "2rem",
+                  marginRight: "1rem",
+                  width: "100%",
+                  maxHeight: "10rem",
+                  objectFit: "cover",
+                }}
+              />
+            </a>
+            <div
+              style={{ marginTop: "0rem", textAlign: "center" }}
+              className="text-neutral-400 font-sans text-sm font-medium "
+            >
+              {tablesData[selectedTable].sector}
             </div>
+
             <div style={{ marginTop: "1rem" }}>
-              {/*  <div
+              <div
                 className="font-sans text-1xl font-medium"
-                style={{ color: "white", fontSize: "1.1rem" }}
+                style={{
+                  color: "white",
+                  fontSize: "1.1rem",
+                  marginBottom: "2rem",
+                  textAlign: "center",
+                }}
               >
-                Founders:
-              </div>*/}
+                {tablesData[selectedTable].description}
+              </div>
 
               {tablesData[selectedTable].founder_names.map((item, index) => (
                 <div style={{ display: "grid", justifyItems: "center" }}>
@@ -500,11 +516,17 @@ function InteractiveMap() {
                     style={{
                       display: "flex",
                       alignItems: "center",
+                      lineHeight: 1,
+                      marginTop: "1rem",
+                      marginBottom: "1rem",
+                      textAlign: "center",
                     }}
                     className="text-3xl font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text"
                   >
                     {item}
                     <a
+                      target="_blank"
+                      rel="noopener noreferrer"
                       href={tablesData[selectedTable].linkedin[index]}
                       style={{ marginLeft: "1rem" }}
                     >

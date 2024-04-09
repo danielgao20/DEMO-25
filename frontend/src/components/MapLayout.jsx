@@ -165,11 +165,11 @@ const getLogo = (logoName) => {
       return Degreely;
     case "Digistone":
       return Digistone;
-    case "Dual_X_Studio":
+    case "Dual-X_Studio":
       return Dual_X_Studio;
     case "EVRYN":
       return EVRYN;
-    case "Fair_Square":
+    case "Fair_&_Square":
       return Fair_Square;
     case "Guard_ProStamp_Inc":
       return Guard_ProStamp_Inc;
@@ -445,6 +445,7 @@ function MapLayout(props) {
                       y={table.y - 22.5}
                       width="60"
                       height="45"
+                      style={{ zIndex: 2 }}
                       transform={`rotate(-90, ${centerX}, ${centerY})`}
                     />
                   </g>

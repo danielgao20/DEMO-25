@@ -27,7 +27,7 @@
     ],
     "founder_names": ["Adam Yang", "Justin Xu"],
     "email": [""],
-    "founder_headshots": ["Adam_Yang.jpg"],
+    "founder_headshots": ["Adam_Yang.jpg", ""],
     "recruiting_for": [],
     "build": false,
     "id": 15,
@@ -166,10 +166,7 @@
     ],
     "founder_names": ["Ezra Bird", "Samson Taxon"],
     "email": ["taxon@usc.edu"],
-    "founder_headshots": [
-      "https://drive.google.com/file/d/1QeDcaKXq_00BM5UW_BANAb56Jo-4LWs_/view?usp=drive_link",
-      "https://drive.google.com/file/d/1ArUKgCVz8FZZdA32zyV80e5b6hpFJfcv/view?usp=drive_link"
-    ],
+    "founder_headshots": ["Ezra_Bird.png", "Samson_Taxon.jpg"],
     "recruiting_for": [
       {
         "name": "AI / ML Programmer",
@@ -261,7 +258,7 @@
   {
     "name": "Dual-X Studio",
     "sector": "Entertainment",
-    "logo": "Dual-X_Studio.jpg",
+    "logo": "Dual-X_Studio.png",
     "description": "Dual-X Studio crafts narrative-driven games that spotlight underrepresented groups, particularly Asian female gamers.",
     "website_link": "",
     "linkedin": ["https://www.linkedin.com/in/ellie-cai-473848249/"],
@@ -476,7 +473,7 @@
     ],
     "founder_names": ["Kevin Park", "Moses Liu"],
     "email": [""],
-    "founder_headshots": ["Kevin_Park.png", "Moses_Liu.jpeg"],
+    "founder_headshots": ["Kevin_Park.png", ""],
     "recruiting_for": [],
     "build": false,
     "id": 29,
@@ -639,7 +636,7 @@
     ],
     "founder_names": ["Samson Taxon", "Ezra Bird", "James Wang"],
     "email": ["support@packa.design"],
-    "founder_headshots": ["Samson_Taxon.jpg", "Ezra_Bird.png"],
+    "founder_headshots": ["Samson_Taxon.jpg", "Ezra_Bird.png", ""],
     "recruiting_for": [
       {
         "name": "Marketing and Social Media",
@@ -651,9 +648,10 @@
       }
     ],
     "build": false,
-    "id": 36,
-    "x": "515.5",
-    "y": "806.5"
+
+    "id": 30,
+    "x": "467.5",
+    "y": "677.5"
   },
   {
     "name": "Prometheus Data",
@@ -689,9 +687,9 @@
     ],
     "recruiting_for": [],
     "build": false,
-    "id": 30,
-    "x": "467.5",
-    "y": "677.5"
+    "id": 36,
+    "x": "515.5",
+    "y": "806.5"
   },
   {
     "name": "Recei",
@@ -778,7 +776,7 @@
     "linkedin": ["https://www.linkedin.com/in/phillipslau/"],
     "founder_names": ["Phillip Lau", "Rebecca Tao", "Lesley Moon"],
     "email": [""],
-    "founder_headshots": ["Phillip_Lau.jpg"],
+    "founder_headshots": ["Phillip_Lau.jpg", "", ""],
     "recruiting_for": [],
     "build": false,
     "id": 26,
@@ -964,7 +962,7 @@
     ],
     "founder_names": ["Ryan Yeung", "Neil Yeung"],
     "email": [""],
-    "founder_headshots": ["Ryan_Yeung.jpeg"],
+    "founder_headshots": ["Ryan_Yeung.jpeg", ""],
     "recruiting_for": [],
     "build": false,
     "id": 42,
