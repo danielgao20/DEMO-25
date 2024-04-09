@@ -5,7 +5,6 @@ function MapLayout(props) {
   const tables = props.tables;
   const [hoveredTable, setHoveredTable] = useState(null);
 
-  console.log("tables", tables)
 
   if (tables) {
     return (
