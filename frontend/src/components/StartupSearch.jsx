@@ -17,20 +17,20 @@ export default function StartupSearch({allStartupData, filter}) {
   }, [search, industry, stage])
 
   return (
-      <div className="flex flex-row justify-between items-center ml-10 mr-10 text-white">
-          <div className={`mb-4 md:mb-0 ${isMobile ? 'w-full' : 'w-[25%]'} flex flex-row flex-wrap gap-x-8 `}>
-              {/* <Sort title="Industry"
-                    options={["All", "AI/ML", "Aerospace & Defense", "BioTech", "Cannabis", "Climate", "CPG", "Cybersecurity", "E-Commerce", "Education", "Enterprise", "Entertainment", "Fashion", "Finance & Insurance", "Food", "Food & Beverage", "Healthcare", "Health & Wellness", "Hospitality", "Information Technology", "Manufacturing", "Media", "Non-Profit", "Real Estate", "Retail", "SaaS", "Transportation"]}
-                    filter={setIndustry}/> */}
+      <div className={`flex  ${isMobile ? 'flex-col' : 'flex-row'} justify-between items-center ml-10 mr-10 text-white`}>
+          <div className={`mb-4 md:mb-0 ${isMobile ? 'w-full' : 'w-[100%]'} flex flex-row flex-wrap gap-x-8 `}>
+              <Sort title="Industry"
+                    options={["All", "AI/ML", "Aerospace & Defense", "Climate", "Consumer Products", "Cybersecurity", "E-Commerce", "Education", "Enterprise", "Entertainment", "Fashion", "Finance & Insurance", "Food & Beverage", "Health & Wellness", "Hospitality", "Information Technology", "Manufacturing", "Media", "Non-Profit", "Real Estate", "SaaS", "Transportation"]}
+                    filter={setIndustry}/> 
               <Sort title="Recruitment" options={["All", "Hiring"]} filter={setStage}/>
           </div>
-          <div className="relative my-5 ml-10 left-0 mb-10 w-[20%]">
+          <div className={`relative left-0 mb-10 ${isMobile ? 'w-full' : 'w-[30%] ml-10 my-5 '}`}>
               <input
                   type="text"
                   required
                   value={search}
                   onChange={(e) => setSearch(e.target.value)}
-                  className={`bg-transparent border-x-0 border-b border-t-0 border-white pt-6 pb-2 px-0 text-lg text-white focus:outline-none pl-6 ${isMobile ? 'w-full' : ''}`}
+                  className={`w-[100%] bg-transparent border-x-0 border-b border-t-0 border-white pt-6 pb-2 px-0 text-lg text-white focus:outline-none pl-6 ${isMobile ? 'w-full' : ''}`}
               />
               <SearchIcon color="white" style={{position: 'absolute', left: 0, bottom: "15px"}}/>
           </div>

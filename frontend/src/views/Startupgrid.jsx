@@ -19,7 +19,7 @@ const Startupgrid = () => {
                 <h1
                     id="DEMO-Shadow"
                     className={`${
-                        isMobile ? "text-8xl" : "text-9xl"
+                        isMobile ? "text-7xl" : "text-9xl"
                     } relative z-20 font-black mt-2 bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text`}
                 >
                     Our Startups
