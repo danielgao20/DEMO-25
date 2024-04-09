@@ -5,11 +5,11 @@
     "cardcolor": "blue",
     "description": "AirVitalize collects urban outdoor air pollution to improve public health and the environment.",
     "link": "https://www.airvitalize.tech",
-    "industries": ["Climate", "Consumer Products"],
+    "industries": ["Climate", "Health & Wellness"],
     "team": [
       {
         "name": "Serena Allen",
-        "role": "Founder of AirVitalize Innovations",
+        "role": "Founder",
         "headshot": "/headshots/Serena_Allen.png",
         "linkedin": "https://www.linkedin.com/in/serenaal/",
         "email": ""
@@ -31,14 +31,14 @@
     "team": [
       {
         "name": "Adam Yang",
-        "role": "Co-Founder of AiStudy",
+        "role": "Co-Founder",
         "headshot": "/headshots/Adam_Yang.jpg",
         "linkedin": "https://www.linkedin.com/in/shixiang-yang-60b46a219/",
         "email": ""
       },
       {
         "name": "Justin Xu",
-        "role": "Co-Founder of AiStudy",
+        "role": "Co-Founder",
         "headshot": "/headshots/Justin_Xu.png",
         "linkedin": "https://www.linkedin.com/in/qinhaoxu-usc/",
         "email": ""
@@ -56,18 +56,18 @@
     "cardcolor": "blue",
     "description": "Amino Avenue: embark your weightloss/health journey with our low-calorie, low-sugar, and lactose-free boba beverages.",
     "link": "https://aminoave.com/",
-    "industries": ["Food & Beverage"],
+    "industries": ["Consumer Products", "Food & Beverage"],
     "team": [
       {
         "name": "Jenna Jiaying Wu",
-        "role": "Co-Founder of Amino Avenue",
+        "role": "Co-Founder",
         "headshot": "/headshots/Jenna_Jiaying_Wu.jpg",
         "linkedin": "https://www.linkedin.com/in/jenna-jiaying-wu",
         "email": "aminoavenue@gmail.com"
       },
       {
         "name": "Cameron Joshua Wong",
-        "role": "Co-Founder of Amino Avenue",
+        "role": "Co-Founder",
         "headshot": "/headshots/Cameron_Joshua_Wong.jpg",
         "linkedin": "https://www.linkedin.com/in/cameronjwong/",
         "email": "aminoavenue@gmail.com"
@@ -85,11 +85,11 @@
     "cardcolor": "blue",
     "description": "We leverage robotics to cut high quality gems for jewelers",
     "link": "https://www.anacaparobotics.com/",
-    "industries": ["Manufacturing"],
+    "industries": ["Enterprise", "Robotics"],
     "team": [
       {
         "name": "Adam Asfaha",
-        "role": "Founder of Anacapa",
+        "role": "Founder",
         "headshot": "/headshots/Adam_Asfaha.jpeg",
         "linkedin": "https://www.linkedin.com/in/adiam-k-asfaha/",
         "email": "info@anacaparobotics.com"
@@ -111,7 +111,7 @@
     "team": [
       {
         "name": "Rylan Pozniak Daniels",
-        "role": "Founder of ARLingo",
+        "role": "Founder",
         "headshot": "/headshots/Rylan_Pozniak_Daniels.png",
         "linkedin": "https://www.linkedin.com/in/rylandaniels/",
         "email": ""
@@ -133,14 +133,14 @@
     "team": [
       {
         "name": "Aaron Nazarian",
-        "role": "Co-Founder of Bahamii",
+        "role": "Co-Founder",
         "headshot": "/headshots/Aaron_Nazarian.jpg",
         "linkedin": "https://www.linkedin.com/in/aaronnazarian/",
         "email": ""
       },
       {
         "name": "Noah Nazarian",
-        "role": "Co-Founder of Bahamii",
+        "role": "Co-Founder",
         "headshot": "/headshots/Noah_Nazarian.jpg",
         "linkedin": "https://www.linkedin.com/in/noahnazarian/",
         "email": ""
@@ -158,11 +158,11 @@
     "cardcolor": "blue",
     "description": "Started with a simple mission in mind—to democratize content for all, as we believe that content is the world’s new currency and is utilized to fulfill the insatiable desire for human connection, therefore we want to allow anyone, anywhere, to seamlessly book a shoot at any time.",
     "link": "https://www.biodevek.com",
-    "industries": ["Consumer Products", "Media"],
+    "industries": ["Consumer Products"],
     "team": [
       {
         "name": "Kawser Khan",
-        "role": "Founder of Beige",
+        "role": "Founder",
         "headshot": "/headshots/Kawser_Khan.png",
         "linkedin": "https://www.linkedin.com/in/kawserkhan/",
         "email": ""
@@ -184,7 +184,7 @@
     "team": [
       {
         "name": "Bobby Ntoya",
-        "role": "Founder of BIOMED, INC",
+        "role": "Founder",
         "headshot": "/headshots/Bobby_Ntoya.png",
         "linkedin": "https://www.linkedin.com/in/bobbyntoya/",
         "email": ""
@@ -206,14 +206,14 @@
     "team": [
       {
         "name": "Ezra Bird",
-        "role": "Co-Founder of Buzzwa Core",
+        "role": "Co-Founder",
         "headshot": "/headshots/Ezra_Bird.png",
         "linkedin": "https://www.linkedin.com/in/ezrabird/",
         "email": "taxon@usc.edu"
       },
       {
         "name": "Samson Taxon",
-        "role": "Co-Founder of Buzzwa Core",
+        "role": "Co-Founder",
         "headshot": "/headshots/Samson_Taxon.png",
         "linkedin": "https://www.linkedin.com/in/samsontaxon/",
         "email": "taxon@usc.edu"
@@ -229,19 +229,19 @@
     "name": "Catalyst Robotics",
     "logo": "company_logos/Catalyst_Robotics.png",
     "description": "Helping healthcare providers expand access and reduce costs through autonomous vehicles",
-    "industries": ["AI/ML", "Health & Wellness"],
+    "industries": ["Robotics","Health & Wellness"],
     "website_link": "https://www.catalystrobotics.com",
     "team": [
       {
         "name": "Detravious Jamari Brinkley",
-        "role": "Co-Founder of Buzzwa Core",
+        "role": "Co-Founder",
         "headshot": "/headshots/Detravious_Jamari_Brinkley.JPG",
         "linkedin": "https://www.linkedin.com/in/detravious-brinkley-342916125/",
         "email": "detravious@catalystrobotics.ai"
       },
       {
         "name": "Bella Nava",
-        "role": "Co-Founder of Buzzwa Core",
+        "role": "Co-Founder",
         "headshot": "/headshots/Bella_Nava.jpeg",
         "linkedin": "https://www.linkedin.com/in/bellanava/",
         "email": "Bellaanava@gmail.com"
@@ -256,12 +256,12 @@
     "name": "Convoice",
     "logo": "company_logos/Convoice.png",
     "description": "Easiest platform for anyone to build LLM-powered voice agents to automate business phone calls",
-    "industries": ["AI/ML", "E-Commerce", "Enterprise"],
+    "industries": ["AI/ML", "Enterprise"],
     "website_link": "https://convoice.ai",
     "team": [
       {
         "name": "Yuxing Zhou",
-        "role": "Co-Founder of Buzzwa Core",
+        "role": "Co-Founder",
         "headshot": "/headshots/Yuxing_Zhou.png",
         "linkedin": "https://www.linkedin.com/in/jane-smith",
         "email": ""
@@ -285,14 +285,14 @@
     "team": [
       {
         "name": "Danny Pugh",
-        "role": "Co-Founder of Buzzwa Core",
+        "role": "Co-Founder",
         "headshot": "/headshots/Danny_Pugh.jpeg",
         "linkedin": "https://www.linkedin.com/in/dannypugh",
         "email": ""
       },
       {
         "name": "Garrett Sanderson",
-        "role": "Co-Founder of Buzzwa Core",
+        "role": "Co-Founder",
         "headshot": "/headshots/Garrett_Sanderson.jpeg",
         "linkedin": "https://www.linkedin.com/in/garrett-sanderson-3b7b2070/",
         "email": ""
@@ -312,14 +312,14 @@
     "team": [
       {
         "name": "Darcell Edwards",
-        "role": "Co-Founder of Buzzwa Core",
+        "role": "Co-Founder",
         "headshot": "/headshots/Darcell_Edwards.jpeg",
         "linkedin": "https://www.linkedin.com/in/darcell-edwards/",
         "email": ""
       },
       {
         "name": "Ketana Chadalavada",
-        "role": "Co-Founder of Buzzwa Core",
+        "role": "Co-Founder",
         "headshot": "/headshots/Ketana_Chadalavada.png",
         "linkedin": "https://www.linkedin.com/in/ketanac/",
         "email": ""
@@ -339,7 +339,7 @@
     "team": [
       {
         "name": "Ellie (Ziyan) Cai",
-        "role": "Co-Founder of Buzzwa Core",
+        "role": "Co-Founder",
         "headshot": "/headshots/Ellie_Cai.jpg",
         "linkedin": "https://www.linkedin.com/in/ellie-cai-473848249/",
         "email": ""
@@ -354,59 +354,18 @@
     "name": "EVRYN",
     "logo": "company_logos/EVRYN.png",
     "description": "EVRYN is a three-step, one-minute skincare routine to energize and refresh athletic women on the go, featuring facial cleansing wipes, a facial mist, and a moisturizing stick.",
-    "industries": ["E-Commerce", "Consumer Products"],
+    "industries": ["Consumer Products", "Fashion & Beauty"],
     "website_link": "https://evrynskincare.com/",
     "team": [
       {
         "name": "Riya Daga",
-        "role": "Co-Founder of Buzzwa Core",
+        "role": "Co-Founder",
         "headshot": "/headshots/Riya_Daga.png",
         "linkedin": "https://www.linkedin.com/in/riya-daga-734a94211/",
         "email": "riya@evrynskincare.com"
       }
     ],
-    "recruiting": [
-      {
-        "name": "Marketing Intern",
-        "job_function": "Marketing",
-        "compensation": "Unpaid",
-        "job_length": "Internship",
-        "description": "Role involves creating content for our social media mostly on Instagram and TikTok. Would also work on executing partnerships with brand ambassadors and assist in developing PR strategy. Criteria: Actively engaged in social media platforms (ex: Instagram, TikTok, etc.) Understanding of the social media & influencer landscape. Passion for the industry. Strong creative and organizational skills.",
-        "documents_required": "Resume, LinkedIn, Portfolio"
-      },
-      {
-        "name": "Marketing Analyst",
-        "job_function": "Marketing",
-        "compensation": "Unpaid",
-        "job_length": "Internship",
-        "description": "6 hrs/week. Duration 5-8 weeks (flexible) Should have a passion for the industry and strong quantitative, creative, and organizational skills.Role: Creating branding/content vision, strategy, and roadmap Market research and analysis Learning how to gather, analyze, and prioritize user and market feedback Monitoring and analyzing KPIs Gather and incorporate users’ feedback into product development",
-        "documents_required": "Resume, LinkedIn"
-      },
-      {
-        "name": "Social Media Marketing/Content Creation Intern",
-        "job_function": "Marketing",
-        "compensation": "Unpaid",
-        "job_length": "Internship",
-        "description": "7 hrs/week. Duration 5-8 weeks (flexible) Criteria: Role involves creating content for our social media mostly on Instagram and TikTok. Would also work on executing partnerships with brand ambassadors and assist in developing PR strategy. Actively engaged in using social media platforms (ex: Instagram, TikTok, etc.) Understanding of the social media & influencer landscape. Passion for the industry",
-        "documents_required": "Resume, LinkedIn, Portfolio (optional)"
-      },
-      {
-        "name": "Photography/Videography Intern",
-        "job_function": "Creative",
-        "compensation": "Unpaid",
-        "job_length": "Internship",
-        "description": "4-5 hrs/week. 6 weeks. Shooting content for our website (product images, videos, and other relevant content). Criteria:  Should be creative and have strong organizational skills.",
-        "documents_required": "Resume, LinkedIn, Portfolio"
-      },
-      {
-        "name": "Frontend Intern",
-        "job_function": "UI/UX Design",
-        "compensation": "Unpaid",
-        "job_length": "Internship",
-        "description": "4 hrs/week. Duration 6-8 weeks (flexible) Role: Identify and execute on opportunities to improve user experience Take initiative to research and learn emerging technologies Branding design responsibilities Understanding of the beauty and skincare industry landscape in regards to web design Strong sense for predicting user behavior Strong web/visual design portfolio Strong intuitive feel for design",
-        "documents_required": "Resume, Portfolio, LinkedIn"
-      }
-    ],
+    "recruiting": ["Marketing", "Content Creator", "Photography/Videography", "Frontend Engineer"],
     "id": 0,
     "x": "234.5",
     "y": "994.5"
@@ -415,12 +374,12 @@
     "name": "Fair & Square",
     "logo": "company_logos/Fair_&_Square.png",
     "description": "We make gut friendly crackers inspired by childhood favorite snacks, like Cheezits and Teddy Grahams.",
-    "industries": ["E-Commerce", "Food & Beverage"],
+    "industries": ["Consumer Products", "Food & Beverage"],
     "website_link": "https://itsfairandsquare.com",
     "team": [
       {
         "name": "Alex Duong",
-        "role": "Co-Founder of Buzzwa Core",
+        "role": "Co-Founder",
         "headshot": "/headshots/Alex_Duong.jpg",
         "linkedin": "https://www.linkedin.com/in/alexander-duong/",
         "email": ""
@@ -435,12 +394,12 @@
     "name": "Guard ProStamp Inc.",
     "logo": "company_logos/Guard_ProStamp_Inc.png",
     "description": "Empower licensed professionals in architecture and engineering to safeguard the authenticity of their license stamps using our cutting-edge SaaS platform, preventing fraudulent use and ensuring the integrity of the industry",
-    "industries": ["SaaS"],
+    "industries": ["Enterprise"],
     "website_link": "",
     "team": [
       {
         "name": "Bo Ying Liu",
-        "role": "Co-Founder of Buzzwa Core",
+        "role": "Co-Founder",
         "headshot": "/headshots/Bo_Ying_Liu.jpg",
         "linkedin": "https://www.linkedin.com/in/bo-ying-liu-p-e-8a0010a7/",
         "email": ""
@@ -455,19 +414,19 @@
     "name": "Hatchet",
     "logo": "company_logos/Hatchet.png",
     "description": "Hatchet is a command technology for fire chiefs to coordinate, track, and rescue their crews",
-    "industries": ["Information Technology"],
+    "industries": ["Enterprise"],
     "website_link": "https://www.tryhatchet.com/",
     "team": [
       {
         "name": "Dylan Lewis",
-        "role": "Co-Founder of Buzzwa Core",
+        "role": "Co-Founder",
         "headshot": "/headshots/Dylan_Lewis.jpg",
         "linkedin": "https://www.linkedin.com/in/dylanmichaellewis/",
         "email": ""
       },
       {
         "name": "Alex Forgosh",
-        "role": "Co-Founder of Buzzwa Core",
+        "role": "Co-Founder",
         "headshot": "/headshots/Alex_Forgosh.png",
         "linkedin": "https://www.linkedin.com/in/forgosh/",
         "email": ""
@@ -485,34 +444,25 @@
     "name": "Intuition Intelligence Inc.",
     "logo": "company_logos/Intuition_Intelligence_Inc.png",
     "description": "Get 'Peak Performance' from your content using AI / ML",
-    "industries": ["AI/ML", "Entertainment", "SaaS"],
+    "industries": ["AI/ML"],
     "website_link": "http://intuitionintelligence.com/",
     "team": [
       {
         "name": "Yusuf Ansari",
-        "role": "Co-Founder of Buzzwa Core",
+        "role": "Co-Founder",
         "headshot": "/headshots/Yusuf_Ansari.png",
         "linkedin": "https://www.linkedin.com/in/yusuf-ansari-1755514/",
         "email": "yusuf@intuitionintelligence.com"
       },
       {
         "name": "Arif Ansari",
-        "role": "Co-Founder of Buzzwa Core",
+        "role": "Co-Founder",
         "headshot": "/headshots/Arif_Ansari.jpeg",
         "linkedin": "https://www.linkedin.com/in/arif-ansari-a3b235b/",
         "email": ""
       }
     ],
-    "recruiting": [
-      {
-        "name": "UI/UX, Designers for Web & Apps",
-        "job_function": "Front-End Development",
-        "compensation": "Paid",
-        "job_length": "Internship",
-        "description": "To modify the UI/UX of Web & Apps",
-        "documents_required": "Resume"
-      }
-    ],
+    "recruiting": ["UI/UX Designer"],
     "id": 35,
     "x": "515.5",
     "y": "867.5"
@@ -523,18 +473,18 @@
     "cardcolor": "blue",
     "description": "Jargon helps integrate language learning into the learners' day based on entirely personalized questions, ensuring consistent engagement with the language, in-context understanding of its vocabulary, and effortless gaining knowledge throughout the day.",
     "link": "",
-    "industries": ["AI/ML", "Education"],
+    "industries": ["Education"],
     "team": [
       {
         "name": "Sheila Wang",
-        "role": "Co-Founder of Jargon",
+        "role": "Co-Founder",
         "headshot": "/headshots/Sheila_Wang.jpeg",
         "linkedin": "https://www.linkedin.com/in/sheila-wang/",
         "email": ""
       },
       {
         "name": "Jason Wiemels",
-        "role": "Co-Founder of Jargon",
+        "role": "Co-Founder",
         "headshot": "/headshots/Jason_Wiemels.png",
         "linkedin": "https://www.linkedin.com/in/jwiemels/",
         "email": ""
@@ -553,11 +503,11 @@
     "cardcolor": "blue",
     "description": "A Pakistani streaming service designed for the diaspora.",
     "link": "https://jojaentertainment.com",
-    "industries": ["Entertainment", "Media"],
+    "industries": ["Entertainment"],
     "team": [
       {
         "name": "Danial Gondal",
-        "role": "Founder of Joja Entertainment LLC",
+        "role": "Founder",
         "headshot": "/headshots/Danial_Gondal.png",
         "linkedin": "https://www.linkedin.com/in/danialgondal/",
         "email": ""
@@ -579,18 +529,18 @@
     "cardcolor": "",
     "description": "Starbucks but for authentic Indian beverages.",
     "link": "",
-    "industries": ["Food & Beverage", "Hospitality"],
+    "industries": ["Food & Beverage", "Consumer Products"],
     "team": [
       {
         "name": "Lakshya Bothra",
-        "role": "Co-Founder of KADAK",
+        "role": "Co-Founder",
         "headshot": "/headshots/Lakshya_Bothra.png",
         "linkedin": "https://www.linkedin.com/in/lakshya-bothra/",
         "email": ""
       },
       {
         "name": "Srishti Chopra",
-        "role": "Co-Founder of KADAK",
+        "role": "Co-Founder",
         "headshot": "/headshots/Srishti_Chopra.png",
         "linkedin": "http://www.linkedin.com/in/srishtichopra",
         "email": ""
@@ -609,18 +559,18 @@
     "cardcolor": "",
     "description": "Laminar Copilot is a software solution for Amazon Freight Partners that increases operational and cost efficiency.",
     "link": "",
-    "industries": ["Transportation", "SaaS"],
+    "industries": ["Transportation"],
     "team": [
       {
         "name": "Kevin Park",
-        "role": "Co-Founder of Laminar Copilot",
+        "role": "Co-Founder",
         "headshot": "/headshots/Kevin_Park.png",
         "linkedin": "https://www.linkedin.com/in/kevin-park-a0378a107/",
         "email": ""
       },
       {
         "name": "Moses Liu",
-        "role": "Co-Founder of Laminar Copilot",
+        "role": "Co-Founder",
         "headshot": "/headshots/Moses_Liu.png",
         "linkedin": "https://www.linkedin.com/in/moses-liu-a0378a107/",
         "email": ""
@@ -639,11 +589,11 @@
     "cardcolor": "",
     "description": "Lav salad dressings are made from Armenian-inspired, whole food ingredients and packaged in single-serve packets for easy, on-the-go use.",
     "link": "https://www.dresslav.com",
-    "industries": ["Consumer Products"],
+    "industries": ["Consumer Products", "Food & Beverage"],
     "team": [
       {
         "name": "Natalie Felikian",
-        "role": "Founder of Lav",
+        "role": "Founder",
         "headshot": "/headshots/Natalie_Felikian.jpeg",
         "linkedin": "https://www.linkedin.com/in/natalie-felikian/",
         "email": ""
@@ -662,11 +612,11 @@
     "cardcolor": "",
     "description": "Embrace the future with us through products crafted to empower.",
     "link": "https://lionistic.xyz/",
-    "industries": ["Information Technology"],
+    "industries": ["Enterprise"],
     "team": [
       {
         "name": "Navya Singh",
-        "role": "Founder of Lionistic",
+        "role": "Founder",
         "headshot": "/headshots/Navya_Singh.jpeg",
         "linkedin": "https://www.linkedin.com/in/navya-singh/",
         "email": "navyasingh@lionistic.xyz"
@@ -685,11 +635,11 @@
     "cardcolor": "",
     "description": "Quiet comfort luxury apparel, for the off-duty college student.",
     "link": "https://www.maplehouse.co",
-    "industries": ["Consumer Products", "Fashion"],
+    "industries": ["Consumer Products", "Fashion & Beauty"],
     "team": [
       {
         "name": "Tyler Shooshani",
-        "role": "Founder of Maplehouse",
+        "role": "Founder",
         "headshot": "/headshots/Tyler_Shooshani.jpeg",
         "linkedin": "https://www.linkedin.com/in/tyler-shooshani/",
         "email": ""
@@ -707,11 +657,11 @@
     "cardcolor": "",
     "description": "A unified toolkit to streamline research journey",
     "link": "",
-    "industries": ["AI/ML", "Education", "SaaS"],
+    "industries": ["AI/ML", "Education"],
     "team": [
       {
         "name": "Saurabh Ghanekar",
-        "role": "Founder of Nexus",
+        "role": "Founder",
         "headshot": "/headshots/Saurabh_Ghanekar.jpeg",
         "linkedin": "https://www.linkedin.com/in/saurabh-ghanekar/",
         "email": ""
@@ -729,18 +679,18 @@
     "cardcolor": "",
     "description": "NutriMind distinguishes itself in the preventative healthcare and wellness market through personalized health plans and dietary recommendations, catering to individual user data and preferences",
     "link": "",
-    "industries": ["E-Commerce", "Health & Wellness"],
+    "industries": ["Health & Wellness"],
     "team": [
       {
         "name": "Yihan Luo",
-        "role": "Co-Founder of NutriMind",
+        "role": "Co-Founder",
         "headshot": "/headshots/Yihan_Luo.jpg",
         "linkedin": "https://www.linkedin.com/in/yihan-luo/",
         "email": ""
       },
       {
         "name": "Yixin Sun",
-        "role": "Co-Founder of NutriMind",
+        "role": "Co-Founder",
         "headshot": "/headshots/Yixin_Sun.png",
         "linkedin": "https://www.linkedin.com/in/yixin-sun66/",
         "email": ""
@@ -758,18 +708,18 @@
     "cardcolor": "",
     "description": "OfSpectrum is an AI-driven company dedicated to protecting everyone’s voice from deepfake manipulation and building a future for legitimate usage of generative AI.",
     "link": "https://www.ofspectrum.com/home",
-    "industries": ["AI/ML", "Entertainment", "Cybersecurity"],
+    "industries": ["AI/ML", "Cybersecurity"],
     "team": [
       {
         "name": "Yechen Wang",
-        "role": "Co-Founder of OfSpectrum",
+        "role": "Co-Founder",
         "headshot": "/headshots/Yechen_Wang.png",
         "linkedin": "https://www.linkedin.com/in/yechen-wang/",
         "email": "ofspectrum@gmail.com"
       },
       {
         "name": "Yishu Huang",
-        "role": "Co-Founder of OfSpectrum",
+        "role": "Co-Founder",
         "headshot": "/headshots/Yishu_Huang.jpg",
         "linkedin": "",
         "email": "ofspectrum@gmail.com"
@@ -787,18 +737,18 @@
     "cardcolor": "",
     "description": "Orbital Entertainment Supply (ORBES) enables creative zero-gravity cinematography and space storytelling starting with an robot to easily position and control a camera in zero-g planes and space stations.",
     "link": "https://www.orbes.space",
-    "industries": ["Aerospace & Defense", "Entertainment", "Media"],
+    "industries": ["Aerospace & Defense", "Entertainment"],
     "team": [
       {
         "name": "Anna Shaposhnik",
-        "role": "Co-Founder of Orbital Entertainment Supply",
+        "role": "Co-Founder",
         "headshot": "/headshots/Anna_Shaposhnik.jpg",
         "linkedin": "https://www.linkedin.com/in/sheepianna/",
         "email": ""
       },
       {
         "name": "Luc Hosy",
-        "role": "Co-Founder of Orbital Entertainment Supply",
+        "role": "Co-Founder",
         "headshot": "/headshots/Luc_Hosy.jpeg",
         "linkedin": "https://www.linkedin.com/in/luchosy/",
         "email": ""
@@ -819,14 +769,14 @@
     "team": [
       {
         "name": "Samson Taxon",
-        "role": "Co-Founder of Packa.Design",
+        "role": "Co-Founder",
         "headshot": "/headshots/Samson_Taxon.jpg",
         "linkedin": "https://www.linkedin.com/in/samsontaxon/",
         "email": ""
       },
       {
         "name": "Ezra Bird",
-        "role": "Co-Founder of Packa.Design",
+        "role": "Co-Founder",
         "headshot": "/headshots/Ezra_Bird.png",
         "linkedin": "https://www.linkedin.com/in/ezrabird/",
         "email": ""
@@ -843,18 +793,18 @@
     "logo": "company_logos/Prometheus_Data.png",
     "description": "Bringing solutions to financial institutions to better serve international students.",
     "link": "https://www.prometheusdata.io/",
-    "industries": ["AI/ML", "Finance & Insurance", "Information Technology"],
+    "industries": ["Finance & Insurance"],
     "team": [
       {
         "name": "Samuel Cheng",
-        "role": "Co-Founder of Prometheus Data",
+        "role": "Co-Founder",
         "headshot": "/headshots/Samuel_Cheng.jpeg",
         "linkedin": "",
         "email": ""
       },
       {
         "name": "Yu Zhang",
-        "role": "Co-Founder of Prometheus Data",
+        "role": "Co-Founder",
         "headshot": "/headshots/Yu_Zhang.jpg",
         "linkedin": "https://linkedin.com/in/yuzh",
         "email": ""
@@ -871,18 +821,18 @@
     "logo": "company_logos/Quinta.png",
     "description": "Minimizing overlooked costs in fleet management.",
     "link": "https://www.quinta.cc",
-    "industries": ["SaaS", "Transportation"],
+    "industries": ["Transportation"],
     "team": [
       {
         "name": "Julian Lopez Birlain",
-        "role": "Co-Founder of Quinta",
+        "role": "Co-Founder",
         "headshot": "/headshots/Julian_Lopez_Birlain.JPG",
         "linkedin": "",
         "email": ""
       },
       {
         "name": "Miguel Gutierrez Elizondo",
-        "role": "Co-Founder of Quinta",
+        "role": "Co-Founder",
         "headshot": "/headshots/Miguel_Gutierrez_Elizondo.jpg",
         "linkedin": "https://www.linkedin.com/in/miguel-gutierrez-elizondo/",
         "email": ""
@@ -899,18 +849,18 @@
     "logo": "company_logos/Recei.png",
     "description": "Recei delivers e-receipts and instant rewards to customers at the point of sale using NFC, while empowering businesses with a seamless payment solution and post-transaction customer touchpoints typically exclusive to major franchises",
     "link": "https://www.recei.com",
-    "industries": ["Finance & Insurance", "Information Technology"],
+    "industries": ["Finance & Insurance"],
     "team": [
       {
         "name": "Joshua McCampbell",
-        "role": "Co-Founder of Recei",
+        "role": "Co-Founder",
         "headshot": "/headshots/Joshua_McCampbell.jpeg",
         "linkedin": "https://www.linkedin.com/in/joshuamccamp",
         "email": ""
       },
       {
         "name": "Mohammed Alamgir",
-        "role": "Co-Founder of Recei",
+        "role": "Co-Founder",
         "headshot": "/headshots/Mohammed_Alamgir.jpeg",
         "linkedin": "https://www.linkedin.com/in/alamgirmohammed",
         "email": ""
@@ -927,11 +877,11 @@
     "logo": "company_logos/RevSend.png",
     "description": "RevSend transforms business relationships by offering an innovative platform for sending personalized, impactful gifts that enhance customer engagement and drive revenue growth.",
     "link": "https://revsend.com",
-    "industries": ["Enterprise", "SaaS"],
+    "industries": ["Enterprise"],
     "team": [
       {
         "name": "Jonathan Nahin",
-        "role": "Founder of RevSend",
+        "role": "Founder",
         "headshot": "/headshots/Jonathan_Nahin.jpg",
         "linkedin": "https://www.linkedin.com/in/jonathan-nahin-41ab0263/",
         "email": ""
@@ -948,18 +898,18 @@
     "logo": "company_logos/Schej.png",
     "description": "Schej helps college students quickly find a time to meet by overlapping their availabilities",
     "link": "https://www.schej.co",
-    "industries": ["SaaS"],
+    "industries": ["Consumer Products"],
     "team": [
       {
         "name": "Jonathan Liu",
-        "role": "Co-Founder of Schej",
+        "role": "Co-Founder",
         "headshot": "/headshots/Jonathan_Liu.jpg",
         "linkedin": "",
         "email": ""
       },
       {
         "name": "Tony Xin",
-        "role": "Co-Founder of Schej",
+        "role": "Co-Founder",
         "headshot": "/headshots/Tony_Xin.jpeg",
         "linkedin": "https://www.linkedin.com/in/tony-xin/",
         "email": ""
@@ -976,11 +926,11 @@
     "logo": "company_logos/SeekEatsLA.PNG",
     "description": "Yelp for Immigrant Cuisines",
     "link": "https://seekeats.com/",
-    "industries": ["Food & Beverage", "Information Technology"],
+    "industries": ["Food & Beverage"],
     "team": [
       {
         "name": "Phillip Lau",
-        "role": "Founder of SeekEatsLA",
+        "role": "Founder",
         "headshot": "/headshots/Phillip_Lau.jpg",
         "linkedin": "https://www.linkedin.com/in/phillipslau/",
         "email": ""
@@ -1001,14 +951,14 @@
     "team": [
       {
         "name": "Mahkameh Rasouli",
-        "role": "Co-Founder of SentiMind",
+        "role": "Co-Founder",
         "headshot": "/headshots/Mahkameh_Rasouli.jpg",
         "linkedin": "https://linkedin.com/in/mahkamehrasouli/",
         "email": ""
       },
       {
         "name": "Pooyan Mobtahej",
-        "role": "Co-Founder of SentiMind",
+        "role": "Co-Founder",
         "headshot": "/headshots/Pooyan_Mobtahej.JPG",
         "linkedin": "https://se.linkedin.com/in/pooyanm",
         "email": ""
@@ -1025,11 +975,11 @@
     "logo": "company_logos/ShapeShift.png",
     "description": "Computer vision-powered fitness coach at home and in the gym",
     "link": "",
-    "industries": ["AI/ML", "Consumer Products", "SaaS"],
+    "industries": ["AI/ML", "Consumer Products"],
     "team": [
       {
         "name": "Aryan Barik",
-        "role": "Founder of ShapeShift",
+        "role": "Founder",
         "headshot": "/headshots/Aryan_Barik.jpg",
         "linkedin": "https://www.linkedin.com/in/aryan-barik/",
         "email": ""
@@ -1050,7 +1000,7 @@
     "team": [
       {
         "name": "Xichen Gao",
-        "role": "Founder of Skyguard",
+        "role": "Founder",
         "headshot": "/headshots/Xichen_Gao.jpg",
         "linkedin": "https://www.linkedin.com/in/xichenstevengao",
         "email": ""
@@ -1067,11 +1017,11 @@
     "logo": "company_logos/Stellace.png",
     "description": "Stellace is raising consciousness through sleep.",
     "link": "https://stellace.com",
-    "industries": ["Fashion", "Information Technology"],
+    "industries": ["Consumer Products", "Health & Wellness"],
     "team": [
       {
         "name": "Mario Apuzzo",
-        "role": "Founder of Stellace",
+        "role": "Founder",
         "headshot": "/headshots/Mario_Apuzzo.png",
         "linkedin": "https://linkedin.com/mario-apuzzo",
         "email": ""
@@ -1088,18 +1038,18 @@
     "logo": "company_logos/Tanbii.png",
     "description": "Tanbii is an impact -first innovative company that inspires eco-conscious individuals to cut carbon footprints through a gamified and rewarding approach.",
     "link": "https://tanbii.com",
-    "industries": ["Education", "Information Technology"],
+    "industries": ["Education"],
     "team": [
       {
         "name": "Sky Xiang",
-        "role": "Co-Founder of Tanbii",
+        "role": "Co-Founder",
         "headshot": "/headshots/Sky_Xiang.jpg",
         "linkedin": "",
         "email": "sky.xiang@tanbii.com"
       },
       {
         "name": "Robert Luo",
-        "role": "Co-Founder of Tanbii",
+        "role": "Co-Founder",
         "headshot": "/headshots/Robert_Luo.png",
         "linkedin": "",
         "email": ""
@@ -1124,7 +1074,7 @@
     "team": [
       {
         "name": "Jun Matsuo",
-        "role": "Founder of TERRATOKES",
+        "role": "Founder",
         "headshot": "/headshots/Jun_Matsuo.jpg",
         "linkedin": "https://www.linkedin.com/in/jun-matsuo-5a8391197/",
         "email": ""
@@ -1141,18 +1091,18 @@
     "logo": "company_logos/The_Indiestry.png",
     "description": "The networking platform for independent filmmakers.",
     "link": "https://indie-stry.com",
-    "industries": ["Entertainment", "Media"],
+    "industries": ["Entertainment"],
     "team": [
       {
         "name": "Alex Nimrod",
-        "role": "Co-Founder of The Indiestry",
+        "role": "Co-Founder",
         "headshot": "/headshots/Alex_Nimrod.jpeg",
         "linkedin": "https://www.linkedin.com/in/alex-nimrod-439a94210/",
         "email": "team@indie-stry.com"
       },
       {
         "name": "Maximus Jenkins & Kaleb Manske",
-        "role": "Co-Founder of The Indiestry",
+        "role": "Co-Founder",
         "headshot": "/headshots/Maximus_Jenkins _Kaleb_Manske.png",
         "linkedin": "",
         "email": "team@indie-stry.com"
@@ -1171,18 +1121,18 @@
     "logo": "company_logos/ThirdPlace.png",
     "description": "A task-based platform to engage, build, and reward your brand community.",
     "link": "",
-    "industries": ["Real Estate", "Information Technology"],
+    "industries": ["Enterprise"],
     "team": [
       {
         "name": "Ryan Yeung",
-        "role": "Co-Founder of ThirdPlace",
+        "role": "Co-Founder",
         "headshot": "/headshots/Ryan_Yeung.jpeg",
         "linkedin": "https://www.linkedin.com/in/ryan-yeung-824a18144/details/experience/",
         "email": ""
       },
       {
         "name": "Neil Yeung",
-        "role": "Co-Founder of ThirdPlace",
+        "role": "Co-Founder",
         "headshot": "/headshots/profile.png",
         "linkedin": "https://www.linkedin.com/in/neilyeung/",
         "email": ""
@@ -1201,11 +1151,11 @@
     "logo": "company_logos/TwoTwenty_Hard_Seltzer.png",
     "description": "TwoTwenty Hard Seltzer will disrupt the hard seltzer market with our premium hard seltzers and bold branding.",
     "link": "http://www.drink220.com",
-    "industries": ["Food & Beverage"],
+    "industries": ["Food & Beverage", "Consumer Products"],
     "team": [
       {
         "name": "Nick Chetwood",
-        "role": "Co-Founder of TwoTwenty Hard Seltzer",
+        "role": "Co-Founder",
         "headshot": "/headshots/Nick_Chetwood.png",
         "linkedin": "https://www.linkedin.com/in/nick-chetwood-a5977b113/",
         "email": "nick@drink220.com"
@@ -1228,7 +1178,7 @@
     "team": [
       {
         "name": "Tatum Verona",
-        "role": "Founder of ūnderdose",
+        "role": "Founder",
         "headshot": "/headshots/Tatum_Verona.jpg",
         "linkedin": "https://www.linkedin.com/in/tatum-verona-86a6a31b5/",
         "email": ""
@@ -1245,11 +1195,11 @@
     "logo": "company_logos/UpDonor.png",
     "description": "UpDonor provides integrated fundraising, accounting, donor management, and operational software for nonprofits and community organizations",
     "link": "https://updonor.org",
-    "industries": ["Non-Profit", "Information Technology"],
+    "industries": ["Non-Profit"],
     "team": [
       {
         "name": "Matthew Grant",
-        "role": "Founder of UpDonor",
+        "role": "Founder",
         "headshot": "/headshots/Matthew_Grant.JPG",
         "linkedin": "https://www.linkedin.com/in/matthew-grant11/",
         "email": ""
@@ -1272,7 +1222,7 @@
     "team": [
       {
         "name": "Gil Travish",
-        "role": "Founder of Vibo Health",
+        "role": "Founder",
         "headshot": "/headshots/Gil_Travish.png",
         "linkedin": "https://www.linkedin.com/in/giltravish/",
         "email": ""
@@ -1295,14 +1245,14 @@
     "team": [
       {
         "name": "Omar Abdullateef",
-        "role": "Co-Founder of WellTra.AI",
+        "role": "Co-Founder",
         "headshot": "/headshots/Omar_Abdullateef.jpg",
         "linkedin": "https://www.linkedin.com/in/omar-abdullateef-66b347177/",
         "email": ""
       },
       {
         "name": "Anees Abdullateef",
-        "role": "Co-Founder of WellTra.AI",
+        "role": "Co-Founder",
         "headshot": "/headshots/Anees_Abdullatee.jpeg",
         "linkedin": "https://www.linkedin.com/in/anees-abdullateef-587963190/",
         "email": ""
