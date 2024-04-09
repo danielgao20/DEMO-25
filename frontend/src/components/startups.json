@@ -268,9 +268,12 @@
       }
     ],
     "recruiting": [],
-    "x": "234.5",
-    "y": "931.5",
-    "id": 1
+    
+    "id": 2,
+    "x": 234.5,
+    "y": 866.5,
+    "x_image_offset": 25,
+    "y_image_offset": 32.5
   },
   {
     "name": "Degreely",
@@ -444,9 +447,9 @@
       }
     ],
     "recruiting": [],
-    "id": 32,
+    "id": 30,
     "x": "467.5",
-    "y": "615.5"
+    "y": "677.5"
   },
   {
     "name": "Hatchet",
@@ -831,9 +834,9 @@
     ],
     "stage": "Hiring",
     "recruiting": ["Marketer"],
-    "id": 30,
+    "id": 32,
     "x": "467.5",
-    "y": "677.5"
+    "y": "615.5"
   },
   {
     "name": "Prometheus Data",
@@ -1233,11 +1236,9 @@
     ],
     "stage": "Hiring",
     "recruiting": ["Marketer", "Business Operations"],
-    "id": 2,
-    "x": 234.5,
-    "y": 866.5,
-    "x_image_offset": 25,
-    "y_image_offset": 32.5
+    "x": "234.5",
+    "y": "931.5",
+    "id": 1
   },
   {
     "name": "UpDonor",
