@@ -24,8 +24,11 @@ function Navbar() {
     setMenuOpen(!menuOpen);
   };
 
-  const openSponsorPdf = () => {
-    window.open(SponsorshipPdf, "_blank");
+  const downloadSponsorPdf = () => {
+    const link = document.createElement("a");
+    link.href = SponsorshipPdf;
+    link.download = "DEMOsponsorship.pdf";
+    link.click();
   };
 
   var links = [
@@ -47,7 +50,7 @@ function Navbar() {
     {
       text: "Sponsor Us",
       url: "",
-      action: openSponsorPdf,
+      action: downloadSponsorPdf,
     },
   ];
 
