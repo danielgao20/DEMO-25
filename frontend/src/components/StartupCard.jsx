@@ -95,9 +95,9 @@ const StartupCard = ({description, name, logo, cardcolor, link, industries, team
         },
         content: {
             top: isMobile ? '10%' : '10%',
-            bottom: isMobile ? '10%' : '10%',
-            left: isMobile ? '10%' : '50%',
-            right: isMobile ? '10%' : '50%',
+            bottom: isMobile ? '10%' : '7%',
+            left: isMobile ? '10%' : '30%',
+            right: isMobile ? '10%' : '30%',
             overflowY: 'auto',
             background: 'rgba(19,27,42,225)',
             boxShadow: '3px 5px 10px rgba(46,56,73,0.5)',
@@ -105,10 +105,6 @@ const StartupCard = ({description, name, logo, cardcolor, link, industries, team
             outline: 'none',
             border: 'none',
             color: 'white',
-            width: isMobile ? '80%' : '60%', // Adjust width for mobile
-            maxWidth: '600px', // Max width for larger screens
-            maxHeight: '80vh', // Adjust max height for mobile
-            padding: '20px' // Adjust padding for mobile
         }
     };
 
