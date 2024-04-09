@@ -57,7 +57,6 @@ const startupNames = [
   "Intuition Intelligence"
 ];
 
-console.log(startupNames.length)
 let count = 0
 startupNames.forEach((startupName) => {
   count += 1
@@ -82,5 +81,3 @@ startupNames.forEach((startupName) => {
     }
   );
 });
-
-console.log(count)

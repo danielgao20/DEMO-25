@@ -72,7 +72,7 @@ const RecruitingItem = ({ position }) => {
 };
 
 
-const StartupCard = ({description, sector, name, logo, cardcolor, link, industries, team, recruiting}) => {
+const StartupCard = ({description, name, logo, cardcolor, link, industries, team, recruiting}) => {
     const [modalIsOpen, setModalIsOpen] = useState(false);
 
 
@@ -103,9 +103,6 @@ const StartupCard = ({description, sector, name, logo, cardcolor, link, industri
                         <div className="float-left">
                             <h1 className="text-xl font-normal">{name}</h1>
                         </div>
-                        <div className="float-right">
-                            <h2 className="text-xl font-extralight">{sector}</h2>
-                        </div>
                     </div>
                     <div className ="relative">
                         <div className="flex justify-center items-center mt-10">
@@ -129,9 +126,6 @@ const StartupCard = ({description, sector, name, logo, cardcolor, link, industri
                     <div className="flex justify-between items-center mb-4 ml-5 mr-5 mt-4">
                         <div className="float-left">
                             <h1 className="text-xl font-normal">{name}</h1>
-                        </div>
-                        <div className="float-right">
-                            <h2 className="text-xl font-extralight">{sector}</h2>
                         </div>
                     </div>
                     <div className="flex flex-col items-start mb-4 mx-4 ">

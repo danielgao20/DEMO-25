@@ -718,7 +718,7 @@
   },
   {
     "name": "NutriMind",
-    "logo": "company_logos/NutriMind.png",
+    "logo": "company_logos/Nutrimind.png",
     "cardcolor": "",
     "description": "NutriMind distinguishes itself in the preventative healthcare and wellness market through personalized health plans and dietary recommendations, catering to individual user data and preferences",
     "link": "",
@@ -835,7 +835,7 @@
     "name": "Prometheus Data",
     "logo": "company_logos/Prometheus_Data.png",
     "description": "Bringing solutions to financial institutions to better serve international students.",
-    "link": "https://www.prometheusdata.tech",
+    "link": "https://www.prometheusdata.io/",
     "industries": ["AI/ML", "Finance & Insurance", "Information Technology"],
     "team": [
       {
@@ -1036,7 +1036,7 @@
   },
   {
     "name": "Skyguard",
-    "logo": "company_logos/Skyguard.png",
+    "logo": "company_logos/skyguard.png",
     "description": "To distribute affordable, accessible, and easy mine detection to Ukrainian civilians",
     "link": "https://www.markrayant.com/",
     "industries": ["Aerospace & Defense"],
