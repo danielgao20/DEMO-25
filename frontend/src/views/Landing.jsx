@@ -326,7 +326,7 @@ function Landing() {
               <h1 className="text-7xl font-extrabold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text">
                 1000+
               </h1>
-              <h3 className="font-medium text-xl">Startups</h3>
+              <h3 className="font-medium text-xl">Attendees</h3>
             </div>
           </div>
         </div>
