@@ -141,7 +141,7 @@
       {
         "name": "Noah Nazarian",
         "role": "Co-Founder of Bahamii",
-        "headshot": "/headhosts/Noah_Nazarian.jpg",
+        "headshot": "/headshots/Noah_Nazarian.jpg",
         "linkedin": "https://www.linkedin.com/in/noahnazarian/",
         "email": ""
       }
@@ -357,7 +357,7 @@
       {
         "name": "Riya Daga",
         "role": "Co-Founder of Buzzwa Core",
-        "headshot": "Riya_Daga.png",
+        "headshot": "/headshots/Riya_Daga.png",
         "linkedin": "https://www.linkedin.com/in/riya-daga-734a94211/",
         "email": "riya@evrynskincare.com"
       }
@@ -465,7 +465,7 @@
       {
         "name": "Alex Forgosh",
         "role": "Co-Founder of Buzzwa Core",
-        "headshot": "/headshots/Alex_Forgosh.heic",
+        "headshot": "/headshots/Alex_Forgosh.png",
         "linkedin": "https://www.linkedin.com/in/forgosh/",
         "email": ""
       }
@@ -474,6 +474,8 @@
     "id": 40,
     "x": "515.5",
     "y": "551",
+    "x_image_offset": 30,
+    "y_image_offset": -2.5,
     "noRotate": true
   },
   {
@@ -530,7 +532,7 @@
       {
         "name": "Jason Wiemels",
         "role": "Co-Founder of Jargon",
-        "headshot": "/headshots/Jason_Wiemels.heic",
+        "headshot": "/headshots/Jason_Wiemels.png",
         "linkedin": "https://www.linkedin.com/in/jwiemels/",
         "email": ""
       }
@@ -564,6 +566,8 @@
     "id": 28,
     "x": "467.5",
     "y": "805",
+    "x_image_offset": 30,
+    "y_image_offset": -2.5,
     "noRotate": true
   },
   {
@@ -1139,14 +1143,14 @@
       {
         "name": "Alex Nimrod",
         "role": "Co-Founder of The Indiestry",
-        "headshot": "/headshots/Alex_Nimrod.png",
+        "headshot": "/headshots/Alex_Nimrod.jpeg",
         "linkedin": "https://www.linkedin.com/in/alex-nimrod-439a94210/",
         "email": "team@indie-stry.com"
       },
       {
         "name": "Maximus Jenkins & Kaleb Manske",
         "role": "Co-Founder of The Indiestry",
-        "headshot": "/headshots/Maximus_Jenkins_Kaleb_Manske.png",
+        "headshot": "/headshots/Maximus_Jenkins _Kaleb_Manske.png",
         "linkedin": "",
         "email": "team@indie-stry.com"
       }
@@ -1169,14 +1173,14 @@
       {
         "name": "Ryan Yeung",
         "role": "Co-Founder of ThirdPlace",
-        "headshot": "/headshots/Ryan_Yeung.png",
+        "headshot": "/headshots/Ryan_Yeung.jpeg",
         "linkedin": "https://www.linkedin.com/in/ryan-yeung-824a18144/details/experience/",
         "email": ""
       },
       {
         "name": "Neil Yeung",
         "role": "Co-Founder of ThirdPlace",
-        "headshot": "",
+        "headshot": "/headshots/profile.png",
         "linkedin": "https://www.linkedin.com/in/neilyeung/",
         "email": ""
       }
@@ -1291,14 +1295,14 @@
       {
         "name": "Omar Abdullateef",
         "role": "Co-Founder of WellTra.AI",
-        "headshot": "/headshots/Omar_Abdullateef.jpeg",
+        "headshot": "/headshots/Omar_Abdullateef.jpg",
         "linkedin": "https://www.linkedin.com/in/omar-abdullateef-66b347177/",
         "email": ""
       },
       {
         "name": "Anees Abdullateef",
         "role": "Co-Founder of WellTra.AI",
-        "headshot": "/headshots/Anees_Abdullateef.jpeg",
+        "headshot": "/headshots/Anees_Abdullatee.jpeg",
         "linkedin": "https://www.linkedin.com/in/anees-abdullateef-587963190/",
         "email": ""
       }

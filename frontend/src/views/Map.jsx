@@ -83,7 +83,7 @@ function InteractiveMap() {
                   marginTop: "2rem",
                   marginRight: "1rem",
                   width: "100%",
-                  maxHeight: "10rem",
+                  maxHeight: "15rem",
                   objectFit: "cover",
                 }}
               />
@@ -129,7 +129,7 @@ function InteractiveMap() {
                       marginBottom: "1rem",
                       textAlign: "center",
                     }}
-                    className="text-3xl font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text"
+                    className="text-2xl font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text"
                   >
                     {founder.name}
                     <a
@@ -140,16 +140,19 @@ function InteractiveMap() {
                     >
                       <LinkedIn />
                     </a>
-                    <a style={{display: founder.email === "" ? "none" : ""}}
-                      className="HeroButton-Shadow text-sm cursor-pointer font-semibold text-[#DEE0E3] p-2 px-6 rounded-lg bg-[#131315] border-2 border-[#1A4265] hover:bg-[#1F1F23] hover:shadow-inner active:bg-[#0C0C0D] transition-all hover:shadow-slate-700"
-                      href={`mailto: ${founder.email}`}
-                    >
-                      <span>Reach out</span>
-                    </a>
                   </h1>
+                  <a
+                    style={{
+                      display: founder.email === "" ? "none" : "",
+                      marginBottom: "1rem",
+                    }}
+                    className="HeroButton-Shadow text-sm cursor-pointer font-semibold text-[#DEE0E3] p-2 px-6 rounded-lg bg-[#131315] border-2 border-[#1A4265] hover:bg-[#1F1F23] hover:shadow-inner active:bg-[#0C0C0D] transition-all hover:shadow-slate-700"
+                    href={`mailto: ${founder.email}`}
+                  >
+                    <span>Reach out</span>
+                  </a>
                 </div>
               ))}
-
             </div>
           </div>
         ) : (
@@ -221,7 +224,6 @@ function TableItem({ item, index, handleMouseClick, hoveredTable }) {
     }
   }, [hoveredTable, item.id]);
 
-
   return (
     <button
       key={index}
@@ -251,14 +253,6 @@ function TableItem({ item, index, handleMouseClick, hoveredTable }) {
       >
         {item.name}
       </span>
-      <img
-        src={item.logo}
-        alt="Company logo"
-        style={{
-          maxWidth: "10rem",
-          maxHeight: "4rem",
-        }}
-      />
     </button>
   );
 }
