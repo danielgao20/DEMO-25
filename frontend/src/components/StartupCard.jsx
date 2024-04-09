@@ -14,26 +14,6 @@ import PMGraphic from "../assets/pmgraphic.png"
 import BusinessGraphic from "../assets/businessgraphic.png"
 
 
-const customModalStyles = {
-    overlay:{
-        backdropFilter: 'blur(5px)',
-        background: 'rgba(4,5,7,0.25)',
-    },
-    content: {
-        top: '10%',
-        bottom: '7%',
-        left: '30%',
-        right: '30%',
-        overflowY: 'auto',
-        background: 'rgba(19,27,42,225)',
-        boxShadow: '3px 5px 10px rgba(46,56,73,0.5)',
-        borderRadius: '8px',
-        outline: 'none',
-        border: 'none',
-        color: 'white'
-    }
-};
-
 const RecruitingItem = ({ position }) => {
     const getColorAndGraphic = (position) => {
         switch (position) {
@@ -74,7 +54,9 @@ const RecruitingItem = ({ position }) => {
 
 const StartupCard = ({description, name, logo, cardcolor, link, industries, team, recruiting}) => {
     const [modalIsOpen, setModalIsOpen] = useState(false);
-
+    const [isMobile, setIsMobile] = useState(
+        window.matchMedia("(max-width: 768px)").matches
+    );
 
     useEffect(() => {
         // Prevent scrolling on the original page when the modal is open
@@ -86,6 +68,18 @@ const StartupCard = ({description, name, logo, cardcolor, link, industries, team
         }
     }, [modalIsOpen]);
 
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.matchMedia("(max-width: 768px)").matches);
+        };
+
+        window.addEventListener("resize", handleResize);
+
+        return () => {
+            window.removeEventListener("resize", handleResize);
+        };
+    }, []);
+
     const openModal = () => {
         setModalIsOpen(true);
     };
@@ -94,6 +88,29 @@ const StartupCard = ({description, name, logo, cardcolor, link, industries, team
         setModalIsOpen(false);
     };
 
+    const customModalStyles = {
+        overlay:{
+            backdropFilter: 'blur(5px)',
+            background: 'rgba(4,5,7,0.25)',
+        },
+        content: {
+            top: isMobile ? '10%' : '10%',
+            bottom: isMobile ? '10%' : '10%',
+            left: isMobile ? '10%' : '50%',
+            right: isMobile ? '10%' : '50%',
+            overflowY: 'auto',
+            background: 'rgba(19,27,42,225)',
+            boxShadow: '3px 5px 10px rgba(46,56,73,0.5)',
+            borderRadius: '8px',
+            outline: 'none',
+            border: 'none',
+            color: 'white',
+            width: isMobile ? '80%' : '60%', // Adjust width for mobile
+            maxWidth: '600px', // Max width for larger screens
+            maxHeight: '80vh', // Adjust max height for mobile
+            padding: '20px' // Adjust padding for mobile
+        }
+    };
 
     return (
         <div className={`flip-card bg-gray-900 overflow-hidden w-full h-[100%] p-4 text-white my-8`}>
@@ -130,7 +147,7 @@ const StartupCard = ({description, name, logo, cardcolor, link, industries, team
                     </div>
                     <div className="flex flex-col items-start mb-4 mx-4 ">
                         <span className="text-md mt-32 mb-5">{description}</span>
-                        <button className="text-md mt-0" onClick={openModal}>View ➔</button>
+                        <button className="text-md mt-0 " onClick={openModal}>View ➔</button>
                     </div>
                     <div className="flex justify-center"></div>
                 </div>
@@ -144,12 +161,12 @@ const StartupCard = ({description, name, logo, cardcolor, link, industries, team
                 blockScroll={true}
             >
                 {/* Modal content */}
-                <div style={{ position: 'relative' , paddingRight: '17px' }}>
-                    <img src={TopoImage} alt="topo" className="absolute inset-0 translate-x-5 -mt-35"/>
-                    <div style={{position: 'relative', zIndex: '1', paddingLeft: '20px', paddingTop: '20px'}}>
+                <div style={{ position: 'relative', paddingRight: '17px', overflowY: 'auto' }}>
+                    <img src={TopoImage} alt="topo" className="absolute inset-0 translate-x-10 -mt-35" />
+                    <div style={{ position: 'relative', zIndex: '1', paddingLeft: '20px', paddingTop: '20px' }}>
 
                         <h1 className="text-2xl font-semibold">{name}</h1>
-                        <hr className="w-full border-t-2 border-gray-300 my-4 mb-10"/>
+                        <hr className="w-full border-t-2 border-gray-300 my-4 mb-10" />
 
                         <div>
                             <h2 className="text-lg font-semibold">Company Overview</h2>
@@ -159,32 +176,26 @@ const StartupCard = ({description, name, logo, cardcolor, link, industries, team
                         <div className="mt-4">
                             <h2 className="text-lg font-semibold">Website</h2>
                             <div className="mb-10">
-                                <a href={link} target="_blank"
-                                   className="text-md text-blue-500 hover:underline mb-10">{link}</a>
+                                <a href={link} target="_blank" className="text-md text-blue-500 hover:underline mb-10">{link}</a>
                             </div>
                         </div>
-
 
                         <div className="mt-4">
                             <h2 className="text-lg font-semibold">Industries</h2>
                             <ul className="mt-2 mb-10">
                                 {industries.map((industry, index) => (
-                                    <li key={index}
-                                        className="inline-block bg-blue-500 px-2 py-1 rounded-md mr-2 mb-2">{industry}</li>
+                                    <li key={index} className="inline-block bg-blue-500 px-2 py-1 rounded-md mr-2 mb-2">{industry}</li>
                                 ))}
                             </ul>
                         </div>
 
                         <div className="mt-4">
-
                             <h2 className="text-lg font-semibold">Team</h2>
-                            <div className="grid grid-cols-3 gap-4 mt-4 mb-10">
+                            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-4 mb-10">
                                 {team.map((founder, index) => (
-                                    <div key={index}
-                                         className="bg-gray-700 bg-opacity-55 rounded-md border border-gray-700 pt-8 p-6 pb-8 relative shadow-xl">
+                                    <div key={index} className="bg-gray-700 bg-opacity-55 rounded-md border border-gray-700 pt-8 p-6 pb-8 relative shadow-xl">
                                         <div className="flex justify-center mb-2">
-                                            <img src={founder.headshot} alt={founder.name}
-                                                 className="rounded-full h-16 w-16 object-cover"/>
+                                            <img src={founder.headshot} alt={founder.name} className="rounded-full h-16 w-16 object-cover" />
                                         </div>
                                         <div className="text-center mb-2">
                                             <h3 className="text-base font-semibold">{founder.name}</h3>
@@ -192,26 +203,16 @@ const StartupCard = ({description, name, logo, cardcolor, link, industries, team
                                         </div>
                                         <div className="flex justify-center space-x-4 mt-2">
                                             <a href={founder.linkedin} target="_blank">
-                                                <img src={LinkedInLogo} alt="LinkedIn" className="h-6 w-6"/>
+                                                <img src={LinkedInLogo} alt="LinkedIn" className="h-6 w-6" />
                                             </a>
                                             <a href={`mailto:${founder.email}`}>
-                                                <img src={EmailLogo} alt="Email" className="h-6 w-6"/>
+                                                <img src={EmailLogo} alt="Email" className="h-6 w-6" />
                                             </a>
                                         </div>
                                     </div>
                                 ))}
                             </div>
                         </div>
-
-
-                        {/* <div className="mt-4">
-                            <h2 className="text-lg font-semibold">Recruiting For</h2>
-                            <div className="grid grid-cols-4 gap-4 mt-4 mb-20">
-                                {recruiting.map((position, index) => (
-                                    <RecruitingItem key={index} position={position}/>
-                                ))}
-                            </div>
-                        </div> */}
 
                         {recruiting.length > 0 && (
                             <div className="mt-4">
@@ -223,7 +224,6 @@ const StartupCard = ({description, name, logo, cardcolor, link, industries, team
                                 </div>
                             </div>
                         )}
-
 
                         <div className="text-center absolute left-0 right-0 mt-20 mb-10">
                             <button className="text-md text-blue-500 hover:underline mb-8" onClick={closeModal}>Back</button>
@@ -237,3 +237,4 @@ const StartupCard = ({description, name, logo, cardcolor, link, industries, team
 }
 
 export default StartupCard;
+
