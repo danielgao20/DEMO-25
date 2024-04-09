@@ -38,14 +38,14 @@ function Navbar() {
       action: () => navigate("/"),
     },
     {
-      text: "Map",
-      url: "/map",
-      action: () => navigate("/map"),
-    },
-    {
       text: "Startups",
       url: "/startups",
       action: () => navigate("/startups"),
+    },
+    {
+      text: "Map",
+      url: "/map",
+      action: () => navigate("/map"),
     },
     {
       text: "Sponsor Us",
