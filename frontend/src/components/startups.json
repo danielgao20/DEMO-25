@@ -1215,16 +1215,16 @@
   {
     "name": "ūnderdose",
     "logo": "company_logos/underdose.png",
-    "description": "The most important card in your wallet: discreet, portable, all-in-one fentanyl testing",
+    "description": "Come to DEMO to learn more",
     "link": "",
-    "industries": ["Health & Wellness", "Information Technology"],
+    "industries": [],
     "team": [
       {
         "name": "Tatum Verona",
         "role": "Founder of ūnderdose",
         "headshot": "/headshots/Tatum_Verona.jpg",
         "linkedin": "https://www.linkedin.com/in/tatum-verona-86a6a31b5/",
-        "email": "hello@underdose.org"
+        "email": ""
       }
     ],
     "stage": "Hiring",
