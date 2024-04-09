@@ -20,8 +20,8 @@ export default function StartupSearch({allStartupData, filter}) {
       <div className={`flex  ${isMobile ? 'flex-col' : 'flex-row'} justify-between items-center ml-10 mr-10 text-white`}>
           <div className={`mb-4 md:mb-0 ${isMobile ? 'w-full' : 'w-[100%]'} flex flex-row flex-wrap gap-x-8 `}>
               <Sort title="Industry"
-                    options={["All", "AI/ML", "Aerospace & Defense", "BioTech", "Cannabis", "Climate", "CPG", "Cybersecurity", "E-Commerce", "Education", "Enterprise", "Entertainment", "Fashion", "Finance & Insurance", "Food", "Food & Beverage", "Healthcare", "Health & Wellness", "Hospitality", "Information Technology", "Manufacturing", "Media", "Non-Profit", "Real Estate", "Retail", "SaaS", "Transportation"]}
-                    filter={setIndustry}/>
+                    options={["All", "AI/ML", "Aerospace & Defense", "Climate", "Consumer Products", "Cybersecurity", "E-Commerce", "Education", "Enterprise", "Entertainment", "Fashion", "Finance & Insurance", "Food & Beverage", "Health & Wellness", "Hospitality", "Information Technology", "Manufacturing", "Media", "Non-Profit", "Real Estate", "SaaS", "Transportation"]}
+                    filter={setIndustry}/> 
               <Sort title="Recruitment" options={["All", "Hiring"]} filter={setStage}/>
           </div>
           <div className={`relative left-0 mb-10 ${isMobile ? 'w-full' : 'w-[30%] ml-10 my-5 '}`}>

@@ -5,7 +5,7 @@
     "cardcolor": "blue",
     "description": "AirVitalize collects urban outdoor air pollution to improve public health and the environment.",
     "link": "https://www.airvitalize.tech",
-    "industries": ["Climate", "Consumer Products", "CPG"],
+    "industries": ["Climate", "Consumer Products"],
     "team": [
       {
         "name": "Serena Allen",
@@ -27,7 +27,7 @@
     "cardcolor": "blue",
     "description": "AiStudy is an AI company that revolutionizes English as Second Language (ESL) Test preparation experience by providing low-priced, highly personalized, and aggregated learning model to maximize students’ efficiency.",
     "link": "",
-    "industries": ["AI/ML", "Education", "SaaS"],
+    "industries": ["AI/ML", "Education"],
     "team": [
       {
         "name": "Adam Yang",
@@ -56,7 +56,7 @@
     "cardcolor": "blue",
     "description": "Amino Avenue: embark your weightloss/health journey with our low-calorie, low-sugar, and lactose-free boba beverages.",
     "link": "https://aminoave.com/",
-    "industries": ["Food"],
+    "industries": ["Food & Beverage"],
     "team": [
       {
         "name": "Jenna Jiaying Wu",
@@ -129,7 +129,7 @@
     "cardcolor": "blue",
     "description": "A Date & Nut Energy Bite which uses a minimal ingredient panel of organic superfoods with dates as the #1 ingredient resulting in a fresh and soft texture that doesn't get stuck in your teeth and is naturally sweet with no added sugar and no preservatives.",
     "link": "https://bahamii.com",
-    "industries": ["Consumer Products", "CPG", "Food"],
+    "industries": ["Consumer Products", "Food & Beverage"],
     "team": [
       {
         "name": "Aaron Nazarian",
@@ -158,7 +158,7 @@
     "cardcolor": "blue",
     "description": "Started with a simple mission in mind—to democratize content for all, as we believe that content is the world’s new currency and is utilized to fulfill the insatiable desire for human connection, therefore we want to allow anyone, anywhere, to seamlessly book a shoot at any time.",
     "link": "https://www.biodevek.com",
-    "industries": ["Consumer Products", "CPG", "Media"],
+    "industries": ["Consumer Products", "Media"],
     "team": [
       {
         "name": "Kawser Khan",
@@ -180,7 +180,7 @@
     "cardcolor": "blue",
     "description": "BIOMED is a pioneering biotech company integrating 3D bioprinting, Big Data, DNA analysis, and AI to offer personalized, precision medicine, making healthcare accessible and equitable across all demographics.",
     "link": "https://www.biodevek.com",
-    "industries": ["BioTech", "Healthcare"],
+    "industries": ["Health & Wellness"],
     "team": [
       {
         "name": "Bobby Ntoya",
@@ -202,7 +202,7 @@
     "cardcolor": "blue",
     "description": "AI-powered sound reactive lights.",
     "link": "https://buzzwa.co",
-    "industries": ["AI/ML", "Consumer Products", "CPG"],
+    "industries": ["AI/ML", "Consumer Products"],
     "team": [
       {
         "name": "Ezra Bird",
@@ -229,7 +229,7 @@
     "name": "Catalyst Robotics",
     "logo": "company_logos/Catalyst_Robotics.png",
     "description": "Helping healthcare providers expand access and reduce costs through autonomous vehicles",
-    "industries": ["AI/ML", "Healthcare"],
+    "industries": ["AI/ML", "Health & Wellness"],
     "website_link": "https://www.catalystrobotics.com",
     "team": [
       {
@@ -304,7 +304,7 @@
     "name": "Digistone",
     "logo": "company_logos/Digistone.png",
     "description": "Digistone offers personalized digital memorials through NFC tags and 3D-printed objects, preserving cherished memories of loved ones for eternal remembrance.",
-    "industries": ["Consumer Products", "CPG"],
+    "industries": ["Consumer Products"],
     "website_link": "https://digistone.io",
     "team": [
       {
@@ -351,7 +351,7 @@
     "name": "EVRYN",
     "logo": "company_logos/EVRYN.png",
     "description": "EVRYN is a three-step, one-minute skincare routine to energize and refresh athletic women on the go, featuring facial cleansing wipes, a facial mist, and a moisturizing stick.",
-    "industries": ["E-Commerce", "Consumer Products", "CPG"],
+    "industries": ["E-Commerce", "Consumer Products"],
     "website_link": "https://evrynskincare.com/",
     "team": [
       {
@@ -412,7 +412,7 @@
     "name": "Fair & Square",
     "logo": "company_logos/Fair_&_Square.png",
     "description": "We make gut friendly crackers inspired by childhood favorite snacks, like Cheezits and Teddy Grahams.",
-    "industries": ["E-Commerce", "Retail"],
+    "industries": ["E-Commerce", "Food & Beverage"],
     "website_link": "https://itsfairandsquare.com",
     "team": [
       {
@@ -572,7 +572,7 @@
     "cardcolor": "",
     "description": "Starbucks but for authentic Indian beverages.",
     "link": "",
-    "industries": ["Food", "Hospitality", "Retail"],
+    "industries": ["Food & Beverage", "Hospitality"],
     "team": [
       {
         "name": "Lakshya Bothra",
@@ -632,7 +632,7 @@
     "cardcolor": "",
     "description": "Lav salad dressings are made from Armenian-inspired, whole food ingredients and packaged in single-serve packets for easy, on-the-go use.",
     "link": "https://www.dresslav.com",
-    "industries": ["Consumer Products", "CPG"],
+    "industries": ["Consumer Products"],
     "team": [
       {
         "name": "Natalie Felikian",
@@ -678,7 +678,7 @@
     "cardcolor": "",
     "description": "Quiet comfort luxury apparel, for the off-duty college student.",
     "link": "https://www.maplehouse.co",
-    "industries": ["Consumer Products", "CPG", "Fashion"],
+    "industries": ["Consumer Products", "Fashion"],
     "team": [
       {
         "name": "Tyler Shooshani",
@@ -722,7 +722,7 @@
     "cardcolor": "",
     "description": "NutriMind distinguishes itself in the preventative healthcare and wellness market through personalized health plans and dietary recommendations, catering to individual user data and preferences",
     "link": "",
-    "industries": ["E-Commerce", "Healthcare"],
+    "industries": ["E-Commerce", "Health & Wellness"],
     "team": [
       {
         "name": "Yihan Luo",
@@ -808,7 +808,7 @@
     "logo": "company_logos/PackaDesign.png",
     "description": "We elevate smoking experiences through our ecosystem of modular magnetic smokeware.",
     "link": "https://www.packa.design",
-    "industries": ["Retail"],
+    "industries": ["Consumer Products"],
     "team": [
       {
         "name": "Samson Taxon",
@@ -892,7 +892,7 @@
     "logo": "company_logos/Recei.png",
     "description": "Recei delivers e-receipts and instant rewards to customers at the point of sale using NFC, while empowering businesses with a seamless payment solution and post-transaction customer touchpoints typically exclusive to major franchises",
     "link": "https://www.recei.com",
-    "industries": ["Finance & Insurance", "Information Technology", "Retail"],
+    "industries": ["Finance & Insurance", "Information Technology"],
     "team": [
       {
         "name": "Joshua McCampbell",
@@ -969,7 +969,7 @@
     "logo": "company_logos/SeekEatsLA.PNG",
     "description": "Yelp for Immigrant Cuisines",
     "link": "https://seekeats.com/",
-    "industries": ["Food", "Information Technology"],
+    "industries": ["Food & Beverage", "Information Technology"],
     "team": [
       {
         "name": "Phillip Lau",
@@ -990,7 +990,7 @@
     "logo": "company_logos/SentiMind.png",
     "description": "AI Solutions for Empowering Patients Emotions",
     "link": "https://www.sentimind.com",
-    "industries": ["BioTech", "Healthcare"],
+    "industries": ["Health & Wellness"],
     "team": [
       {
         "name": "Mahkameh Rasouli",
@@ -1018,7 +1018,7 @@
     "logo": "company_logos/ShapeShift.png",
     "description": "Computer vision-powered fitness coach at home and in the gym",
     "link": "",
-    "industries": ["AI/ML", "Consumer Products", "CPG", "SaaS"],
+    "industries": ["AI/ML", "Consumer Products", "SaaS"],
     "team": [
       {
         "name": "Aryan Barik",
@@ -1113,7 +1113,7 @@
     "logo": "company_logos/TERRATOKES.png",
     "description": "TERRATOKES is a cannabis lifestyle brand with a mission to elevate people's smoking experience with an eco-friendly solution.",
     "link": "https://www.terratokes.com/",
-    "industries": ["Consumer Products", "CPG", "Cannabis"],
+    "industries": ["Consumer Products"],
     "team": [
       {
         "name": "Jun Matsuo",
@@ -1263,7 +1263,7 @@
     "logo": "company_logos/ViBo_Health.png",
     "description": "ViBo Health is Smart Health Tracking: Detecting disease early with a quick, non-invasive scanner",
     "link": "https://www.vibo.health",
-    "industries": ["Healthcare", "Technology"],
+    "industries": ["Health & Wellness", "Technology"],
     "team": [
       {
         "name": "Gil Travish",
@@ -1286,7 +1286,7 @@
     "logo": "company_logos/WellTraAI.png",
     "description": "WellTra is an AI that turns smartphones, tablets and laptops into an FDA grade vital sign reading device without the need for any added hardware! All vitals are collected in 60s from your front camera",
     "link": "https://welltra.ai",
-    "industries": ["AI/ML", "Healthcare"],
+    "industries": ["AI/ML", "Health & Wellness"],
     "team": [
       {
         "name": "Omar Abdullateef",
