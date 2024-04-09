@@ -1,11 +1,10 @@
 import { useState } from "react";
 
-
 function MapLayout(props) {
   const tables = props.tables;
   const [hoveredTable, setHoveredTable] = useState(null);
 
-  console.log("tables", tables)
+  console.log("tables", tables);
 
   if (tables) {
     return (
@@ -58,12 +57,24 @@ function MapLayout(props) {
                     <image
                       href={table.logo}
                       alt="Company logo"
-                      x={table.x - 55}
-                      y={table.y - 22.5}
+                      x={
+                        table.x -
+                        (table.x_image_offset ? table.x_image_offset : 55)
+                      }
+                      y={
+                        table.y -
+                        (table.y_image_offset ? table.y_image_offset : 22.5)
+                      }
                       width="60"
                       height="45"
-                      style={{ zIndex: 2 }}
-                      transform={`rotate(-90, ${centerX}, ${centerY})`}
+                      style={{
+                        zIndex: 2,
+                      }}
+                      transform={
+                        table.noRotate
+                          ? `${centerX}, ${centerY})`
+                          : `rotate(-90, ${centerX}, ${centerY})`
+                      }
                     />
                   </g>
                 );

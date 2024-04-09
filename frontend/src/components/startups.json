@@ -348,7 +348,6 @@
     "y": "677.5"
   },
   {
-
     "name": "EVRYN",
     "logo": "company_logos/EVRYN.png",
     "description": "EVRYN is a three-step, one-minute skincare routine to energize and refresh athletic women on the go, featuring facial cleansing wipes, a facial mist, and a moisturizing stick.",
@@ -474,7 +473,8 @@
     "recruiting": [],
     "id": 40,
     "x": "515.5",
-    "y": "551"
+    "y": "551",
+    "noRotate": true
   },
   {
     "name": "Intuition Intelligence Inc.",
@@ -563,7 +563,8 @@
     "build": true,
     "id": 28,
     "x": "467.5",
-    "y": "805"
+    "y": "805",
+    "noRotate": true
   },
   {
     "name": "KADAK",
@@ -667,9 +668,9 @@
     "stage": "Hiring, PM, Engineering, Design",
     "recruiting": [],
     "build": true,
-    "id": 8,
-    "x": "234.5",
-    "y": "805"
+    "id": 14,
+    "x": "322.5",
+    "y": "677.5"
   },
   {
     "name": "Maplehouse",
@@ -1124,9 +1125,9 @@
     ],
     "stage": "",
     "recruiting": [],
-    "id": 20,
-    "x": "370.5",
-    "y": "803.5"
+    "id": 8,
+    "x": "234.5",
+    "y": "489.5"
   },
   {
     "name": "The Indiestry",
@@ -1154,7 +1155,9 @@
     "recruiting": ["Marketer", "UI/UX Designer"],
     "id": 37,
     "x": 515.5,
-    "y": 740.5
+    "y": 740.5,
+    "x_image_offset": 25,
+    "y_image_offset": 33
   },
   {
     "name": "ThirdPlace",
@@ -1182,7 +1185,9 @@
     "recruiting": [],
     "id": 42,
     "x": 599.5,
-    "y": 930
+    "y": 930,
+    "x_image_offset": 25,
+    "y_image_offset": 33
   },
   {
     "name": "TwoTwenty Hard Seltzer",
@@ -1203,7 +1208,9 @@
     "recruiting": [],
     "id": 34,
     "x": 515.5,
-    "y": 930.0
+    "y": 930.0,
+    "x_image_offset": 25,
+    "y_image_offset": 33
   },
   {
     "name": "ūnderdose",
@@ -1224,7 +1231,9 @@
     "recruiting": ["Marketer", "Business Operations"],
     "id": 2,
     "x": 234.5,
-    "y": 866.5
+    "y": 866.5,
+    "x_image_offset": 25,
+    "y_image_offset": 32.5
   },
   {
     "name": "UpDonor",
@@ -1245,7 +1254,9 @@
     "recruiting": [],
     "id": 20,
     "x": 370.5,
-    "y": 806.5
+    "y": 806.5,
+    "x_image_offset": 25,
+    "y_image_offset": 33
   },
   {
     "name": "ViBo Health",
@@ -1266,7 +1277,9 @@
     "recruiting": [],
     "id": 7,
     "x": 234.5,
-    "y": 551.5
+    "y": 551.5,
+    "x_image_offset": 25,
+    "y_image_offset": 33
   },
   {
     "name": "WellTra.AI",
@@ -1294,6 +1307,8 @@
     "recruiting": [],
     "id": 19,
     "x": 370.5,
-    "y": 866.5
+    "y": 866.5,
+    "x_image_offset": 25,
+    "y_image_offset": 33
   }
 ]
