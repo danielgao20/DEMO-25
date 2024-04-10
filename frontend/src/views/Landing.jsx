@@ -376,7 +376,7 @@ function Landing() {
             reverse={true}
             agenda={"Opening Ceremony"}
             description={
-              "The Opening Ceremony will feature an introduction by TroyLabs, speeches from sponsors, and the Keynote Speech."
+              "The Opening Ceremony with President of USC Carol Folt, sponsors, and keynote panel."
             }
           />
         </div>
@@ -384,9 +384,9 @@ function Landing() {
           <AgendaCard
             time={"11:30 AM"}
             reverse={false}
-            agenda={"Keynote Speaker"}
+            agenda={"Keynote Panel"}
             description={
-              "Speaker information Coming Soon! Moderated by Glenn Fox."
+              "Ellen Chen, Founder of Mendocino Farms. Scott Goldberg, Founder of Fresh Brothers. Moderated by Glenn Fox."
             }
           />
           <img
@@ -438,18 +438,6 @@ function Landing() {
           isMobile ? "p-8" : "p-24"
         } text-white`}
       >
-        <div className="flex flex-col w-8/12">
-          <h3 className="text-[#747478] font-medium text-lg">
-            Inspiring Founder Stories
-          </h3>
-          <h1 className="text-5xl mt-2 font-bold  bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text">
-            Keynote Speakers
-          </h1>
-          <h2 className="text-xl font-semibold text-white mt-4">
-            Mendocino Farms & Fresh Brothers Pizza
-          </h2>
-        </div>
-
         <div
           className={`${
             isMobile ? "flex-col" : "flex-row"
@@ -481,10 +469,24 @@ function Landing() {
           <img
             src={Carol}
             className={`${
-              isMobile ? "w-full" : "w-[27.5%]"
-            } rounded-lg shadow-lg border border-blue-500 shadow-blue-500 object-cover`}
+              isMobile ? "w-full" : "w-[27.5%] h-[100%]"
+            } rounded-lg shadow-lg border border-blue-500 shadow-blue-500 object-contain`}
           />
         </div>
+
+        <div className="flex flex-col w-8/12 mt-16">
+          <h3 className="text-[#747478] font-medium text-lg">
+            Inspiring Founder Stories
+          </h3>
+          <h1 className="text-5xl mt-2 font-bold  bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text">
+            Keynote Panel
+          </h1>
+          <h2 className="text-xl font-semibold text-white mt-4">
+            Mendocino Farms & Fresh Brothers Pizza
+          </h2>
+        </div>
+
+        
 
         <div className="w-full relative z-20 h-auto py-4 gap-16 mt-12 flex flex-col items-center justify-between">
           {keynoteSpeakers.map((speaker, index) => {
@@ -528,7 +530,10 @@ function Landing() {
             } w-full flex-start mt-10 gap-16 h-full flex`}
           >
             <div className="w-full justify-between h-full flex flex-col">
-              <p className="text-4xl font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text">
+              <p 
+                className="text-4xl font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text cursor-pointer"
+                onClick={() => window.open("https://www.linkedin.com/in/glenn-r-fox-phd-2418bba1/", "_blank")}
+              >
                 Our Moderator – Glenn Fox
               </p>
               <p className="text-xl mt-2 font-semibold text-white">
@@ -600,8 +605,7 @@ function Landing() {
             </div>
             <div className="flex relative z-20 flex-row w-full items-left mt-12 justify-left gap-8">
               <a
-                href="https://www.eventbrite.com/e/809233237397"
-                target="_blank"
+                href="/startups"
                 rel="noreferrer"
                 className="HeroButton-Shadow text-lg cursor-pointer font-normal text-[#DEE0E3] p-2 px-6 rounded-lg bg-[#131315] border-2 border-[#1A4265] hover:bg-[#1F1F23] hover:shadow-inner active:bg-[#0C0C0D] transition-all hover:shadow-slate-700"
               >
@@ -772,7 +776,10 @@ function Landing() {
             <h3 className="text-gray-300 mb-2 mt-2 font-light">
               Our Workshop Lead
             </h3>
-            <h2 className="text-3xl font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] leading-normal text-transparent inline-block bg-clip-text">
+            <h2 
+              className="text-3xl font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] leading-normal text-transparent inline-block bg-clip-text cursor-pointer" 
+              onClick={() => window.open("https://www.linkedin.com/in/arushisaxena/", "_blank")}
+            >
               Arushi Saxena
             </h2>
             <h3 className="text-white mt-2 text-lg font-medium">
