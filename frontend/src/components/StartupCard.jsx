@@ -92,6 +92,7 @@ const StartupCard = ({description, name, logo, cardcolor, link, industries, team
         overlay:{
             backdropFilter: 'blur(5px)',
             background: 'rgba(4,5,7,0.25)',
+            zIndex: 1000,
         },
         content: {
             top: isMobile ? '10%' : '10%',
@@ -110,8 +111,8 @@ const StartupCard = ({description, name, logo, cardcolor, link, industries, team
 
     return (
         <div className={`flip-card bg-gray-900 overflow-hidden w-full h-[100%] p-4 text-white my-8 rounded-md`}>
-            <div className="flip-card-inner">
-                <div className="flip-card-front cursor-pointer">
+            <div onClick={openModal} className="flip-card-inner cursor-pointer">
+                <div className="flip-card-front">
                     <div className="flex justify-between items-center mb-4 ml-5 mr-5 mt-4">
                         <div className="float-left">
                             <h1 className="text-xl font-normal">{name}</h1>
@@ -227,7 +228,6 @@ const StartupCard = ({description, name, logo, cardcolor, link, industries, team
                     </div>
                 </div>
             </Modal>
-
         </div>
     );
 }
