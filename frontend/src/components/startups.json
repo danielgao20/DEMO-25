@@ -298,9 +298,12 @@
       }
     ],
     "recruiting": [],
-    "id": 49,
-    "x": "599.5",
-    "y": "489.5"
+    "id": 40,
+    "x": "515.5",
+    "y": "551",
+    "x_image_offset": 30,
+    "y_image_offset": -2.5,
+    "noRotate": true
   },
   {
     "name": "Digistone",
@@ -432,12 +435,9 @@
       }
     ],
     "recruiting": [],
-    "id": 40,
-    "x": "515.5",
-    "y": "551",
-    "x_image_offset": 30,
-    "y_image_offset": -2.5,
-    "noRotate": true
+    "id": 49,
+    "x": "599.5",
+    "y": "489.5"
   },
   {
     "name": "Intuition Intelligence Inc.",
