@@ -111,7 +111,7 @@ const StartupCard = ({description, name, logo, cardcolor, link, industries, team
     return (
         <div className={`flip-card bg-gray-900 overflow-hidden w-full h-[100%] p-4 text-white my-8 rounded-md`}>
             <div className="flip-card-inner">
-                <div className="flip-card-front">
+                <div className="flip-card-front cursor-pointer">
                     <div className="flex justify-between items-center mb-4 ml-5 mr-5 mt-4">
                         <div className="float-left">
                             <h1 className="text-xl font-normal">{name}</h1>
@@ -135,7 +135,7 @@ const StartupCard = ({description, name, logo, cardcolor, link, industries, team
                     </div>
                 </div>
 
-                <div className="flip-card-back">
+                <div className="flip-card-back cursor-pointer" onClick={openModal}>
                     <div className="flex justify-between items-center mb-4 ml-5 mr-5 mt-4">
                         <div className="float-left">
                             <h1 className="text-xl font-normal">{name}</h1>
@@ -143,7 +143,7 @@ const StartupCard = ({description, name, logo, cardcolor, link, industries, team
                     </div>
                     <div className="flex flex-col items-start mb-4 mx-4 ">
                         <span className="text-md mt-32 mb-5">{description}</span>
-                        <button className="text-md mt-0 " onClick={openModal}>View ➔</button>
+                        <button className="text-md mt-0 font-semibold text-[#2668A1] underline underline-offset-8" onClick={openModal}>View ➔</button>
                     </div>
                     <div className="flex justify-center"></div>
                 </div>
@@ -157,9 +157,9 @@ const StartupCard = ({description, name, logo, cardcolor, link, industries, team
                 blockScroll={true}
             >
                 {/* Modal content */}
-                <div style={{ position: 'relative', paddingRight: '17px', overflowY: 'auto' }}>
+                <div style={{position: 'relative', paddingRight: '17px', overflowY: 'auto' }}>
                     <img src={TopoImage} alt="topo" className="absolute inset-0 translate-x-10 -mt-35" />
-                    <div style={{ position: 'relative', zIndex: '1', paddingLeft: '20px', paddingTop: '20px' }}>
+                    <div style={{position: 'relative', zIndex: '1', paddingLeft: '20px', paddingTop: '20px' }}>
 
                         <h1 className="text-2xl font-semibold">{name}</h1>
                         <hr className="w-full border-t-2 border-gray-300 my-4 mb-10" />
