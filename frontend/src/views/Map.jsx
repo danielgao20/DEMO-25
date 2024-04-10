@@ -27,6 +27,7 @@ function InteractiveMap() {
   };
 
   const handleMouseClick = (tableId) => {
+    setSearchQuery("");
     setSelectedTable(tableId);
   };
 
