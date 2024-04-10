@@ -170,12 +170,12 @@ const StartupCard = ({description, name, logo, cardcolor, link, industries, team
                             <p className="text-md mt-2 mb-10">{description}</p>
                         </div>
 
-                        <div className="mt-4">
+                        {link && <div className="mt-4">
                             <h2 className="text-lg font-semibold">Website</h2>
                             <div className="mb-10">
                                 <a href={link} target="_blank" className="text-md text-blue-500 hover:underline mb-10">{link}</a>
                             </div>
-                        </div>
+                        </div>}
 
                         <div className="mt-4">
                             <h2 className="text-lg font-semibold">Industries</h2>
@@ -199,12 +199,12 @@ const StartupCard = ({description, name, logo, cardcolor, link, industries, team
                                             <p className="text-sm">{founder.role}</p>
                                         </div>
                                         <div className="flex justify-center space-x-4 mt-2">
-                                            <a href={founder.linkedin} target="_blank">
+                                            {founder.linkedin && <a href={founder.linkedin} target="_blank">
                                                 <img src={LinkedInLogo} alt="LinkedIn" className="h-6 w-6" />
-                                            </a>
-                                            <a href={`mailto:${founder.email}`}>
+                                            </a>}
+                                            {founder.email !== "" && <a href={`mailto:${founder.email}`}>
                                                 <img src={EmailLogo} alt="Email" className="h-6 w-6" />
-                                            </a>
+                                            </a>}
                                         </div>
                                     </div>
                                 ))}

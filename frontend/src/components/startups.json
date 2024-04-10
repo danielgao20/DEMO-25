@@ -141,7 +141,7 @@
       {
         "name": "Noah Nazarian",
         "role": "Co-Founder",
-        "headshot": "/headshots/Noah_Nazarian.jpg",
+        "headshot": "/headshots/Noah_Nazarian.png",
         "linkedin": "https://www.linkedin.com/in/noahnazarian/",
         "email": ""
       }
@@ -157,7 +157,7 @@
     "logo": "company_logos/Beige.png",
     "cardcolor": "blue",
     "description": "Started with a simple mission in mind—to democratize content for all, as we believe that content is the world’s new currency and is utilized to fulfill the insatiable desire for human connection, therefore we want to allow anyone, anywhere, to seamlessly book a shoot at any time.",
-    "link": "https://www.biodevek.com",
+    "link": "https://www.beigevideo.com/",
     "industries": ["Consumer Products"],
     "team": [
       {
@@ -179,7 +179,7 @@
     "logo": "company_logos/Biomed.png",
     "cardcolor": "blue",
     "description": "BIOMED is a pioneering biotech company integrating 3D bioprinting, Big Data, DNA analysis, and AI to offer personalized, precision medicine, making healthcare accessible and equitable across all demographics.",
-    "link": "https://www.biodevek.com",
+    "link": "https://biomed.bio/",
     "industries": ["Health & Wellness"],
     "team": [
       {
@@ -230,7 +230,7 @@
     "logo": "company_logos/Catalyst_Robotics.png",
     "description": "Helping healthcare providers expand access and reduce costs through autonomous vehicles",
     "industries": ["Robotics","Health & Wellness"],
-    "website_link": "https://www.catalystrobotics.com",
+    "link": "https://www.catalystrobotics.com",
     "team": [
       {
         "name": "Detravious Jamari Brinkley",
@@ -257,7 +257,7 @@
     "logo": "company_logos/Convoice.png",
     "description": "Easiest platform for anyone to build LLM-powered voice agents to automate business phone calls",
     "industries": ["AI/ML", "Enterprise"],
-    "website_link": "https://convoice.ai",
+    "link": "https://convoice.ai",
     "team": [
       {
         "name": "Yuxing Zhou",
@@ -281,7 +281,7 @@
     "logo": "company_logos/Degreely.png",
     "description": "Enabling innovative high schools to manage complex academic schedules saving administrative effort and offering more student personalization.",
     "industries": ["Education"],
-    "website_link": "https://degreely.com/",
+    "link": "https://degreely.com/",
     "team": [
       {
         "name": "Danny Pugh",
@@ -308,7 +308,7 @@
     "logo": "company_logos/Digistone.png",
     "description": "Digistone offers personalized digital memorials through NFC tags and 3D-printed objects, preserving cherished memories of loved ones for eternal remembrance.",
     "industries": ["Consumer Products"],
-    "website_link": "https://digistone.io",
+    "link": "https://digistone.io",
     "team": [
       {
         "name": "Darcell Edwards",
@@ -335,7 +335,7 @@
     "logo": "company_logos/Dual-X_Studio.png",
     "description": "Dual-X Studio crafts narrative-driven games that spotlight underrepresented groups, particularly Asian female gamers.",
     "industries": ["Entertainment"],
-    "website_link": "",
+    "link": "",
     "team": [
       {
         "name": "Ellie (Ziyan) Cai",
@@ -355,7 +355,7 @@
     "logo": "company_logos/EVRYN.png",
     "description": "EVRYN is a three-step, one-minute skincare routine to energize and refresh athletic women on the go, featuring facial cleansing wipes, a facial mist, and a moisturizing stick.",
     "industries": ["Consumer Products", "Fashion & Beauty"],
-    "website_link": "https://evrynskincare.com/",
+    "link": "https://evrynskincare.com/",
     "team": [
       {
         "name": "Riya Daga",
@@ -375,7 +375,7 @@
     "logo": "company_logos/Fair_&_Square.png",
     "description": "We make gut friendly crackers inspired by childhood favorite snacks, like Cheezits and Teddy Grahams.",
     "industries": ["Consumer Products", "Food & Beverage"],
-    "website_link": "https://itsfairandsquare.com",
+    "link": "https://itsfairandsquare.com",
     "team": [
       {
         "name": "Alex Duong",
@@ -395,11 +395,11 @@
     "logo": "company_logos/Guard_ProStamp_Inc.png",
     "description": "Empower licensed professionals in architecture and engineering to safeguard the authenticity of their license stamps using our cutting-edge SaaS platform, preventing fraudulent use and ensuring the integrity of the industry",
     "industries": ["Enterprise"],
-    "website_link": "",
+    "link": "",
     "team": [
       {
         "name": "Bo Ying Liu",
-        "role": "Co-Founder",
+        "role": "Founder",
         "headshot": "/headshots/Bo_Ying_Liu.jpg",
         "linkedin": "https://www.linkedin.com/in/bo-ying-liu-p-e-8a0010a7/",
         "email": ""
@@ -415,7 +415,7 @@
     "logo": "company_logos/Hatchet.png",
     "description": "Hatchet is a command technology for fire chiefs to coordinate, track, and rescue their crews",
     "industries": ["Enterprise"],
-    "website_link": "https://www.tryhatchet.com/",
+    "link": "https://www.tryhatchet.com/",
     "team": [
       {
         "name": "Dylan Lewis",
@@ -445,7 +445,7 @@
     "logo": "company_logos/Intuition_Intelligence_Inc.png",
     "description": "Get 'Peak Performance' from your content using AI / ML",
     "industries": ["AI/ML"],
-    "website_link": "http://intuitionintelligence.com/",
+    "link": "http://intuitionintelligence.com/",
     "team": [
       {
         "name": "Yusuf Ansari",
@@ -602,14 +602,14 @@
     "logo": "company_logos/Lav.png",
     "cardcolor": "",
     "description": "Lav salad dressings are made from Armenian-inspired, whole food ingredients and packaged in single-serve packets for easy, on-the-go use.",
-    "link": "https://www.dresslav.com",
+    "link": "https://dresslav.com/",
     "industries": ["Consumer Products", "Food & Beverage"],
     "team": [
       {
         "name": "Natalie Felikian",
         "role": "Founder",
         "headshot": "/headshots/Natalie_Felikian.jpeg",
-        "linkedin": "https://www.linkedin.com/in/natalie-felikian/",
+        "linkedin": "https://www.linkedin.com/in/natalie-felikian-b4258720a/",
         "email": ""
       }
     ],
@@ -677,7 +677,7 @@
         "name": "Saurabh Ghanekar",
         "role": "Founder",
         "headshot": "/headshots/Saurabh_Ghanekar.jpeg",
-        "linkedin": "https://www.linkedin.com/in/saurabh-ghanekar/",
+        "linkedin": "https://www.linkedin.com/in/saurabhghanekar/",
         "email": ""
       }
     ],
@@ -699,7 +699,7 @@
         "name": "Yihan Luo",
         "role": "Co-Founder",
         "headshot": "/headshots/Yihan_Luo.jpg",
-        "linkedin": "https://www.linkedin.com/in/yihan-luo/",
+        "linkedin": "https://linkedin.com/in/sakura-yihan-luo-a151451b1",
         "email": ""
       },
       {
@@ -728,7 +728,7 @@
         "name": "Yechen Wang",
         "role": "Co-Founder",
         "headshot": "/headshots/Yechen_Wang.png",
-        "linkedin": "https://www.linkedin.com/in/yechen-wang/",
+        "linkedin": "",
         "email": "ofspectrum@gmail.com"
       },
       {
@@ -750,7 +750,7 @@
     "logo": "company_logos/Orbital_Entertainment_Supply.png",
     "cardcolor": "",
     "description": "Orbital Entertainment Supply (ORBES) enables creative zero-gravity cinematography and space storytelling starting with an robot to easily position and control a camera in zero-g planes and space stations.",
-    "link": "https://www.orbes.space",
+    "link": "",
     "industries": ["Aerospace & Defense", "Entertainment"],
     "team": [
       {
@@ -813,7 +813,7 @@
         "name": "Samuel Cheng",
         "role": "Co-Founder",
         "headshot": "/headshots/Samuel_Cheng.jpeg",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/srcheng/",
         "email": ""
       },
       {
@@ -834,21 +834,21 @@
     "name": "Quinta",
     "logo": "company_logos/Quinta.png",
     "description": "Minimizing overlooked costs in fleet management.",
-    "link": "https://www.quinta.cc",
+    "link": "https://quintaapp.com.mx",
     "industries": ["Transportation"],
     "team": [
       {
         "name": "Julian Lopez Birlain",
         "role": "Co-Founder",
         "headshot": "/headshots/Julian_Lopez_Birlain.JPG",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/julianlopezbirlain/",
         "email": ""
       },
       {
         "name": "Miguel Gutierrez Elizondo",
         "role": "Co-Founder",
         "headshot": "/headshots/Miguel_Gutierrez_Elizondo.jpg",
-        "linkedin": "https://www.linkedin.com/in/miguel-gutierrez-elizondo/",
+        "linkedin": "https://www.linkedin.com/in/miguel-gutierrez-elizondo-ba035b269/",
         "email": ""
       }
     ],
@@ -862,7 +862,7 @@
     "name": "Recei",
     "logo": "company_logos/Recei.png",
     "description": "Recei delivers e-receipts and instant rewards to customers at the point of sale using NFC, while empowering businesses with a seamless payment solution and post-transaction customer touchpoints typically exclusive to major franchises",
-    "link": "https://www.recei.com",
+    "link": "",
     "industries": ["Finance & Insurance"],
     "team": [
       {
@@ -911,14 +911,14 @@
     "name": "Schej",
     "logo": "company_logos/Schej.png",
     "description": "Schej helps college students quickly find a time to meet by overlapping their availabilities",
-    "link": "https://www.schej.co",
+    "link": "https://schej.it/",
     "industries": ["Consumer Products"],
     "team": [
       {
         "name": "Jonathan Liu",
         "role": "Co-Founder",
         "headshot": "/headshots/Jonathan_Liu.jpg",
-        "linkedin": "",
+        "linkedin": "https://www.linkedin.com/in/jonathan-z-liu/",
         "email": ""
       },
       {
@@ -960,7 +960,7 @@
     "name": "SentiMind",
     "logo": "company_logos/SentiMind.png",
     "description": "AI Solutions for Empowering Patients Emotions",
-    "link": "https://www.sentimind.com",
+    "link": "",
     "industries": ["Health & Wellness"],
     "team": [
       {
@@ -1037,7 +1037,7 @@
         "name": "Mario Apuzzo",
         "role": "Founder",
         "headshot": "/headshots/Mario_Apuzzo.png",
-        "linkedin": "https://linkedin.com/mario-apuzzo",
+        "linkedin": "https://www.linkedin.com/in/mario-apuzzo/",
         "email": ""
       }
     ],
@@ -1090,7 +1090,7 @@
         "name": "Jun Matsuo",
         "role": "Founder",
         "headshot": "/headshots/Jun_Matsuo.jpg",
-        "linkedin": "https://www.linkedin.com/in/jun-matsuo-5a8391197/",
+        "linkedin": "https://www.linkedin.com/in/junterratokes/",
         "email": ""
       }
     ],
@@ -1115,9 +1115,16 @@
         "email": "team@indie-stry.com"
       },
       {
-        "name": "Maximus Jenkins & Kaleb Manske",
+        "name": "Maximus Jenkins",
         "role": "Co-Founder",
-        "headshot": "/headshots/Maximus_Jenkins _Kaleb_Manske.png",
+        "headshot": "/headshots/Maximus_Jenkins.png",
+        "linkedin": "",
+        "email": "team@indie-stry.com"
+      },
+      {
+        "name": "Kaleb Manske",
+        "role": "Co-Founder",
+        "headshot": "/headshots/Kaleb_Manske.png",
         "linkedin": "",
         "email": "team@indie-stry.com"
       }
@@ -1141,7 +1148,7 @@
         "name": "Ryan Yeung",
         "role": "Co-Founder",
         "headshot": "/headshots/Ryan_Yeung.jpeg",
-        "linkedin": "https://www.linkedin.com/in/ryan-yeung-824a18144/details/experience/",
+        "linkedin": "https://www.linkedin.com/in/ryan-yeung-824a18144/",
         "email": ""
       },
       {
