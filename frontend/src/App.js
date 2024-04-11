@@ -4,6 +4,7 @@ import Map from "./views/Map";
 import Navbar from "./components/Navbar";
 import Startupgrid from "./views/Startupgrid";
 import SponsorUs from "./views/SponsorUs";
+import Recruitment from "./views/Recruitment";
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
           <Route path="/startups" element={<Startupgrid />} />
           <Route path="/sponsorus" element={<SponsorUs />} />
           <Route path="/map" element={<Map />} />
+          <Route path="*" element={<Landing />} />
+          <Route path="/qr/:id" element={<Recruitment />} />
         </Routes>
       </div>
     </Router>
