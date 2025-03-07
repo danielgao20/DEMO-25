@@ -59,7 +59,7 @@ function Navbar() {
   return (
     <header className="w-full h-16 flex flex-row justify-between items-center px-8 p-4 fixed top-0 z-50 bg-[#131313]/20 backdrop-blur">
       <img
-        alt="Demo 2024 Logo — Presented by TroyLabs"
+        alt="Demo 2025 Logo — Presented by TroyLabs"
         src={DEMOLogo}
         className="h-full w-auto cursor-pointer"
         onClick={() => navigate("/")}

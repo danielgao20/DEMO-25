@@ -214,7 +214,7 @@ function Landing() {
         } min-w-full p-8 text-center min-h-screen w-full relative h-full flex flex-col items-center text-white justify-center`}
       >
         <h3 className="text-2xl relative z-20 font-bold tracking-wider text-[#C1C1CD]">
-          April 11th • 10:30AM - 8:00PM • USC Trojan Grand Ballroom
+          April 23rd • 10:30AM - 8:00PM • USC Trojan Grand Ballroom
         </h3>
         <h1
           id="DEMO-Shadow"
@@ -222,7 +222,7 @@ function Landing() {
             isMobile ? "text-8xl" : "text-9xl"
           } relative z-20 font-black mt-2 bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text`}
         >
-          DEMO 2024
+          DEMO 2025
         </h1>
         <h4 className="text-2xl  relative z-20 text-[#C2C2CD] font-medium mt-4">
           USC’s Largest Student Organized Entrepreneurship Conference
@@ -270,7 +270,7 @@ function Landing() {
       >
         <h3 className="text-[#747478] font-medium text-lg">What is DEMO?</h3>
         <h1 className="text-5xl mt-2 font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text">
-          TroyLabs presents DEMO 2024
+          TroyLabs presents DEMO 2025
         </h1>
         <h2 className="text-xl font-semibold text-white mt-4">
           Empowering USC's Next Generation of Entrepreneurs
@@ -342,7 +342,7 @@ function Landing() {
           isMobile ? "p-8" : "p-24"
         } text-white`}
       >
-        <h3 className="text-[#747478] font-medium text-lg">April 11, 2024</h3>
+        <h3 className="text-[#747478] font-medium text-lg">April 23, 2025</h3>
         <h1 className="text-5xl mt-2 font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text">
           DEMO Agenda
         </h1>
@@ -609,7 +609,7 @@ function Landing() {
                 rel="noreferrer"
                 className="HeroButton-Shadow text-lg cursor-pointer font-normal text-[#DEE0E3] p-2 px-6 rounded-lg bg-[#131315] border-2 border-[#1A4265] hover:bg-[#1F1F23] hover:shadow-inner active:bg-[#0C0C0D] transition-all hover:shadow-slate-700"
               >
-                DEMO 2024 Startups
+                DEMO 2025 Startups
               </a>
               {/* <button onClick={() => {navigate('/startups')}} className="HeroButton-Shadow text-lg cursor-pointer font-semibold text-[#DADEE2] p-2 px-6 rounded-lg bg-[#176EBA] border-2 border-[#131315]">
             DEMO 2024 Startups
@@ -856,7 +856,7 @@ function Landing() {
         </h1>
         <h2 className="text-lg text-center font-medium tracking-wider text-white">
           Thank you for the support of our sponsors to provide opportunities at
-          DEMO 2024!
+          DEMO 2025!
         </h2>
         <div
           className={`${
