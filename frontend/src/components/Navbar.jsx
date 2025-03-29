@@ -37,16 +37,16 @@ function Navbar() {
       url: "/",
       action: () => navigate("/"),
     },
-    {
-      text: "Startups",
-      url: "/startups",
-      action: () => navigate("/startups"),
-    },
-    {
-      text: "Map",
-      url: "/map",
-      action: () => navigate("/map"),
-    },
+    // {
+    //   text: "Startups",
+    //   url: "/startups",
+    //   action: () => navigate("/startups"),
+    // },
+    // {
+    //   text: "Map",
+    //   url: "/map",
+    //   action: () => navigate("/map"),
+    // },
     {
       text: "Sponsor Us",
       url: "",
@@ -57,7 +57,7 @@ function Navbar() {
   var current = location.pathname;
 
   return (
-    <header className="w-full h-16 flex flex-row justify-between items-center px-8 p-4 fixed top-0 z-50 bg-[#131313]/20 backdrop-blur">
+    <header className="w-full h-[75px] flex flex-row justify-between items-center px-8 p-4 fixed top-0 z-50 bg-[#131313]/20 backdrop-blur">
       <img
         alt="Demo 2025 Logo — Presented by TroyLabs"
         src={DEMOLogo}
@@ -83,7 +83,7 @@ function Navbar() {
             ))}
           </div>
           <a
-            href="https://www.eventbrite.com/e/809233237397"
+            href="https://www.eventbrite.com/e/demo-2025-entrepreneurship-conference-tickets-1257671050969?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl"
             target="_blank"
             rel="noreferrer"
             className="HeroButton-Shadow text-sm cursor-pointer font-semibold text-[#DEE0E3] p-2 px-6 rounded-lg bg-[#131315] border-2 border-[#1A4265] hover:bg-[#1F1F23] hover:shadow-inner active:bg-[#0C0C0D] transition-all hover:shadow-slate-700"

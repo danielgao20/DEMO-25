@@ -219,7 +219,7 @@ function Landing() {
         <h1
           id="DEMO-Shadow"
           className={`${
-            isMobile ? "text-8xl" : "text-9xl"
+            isMobile ? "text-6xl" : "text-8xl"
           } relative z-20 font-black mt-2 bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text`}
         >
           DEMO 2025
@@ -230,13 +230,13 @@ function Landing() {
         <h5
           className={`${
             isMobile ? "text-md mt-2" : "text-xl"
-          } relative z-20 text-[#f3f3f3] font-medium mt-6`}
+          } relative z-20 text-gray-400 font-light mt-6`}
         >
           Sponsored by the USC Lloyd Greif Center for Entrepreneurial Studies
         </h5>
         <div className="flex relative z-20 flex-row w-full items-center mt-12 justify-center gap-8">
           <a
-            href="https://www.eventbrite.com/e/809233237397"
+            href="https://www.eventbrite.com/e/demo-2025-entrepreneurship-conference-tickets-1257671050969?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl"
             target="_blank"
             rel="noreferrer"
             className="HeroButton-Shadow text-lg cursor-pointer font-semibold text-[#DEE0E3] p-2 px-6 rounded-lg bg-[#131315] border-2 border-[#1A4265] hover:bg-[#1F1F23] hover:shadow-inner active:bg-[#0C0C0D] transition-all hover:shadow-slate-700"
@@ -272,10 +272,10 @@ function Landing() {
         <h1 className="text-5xl mt-2 font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text">
           TroyLabs presents DEMO 2025
         </h1>
-        <h2 className="text-xl font-semibold text-white mt-4">
+        <h2 className="text-xl font-bold text-white mt-4">
           Empowering USC's Next Generation of Entrepreneurs
         </h2>
-        <p className="leading-10 font-medium mt-6 text-[#FEFEFE] max-w-[800px] min-w-[300px] w-[50%]">
+        <p className="leading-8 font-normal mt-8 text-gray-400 max-w-[800px] min-w-[300px] w-[50%]">
           DEMO is the largest student-run entrepreneurial conference sponsored
           by the USC Lloyd Greif Center for Entrepreneurial Studies. DEMO
           annually brings together startups, investors, students, and everyone
@@ -376,7 +376,7 @@ function Landing() {
             reverse={true}
             agenda={"Opening Ceremony"}
             description={
-              "The Opening Ceremony with President of USC Carol Folt, sponsors, and keynote panel."
+              "The Opening Ceremony with an opening speech, sponsors, and keynote panel."
             }
           />
         </div>
@@ -386,7 +386,7 @@ function Landing() {
             reverse={false}
             agenda={"Keynote Panel"}
             description={
-              "Ellen Chen, Founder of Mendocino Farms. Scott Goldberg, Founder of Fresh Brothers. Moderated by Glenn Fox."
+              "Past keynote speakers: Sean Rad (Founder and former CEO of Tinder), Palmer Lucky (Founder of Oculus), Tim Ellis (Co-Founder of Relativity), Janice Bryant Howroyd (Founder & CEO of ActOne Group)."
             }
           />
           <img
@@ -433,7 +433,7 @@ function Landing() {
 
       {/* Keynote!! */}
 
-      <div
+      {/* <div
         className={`min-w-full min-h-screen w-full relative h-full flex flex-col ${
           isMobile ? "p-8" : "p-24"
         } text-white`}
@@ -568,11 +568,11 @@ function Landing() {
 
         <KeynoteBlur className="absolute pointer-events-none bottom-0 w-auto" />
         <KeynoteCircle className="absolute pointer-events-none right-0 bottom-1/4 w-auto" />
-      </div>
+      </div> */}
 
       {/* Pitch Competition */}
 
-      <div
+      {/* <div
         className={`min-w-full min-h-screen w-full relative h-full flex flex-col ${
           isMobile ? "p-8" : "p-24"
         } text-white`}
@@ -599,9 +599,6 @@ function Landing() {
               be used on Apsy's AI-Driven App Builder platform.
             </p>
             <div className="mt-5">
-              {/* <button className="HeroButton-Shadow text-md cursor-pointer font-semibold text-[#DEE0E3] p-2 px-6 rounded-lg bg-[#131315] border-2 border-[#1A4265]">
-            Pitching Startups
-          </button> */}
             </div>
             <div className="flex relative z-20 flex-row w-full items-left mt-12 justify-left gap-8">
               <a
@@ -611,9 +608,6 @@ function Landing() {
               >
                 DEMO 2025 Startups
               </a>
-              {/* <button onClick={() => {navigate('/startups')}} className="HeroButton-Shadow text-lg cursor-pointer font-semibold text-[#DADEE2] p-2 px-6 rounded-lg bg-[#176EBA] border-2 border-[#131315]">
-            DEMO 2024 Startups
-          </button> */}
             </div>
           </div>
           <div
@@ -737,11 +731,11 @@ function Landing() {
         </div>
 
         <PitchBlur className="absolute pointer-events-none bottom-1/4 w-auto" />
-      </div>
+      </div> */}
 
       {/* Event */}
 
-      <div
+      {/* <div
         className={`min-w-full min-h-screen w-full relative h-full flex flex-col ${
           isMobile ? "p-8" : "p-24"
         } text-white`}
@@ -811,7 +805,7 @@ function Landing() {
           </div>
         </div>
         <WorkshopBlur className="absolute pointer-events-none bottom-0 w-auto" />
-      </div>
+      </div> */}
 
       {/* ADA */}
       <div
@@ -825,19 +819,22 @@ function Landing() {
           </h2>
           {/* line */}
 
-          <p
-            className={`${
-              isMobile ? "w-[70%]" : "w-3/4"
-            }text-white text-center leading-loose text-lg`}
-          >
-            Individuals with disabilities who need accommodations to attend this
-            event may contact <b className="text-[#3B88CC]">troylabs@usc.edu</b>
-            . It is requested that individuals requiring accommodations or
-            auxiliary aids such as sign language interpreters and alternative
-            format materials notify us at least 7 days prior to the event. Every
-            reasonable effort will be made to provide reasonable accommodations
-            in an effective and timely manner.
-          </p>
+          <div className={`${isMobile ? "w-[70%]" : "w-3/4"} text-center`}>
+            <p className="text-gray-400 leading-loose text-lg mb-6">
+              This program is open to all eligible individuals. TroyLabs operates all of its programs and activities consistent with the University's Notice of Non-Discrimination.
+              Eligibility is not determined based on race, sex, ethnicity, sexual orientation, or any other prohibited factor.
+            </p>
+            
+            <p className="text-gray-400 leading-loose text-lg">
+              Individuals with disabilities who need accommodations to attend this
+              event may contact <b className="text-[#3B88CC]">troylabs@usc.edu</b>
+              . It is requested that individuals requiring accommodations or
+              auxiliary aids such as sign language interpreters and alternative
+              format materials notify us at least 7 days prior to the event. Every
+              reasonable effort will be made to provide reasonable accommodations
+              in an effective and timely manner.
+            </p>
+          </div>
         </div>
       </div>
 

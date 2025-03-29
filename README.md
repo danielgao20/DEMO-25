@@ -1,2 +1,2 @@
-# DEMO-Website-S24
-DEMO website for Spring 2024
+# DEMO-Website-S25
+DEMO website for Spring 2025
