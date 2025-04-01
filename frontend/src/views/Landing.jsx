@@ -172,9 +172,9 @@ var sponsors = [
   {
     image: Blackstone,
   },
-  {
-    image: Apsy,
-  },
+  // {
+  //   image: Apsy,
+  // },
 ];
 
 
