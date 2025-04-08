@@ -386,7 +386,7 @@ function Landing() {
             reverse={false}
             agenda={"Keynote Panel"}
             description={
-              "Past keynote speakers: Sean Rad (Founder and former CEO of Tinder), Palmer Lucky (Founder of Oculus), Tim Ellis (Co-Founder of Relativity), Janice Bryant Howroyd (Founder & CEO of ActOne Group)."
+              "Adam and Ryan Goldston (Founders and CEOs of APL), Ashley Alexander (Founder of Nami Matcha, ur mom ashley on YT) and Shopify."
             }
           />
           <img
