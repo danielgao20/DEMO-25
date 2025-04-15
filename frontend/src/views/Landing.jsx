@@ -214,7 +214,7 @@ function Landing() {
         } min-w-full p-8 text-center min-h-screen w-full relative h-full flex flex-col items-center text-white justify-center`}
       >
         <h3 className="text-2xl relative z-20 font-bold tracking-wider text-[#C1C1CD]">
-          April 23rd • 10:30AM - 8:00PM • USC Trojan Grand Ballroom
+          April 23rd • 11AM to 8PM • USC TCC Ballroom
         </h3>
         <h1
           id="DEMO-Shadow"
@@ -351,7 +351,7 @@ function Landing() {
         </h2>
         <div className="w-full h-auto py-4  mt-10 flex items-center justify-between">
           <AgendaCard
-            time={"10:30 AM"}
+            time={"11 AM"}
             reverse={false}
             agenda={"Doors Open"}
             description={"Doors for the Opening Ceremony will open at 10:30 AM"}
@@ -372,7 +372,7 @@ function Landing() {
           />
 
           <AgendaCard
-            time={"11:00 AM"}
+            time={"11:15 AM"}
             reverse={true}
             agenda={"Opening Ceremony"}
             description={
@@ -382,7 +382,7 @@ function Landing() {
         </div>
         <div className="w-full h-auto py-4 mt-2 flex items-center justify-between">
           <AgendaCard
-            time={"11:30 AM"}
+            time={"12 PM"}
             reverse={false}
             agenda={"Keynote Panel"}
             description={
@@ -404,7 +404,7 @@ function Landing() {
             }`}
           />
           <AgendaCard
-            time={"12:30 PM"}
+            time={"2 PM"}
             reverse={true}
             agenda={"Startup Exhibition"}
             description={
