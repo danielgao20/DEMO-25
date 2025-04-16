@@ -23,8 +23,8 @@ import PitchCompetition from "../assets/PitchCompetition.png";
 import StartupExhibition from "../assets/StartupExhibition.png";
 import DoorsOpen from "../assets/DoorsOpen.png";
 
-import EllenChen from "../assets/EllenChen.png";
-import ScottGoldberg from "../assets/ScottGoldberg.png";
+import AshleyAlexander from "../assets/AshleyAlexander.png";
+import AdamRyanGoldston from "../assets/AdamRyanGoldston.png";
 import Mendocino from "../assets/Mendocino.png";
 import FreshBrothers from "../assets/FreshBrothers.png";
 
@@ -144,21 +144,21 @@ var judges = [
 
 var keynoteSpeakers = [
   {
-    name: "Ellen Chen",
-    photo: EllenChen,
-    title: "Co-Founder and Board Member of Mendocino Farms,  Investor/Advisor",
-    company: Mendocino,
-    linkedIn: "https://www.linkedin.com/in/ellen-chen-a20b809/",
-    description: `Since stepping down from the “day to day” of running Mendocino Farms, a premium fast casual gourmet sandwich and salad concept that she co-founded in 2005, Ellen has focused her time, energy and passion supporting female and minority founded businesses.  Ellen is using her twenty years of experience growing food brands to help early-stage founders understand their purpose, operationalize their values, get the resources they need and hopefully avoid some of the mistakes she made. 
-    Ellen continues to offer the restaurant group a big business perspective with an entrepreneur's passion. In 2015 Nation’s Restaurant News included her on their annual Power List, and 2020 Nation’s Restaurant News named her the 50 most influential women in foodservice.    She sits on the Board of Directors of Mendocino Farms and Sugared + Bronzed as well as Advisor to Zitti, Curbit, Womaness and Vibrant Funds. She believes strongly in a need to give back to her community and is a Founding Board Member of Teach AAPI and AAPI LA an initiative launched by the Mayor’s office in Los Angeles. `,
+    name: "Adam and Ryan Goldston",
+    photo: AdamRyanGoldston,
+    title: "Co-Founders of Athletic Propulsion Labs",
+    // company: FreshBrothers,
+    // linkedIn: "https://www.linkedin.com/in/scott-goldberg-409321109/",
+    description: `Adam and Ryan Goldston are the identical twin founders of APL (Athletic Propulsion Labs), the brand behind some of the most innovative footwear in the world. As former USC student-athletes, they built APL to bridge luxury and performance, launching the first shoe ever banned by the NBA for "providing an undue competitive advantage”.
+    \n\nSince then, they've turned APL into a globally recognized brand carried in over 300 luxury retailers, from Saks Fifth Avenue and Bergdorf to Le Bon Marché. They've partnered with big names like Lululemon and F1 champions Oracle Red Bull Racing.
+    \n\nHonored at the White House, named to Forbes 30 Under 30, and inducted into the CFDA, Adam and Ryan know what takes to turn a college idea into global brand.`
   },
   {
-    name: "Scott Goldberg",
-    photo: ScottGoldberg,
-    title: "VP Supply Chain & Development/CoFounder at Fresh Brothers",
-    company: FreshBrothers,
-    linkedIn: "https://www.linkedin.com/in/scott-goldberg-409321109/",
-    description: `Scott Goldberg was born in Chicago, Illinois, where he grew up immersed in the city’s rich pizza culture. At 19, he opened Miller Pizza Co. in Gary Indiana. After 25 years of success, Scott & his family moved to LA when his brothers reached out and said “we need to bring your pizza to the west coast.” Fresh Brothers now has 23 stores plus operations at LAX and 4 stadiums. “Its all about the love of people and pizza”`,
+    name: "Ashley Alexander",
+    photo: AshleyAlexander,
+    title: "Founder and CEO of Nami Matcha + YouTuber @urmomashley",
+    // company: Mendocino,
+    description: "Ashley Alexander is a powerhouse creator and founder and CEO of Nami Matcha. With over 1.8M YouTube subscribers and 230M views, she built her platform through raw, relatable content blending humor, lifestyle, and family. She’s worked with brands like Dior and Sony, and cohosts the Beautiful Twin Sisters podcast with her sister Amber.\n\nIn 2024, Ashley launched Nami Matcha, selling out the first product in just 4 minutes. Less than a year later, Nami is available in 139 countries and is on track to become a multi-seven-figure brand without spending a cent on media. As a self taught, female AAPI entrepreneur, Ashley offers a clear perspective on building something meaningful. At this keynote with Shopify, she's sharing how she did it and what's next.",
   },
 ];
 
@@ -354,7 +354,7 @@ function Landing() {
             time={"11 AM"}
             reverse={false}
             agenda={"Doors Open"}
-            description={"Doors for the Opening Ceremony will open at 10:30 AM"}
+            description={"Doors for the Opening Ceremony will open at 11 AM."}
           />
           <img
             src={DoorsOpen}
@@ -376,7 +376,7 @@ function Landing() {
             reverse={true}
             agenda={"Opening Ceremony"}
             description={
-              "The Opening Ceremony with an opening speech, sponsors, and keynote panel."
+              "The Opening Ceremony with an opening speech from TroyLabs, the Lloyd Greif Center, and our sponsors."
             }
           />
         </div>
@@ -433,12 +433,12 @@ function Landing() {
 
       {/* Keynote!! */}
 
-      {/* <div
+      <div
         className={`min-w-full min-h-screen w-full relative h-full flex flex-col ${
           isMobile ? "p-8" : "p-24"
         } text-white`}
       >
-        <div
+        {/* <div
           className={`${
             isMobile ? "flex-col" : "flex-row"
           } w-full flex-start mt-10 gap-16 h-full flex`}
@@ -472,9 +472,9 @@ function Landing() {
               isMobile ? "w-full" : "w-[27.5%] h-[100%]"
             } rounded-lg shadow-lg border border-blue-500 shadow-blue-500 object-contain`}
           />
-        </div>
+        </div> */}
 
-        <div className="flex flex-col w-8/12 mt-16">
+        <div className="flex flex-col w-8/12 mt-8">
           <h3 className="text-[#747478] font-medium text-lg">
             Inspiring Founder Stories
           </h3>
@@ -482,7 +482,7 @@ function Landing() {
             Keynote Panel
           </h1>
           <h2 className="text-xl font-semibold text-white mt-4">
-            Mendocino Farms & Fresh Brothers Pizza
+            APL, Nami Matcha, Shopify
           </h2>
         </div>
 
@@ -499,7 +499,7 @@ function Landing() {
                 <img
                   src={speaker.photo}
                   alt={speaker.name}
-                  className="h-full shadow-lg border border-blue-500 shadow-blue-500 object-cover rounded-lg"
+                  className="w-48 h-48 md:w-64 md:h-64 shadow-lg border border-blue-500 shadow-blue-500 object-cover rounded-lg flex-shrink-0"
                 />
                 <div
                   className={`${
@@ -515,16 +515,18 @@ function Landing() {
                   <p className="text-xl mt-2 font-semibold text-white">
                     {speaker.title}
                   </p>
-                  <p className="text-sm text-gray-300 mt-4 leading-loose font-light">
-                    {speaker.description}
-                  </p>
+                  {speaker.description.split(/\n\n+/).map((para, idx) => (
+                    <p key={idx} className="text-sm text-gray-300 mt-4 leading-loose font-light">
+                      {para}
+                    </p>
+                  ))}
                   <img src={speaker.company} className="w-40 mt-8" />
                 </div>
               </div>
             );
           })}
 
-          <div
+          {/* <div
             className={`${
               isMobile ? "flex-col" : "flex-row"
             } w-full flex-start mt-10 gap-16 h-full flex`}
@@ -563,12 +565,12 @@ function Landing() {
                 isMobile ? "w-full" : "w-1/4"
               } rounded-lg shadow-lg border border-blue-500 shadow-blue-500 object-cover`}
             />
-          </div>
+          </div> */}
         </div>
 
         <KeynoteBlur className="absolute pointer-events-none bottom-0 w-auto" />
         <KeynoteCircle className="absolute pointer-events-none right-0 bottom-1/4 w-auto" />
-      </div> */}
+      </div>
 
       {/* Pitch Competition */}
 
