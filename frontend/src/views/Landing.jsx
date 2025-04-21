@@ -354,7 +354,7 @@ function Landing() {
             time={"11 AM"}
             reverse={false}
             agenda={"Doors Open"}
-            description={"Doors for the Opening Ceremony will open at 11 AM."}
+            description={"Doors for the Opening Ceremony will open at 11 AM and close at 11:45 AM."}
           />
           <img
             src={DoorsOpen}
@@ -372,7 +372,7 @@ function Landing() {
           />
 
           <AgendaCard
-            time={"11:15 AM"}
+            time={"11:30 AM"}
             reverse={true}
             agenda={"Opening Ceremony"}
             description={
@@ -408,7 +408,7 @@ function Landing() {
             reverse={true}
             agenda={"Startup Exhibition"}
             description={
-              "The Startup Exhibition is the main event, and will be open to all guests. Attendees can walk around the exhibition to look at the startups, network with founders, meet investors, and enjoy free food and merchandise."
+              "Doors reopen at 2 PM for the Startup Exhibition, the main event, which will be open to all guests. Attendees can walk around the exhibition to look at the startups, network with founders, meet investors, and enjoy free food and merchandise."
             }
           />
         </div>
