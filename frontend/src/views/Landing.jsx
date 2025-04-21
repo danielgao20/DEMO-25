@@ -29,12 +29,13 @@ import Mendocino from "../assets/Mendocino.png";
 import FreshBrothers from "../assets/FreshBrothers.png";
 
 import GlennFox from "../assets/GlennFox.png";
+import MaryannXu from "../assets/MaryannXu.png";
 import Carol from "../assets/Carol.jpg";
 
-import Tim from "../assets/Tim.png";
-import Christiane from "../assets/Christiane.png";
-import Arabian from "../assets/Arabian.jpg";
-import Gordon from "../assets/gordonho1.jpg";
+import Ali from "../assets/ali.png";
+import Rachael from "../assets/rachael.png";
+import Martin from "../assets/martin.png";
+import Jai from "../assets/jai.png"
 
 import OES from "../assets/OES.png";
 import Prometheus from "../assets/Prometheus.png";
@@ -108,37 +109,46 @@ const pitchingStartups = [
 
 var judges = [
   {
-    name: "Timothy Li",
-    title: "CEO & CoFounder of LendAPI",
-    picture: Tim,
-    linkedIn: "https://www.linkedin.com/in/timothytli/",
-    description: `Timothy Li is a serial tech entrepreneur. He spent the past 20 years in financial technology focusing on banking and fintech product while building mission critical platforms for Intel Corporation and
-    JPMorgan Chase.
-    
-    He currently serves on multiple FinTech advisory boards worldwide. Tim is also a professor at the University of Southern California, Viterbi School of Engineering where he enjoys helping hundreds of students build their high tech startups.
-    `,
+    name: "Ali Mirzaei",
+    title: "Founder and CEO of Dimension Studios",
+    picture: Ali,
+    linkedIn: "https://www.linkedin.com/in/ali-mirzaei-a411791b4/",
+    description: `Ali Mirzaei is the founder and CEO of a social e-commerce incubator
+    and accelerator specializing in the emerging TikTok Shop space. Before that, 
+    he held executive roles in several companies, and even launched a creator-based 
+    apparel brand which gained 500,000,000+ views and 500,000+ followers in less than a year.`,
   },
   {
-    name: "Christiane Maertens",
-    title: "Founder of DoGoodery & Valor Bebidas",
-    picture: Christiane,
-    linkedIn: "https://www.linkedin.com/in/christiane-a-maertens-6bb2b74/",
-    description: `Christiane Maertens is the founder and CEO of DoGoodery and Valor Bebidas, Inc. At DoGoodery, she collaborates with brands to champion transformative social initiatives, setting new standards for corporate responsibility and driving tangible change in communities. Under her leadership, DoGoodery has transformed the landscape of purpose-driven partnerships, making genuine impact beyond mere marketing. With Valor Bebidas, her vision goes beyond just tequila production; she's driven to revolutionize the industry by weaving equity into the tequila supply chain, ensuring that the artisans, passionate about crafting tequila's soulful spirit, are recognized and share in its prosperity. Beyond these core ventures, Christiane launched Disney's first corporate social responsibility campaign and amplified NAAEE's global influence. As the daughter of immigrants from El Salvador and Germany, she brings a distinctive perspective to her endeavors. Christiane is also a National Geographic Explorer and serves on the board of Outdoor Afro.`,
+    name: "Rachael McCrary",
+    title: "CEO of Spice World",
+    picture: Rachael,
+    linkedIn: "https://www.linkedin.com/in/rachaelmccrary/",
+    description: `Rachael McCrary is the CEO of a company redefining intimate apparel by 
+    empowering women. She has designed for major brands, created the innovative RxBra 
+    for post-surgical recovery, and founded Jewel Toned, the first female-founded 
+    startup to raise $1 million in 2015. Rachael has won numerous awards, including being 
+    named one of LA's "100 Worthy Women."`,
   },
   {
-    name: "Arabian Prince",
-    title: "Entrepreneurial Industry Leader & Founder in Music and Tech",
-    picture: Arabian,
-    linkedIn: "https://www.linkedin.com/in/ogarabianprincenwa/",
-    description:
-      "OG Arabian Prince - A songwriter, rapper, producer, DJ, technologist Pro Gamer, Animator, Futurist and Blockchain pioneer. Founding member of the Rock and Roll Hall of Fame group N.W.A., producer of Grammy nominated #1 hit song Supersonic., Founder of iNov8 Next Open Labs, Founder of GGGOAT PC and lifestyle brand. Founder of GGGOAT GOLF, CO Founder iNov8 Capital",
+    name: "Dr. Martin Prescher",
+    title: "Faculty in USC's Viterbi School of Engineering",
+    picture: Martin,
+    linkedIn: "https://www.linkedin.com/in/mprescher/",
+    description: `Dr. Martin Prescher has a strong track record in tech entrepreneurship. 
+    As a serial tech executive, he's co-founded AutoGravity, launching the first digital 
+    car retail marketplace backed by Daimler and Volkswagen, and most recently serves as 
+    CPO & CTO of Autonomy, raising over $75 million in venture funding.`,
   },
   {
-    name: "Gordon Ho",
-    title: "President of Xpertainment",
-    picture: Gordon,
-    linkedIn: "https://www.linkedin.com/in/gordonkho/",
-    description: `Gordon is President of Xpertainment, a strategy consulting firm & adjunct professor at USC teaching Product Management, Risk Management & Crisis Management and at Georgetown teaching Marketing.   Ho is the former CMO and Sales Head at Princess Cruises and EVP of Product, Marketing and Content at Disney Studios Home Entertainment.   At Disney, Ho & team created Disney’s $3B direct-to-video category and the industry’s #1 loyalty program, Disney Movie Rewards.   At Princess, Gordon’s team launched Princess OCEAN Medallion, the #1 travel IOT wearable and the award-winning Discovery at Sea program, delivering Discovery and Animal Planet real life experiences.    Gordon has worked at numerous start-ups and co-founded the startup, MyMovieDeals, providing bundled savings for moviegoers.   He is on the Board of CAPE, the Coalition of Asian Pacifics in Entertainment, Ronald McDonald House of Southern California and several media & tech company advisory boards.`,
+    name: "Jai Bhavnani",
+    title: "Co-founder and CEO of Waymont",
+    picture: Jai,
+    linkedIn: "https://www.linkedin.com/in/jaibhavnani/",
+    description: `Jai Bhavnani is the co-founder and CEO of a company dedicated to building
+    a better financial system, particularly in the realm of crypto-native wealth platforms.
+    As a serial founder, he previously co-founded Rari Capital, a decentralized finance 
+    protocol that reached over $1.5 billion AUM before being acquired for $375 million by Tribe
+    moderators`,
   },
 ];
 
@@ -149,7 +159,7 @@ var keynoteSpeakers = [
     title: "Co-Founders of Athletic Propulsion Labs",
     // company: FreshBrothers,
     // linkedIn: "https://www.linkedin.com/in/scott-goldberg-409321109/",
-    description: `Adam and Ryan Goldston are the identical twin founders of APL (Athletic Propulsion Labs), the brand behind some of the most innovative footwear in the world. As former USC student-athletes, they built APL to bridge luxury and performance, launching the first shoe ever banned by the NBA for "providing an undue competitive advantage”.
+    description: `Adam and Ryan Goldston are the identical twin founders of APL (Athletic Propulsion Labs), the brand behind some of the most innovative footwear in the world. As former USC student-athletes, they built APL to bridge luxury and performance, launching the first shoe ever banned by the NBA for "providing an undue competitive advantage".
     \n\nSince then, they've turned APL into a globally recognized brand carried in over 300 luxury retailers, from Saks Fifth Avenue and Bergdorf to Le Bon Marché. They've partnered with big names like Lululemon and F1 champions Oracle Red Bull Racing.
     \n\nHonored at the White House, named to Forbes 30 Under 30, and inducted into the CFDA, Adam and Ryan know what takes to turn a college idea into global brand.`
   },
@@ -158,7 +168,7 @@ var keynoteSpeakers = [
     photo: AshleyAlexander,
     title: "Founder and CEO of Nami Matcha + YouTuber @urmomashley",
     // company: Mendocino,
-    description: "Ashley Alexander is a powerhouse creator and founder and CEO of Nami Matcha. With over 1.8M YouTube subscribers and 230M views, she built her platform through raw, relatable content blending humor, lifestyle, and family. She’s worked with brands like Dior and Sony, and cohosts the Beautiful Twin Sisters podcast with her sister Amber.\n\nIn 2024, Ashley launched Nami Matcha, selling out the first product in just 4 minutes. Less than a year later, Nami is available in 139 countries and is on track to become a multi-seven-figure brand without spending a cent on media. As a self taught, female AAPI entrepreneur, Ashley offers a clear perspective on building something meaningful. At this keynote with Shopify, she's sharing how she did it and what's next.",
+    description: "Ashley Alexander is a powerhouse creator and founder and CEO of Nami Matcha. With over 1.8M YouTube subscribers and 230M views, she built her platform through raw, relatable content blending humor, lifestyle, and family. She's worked with brands like Dior and Sony, and cohosts the Beautiful Twin Sisters podcast with her sister Amber.\n\nIn 2024, Ashley launched Nami Matcha, selling out the first product in just 4 minutes. Less than a year later, Nami is available in 139 countries and is on track to become a multi-seven-figure brand without spending a cent on media. As a self taught, female AAPI entrepreneur, Ashley offers a clear perspective on building something meaningful. At this keynote with Shopify, she's sharing how she did it and what's next.",
   },
 ];
 
@@ -197,7 +207,7 @@ function Landing() {
   };
 
   const fullText = `Dr. Carol Folt serves as the twelfth president of the University of Southern California. She is a highly experienced leader, internationally recognized life scientist, and award-winning teacher. In leading USC, Dr. Folt brings broad executive and leadership experience across the academy, including arts and sciences, professional schools, and academic medicine. Throughout her career, Dr. Folt has earned a reputation for always placing students at the center, advancing academic excellence and innovation, setting ambitious goals, prioritizing shared governance, and focusing on the future. Prior to her appointment at USC in July 2019, Dr. Folt led the University of North Carolina at Chapel Hill – 
-  one of the nation’s most distinguished and research-intensive universities – from 2013 to 2019. At UNC, she set a bold course for the university’s future by spearheading a historic capital campaign, raising billions of dollars; building the school’s first-ever strategic plan in collaboration with every school and department; fighting to make college education accessible and affordable; and inspiring thousands of Tar Heels to embrace the arts and sustainability. Under her leadership, UNC was repeatedly named the No. 1 value in public higher education, surpassed $1 billion in annual research expenditures for the first time in school history (No. 5 in the nation overall), and set admissions records every year. Prior to her tenure at UNC, Dr. Folt served in various leadership roles at Dartmouth College, including as interim president, provost, dean of faculty, and Dartmouth Professor of Biological Sciences. An Akron, Ohio, native, Dr. Folt earned her bachelor’s degree in aquatic biology and a master’s degree in biology from the University of California, Santa Barbara. She received her doctorate in ecology from the University of California, Davis, and did postdoctoral work at the W.K.
+  one of the nation's most distinguished and research-intensive universities – from 2013 to 2019. At UNC, she set a bold course for the university's future by spearheading a historic capital campaign, raising billions of dollars; building the school's first-ever strategic plan in collaboration with every school and department; fighting to make college education accessible and affordable; and inspiring thousands of Tar Heels to embrace the arts and sustainability. Under her leadership, UNC was repeatedly named the No. 1 value in public higher education, surpassed $1 billion in annual research expenditures for the first time in school history (No. 5 in the nation overall), and set admissions records every year. Prior to her tenure at UNC, Dr. Folt served in various leadership roles at Dartmouth College, including as interim president, provost, dean of faculty, and Dartmouth Professor of Biological Sciences. An Akron, Ohio, native, Dr. Folt earned her bachelor's degree in aquatic biology and a master's degree in biology from the University of California, Santa Barbara. She received her doctorate in ecology from the University of California, Davis, and did postdoctoral work at the W.K.
   Kellogg Biological Station of Michigan State University.`;
 
   // Split the full text approximately in half for the "Read More" functionality
@@ -225,7 +235,7 @@ function Landing() {
           DEMO 2025
         </h1>
         <h4 className="text-2xl  relative z-20 text-[#C2C2CD] font-medium mt-4">
-          USC’s Largest Student Organized Entrepreneurship Conference
+          USC's Largest Student Organized Entrepreneurship Conference
         </h4>
         <h5
           className={`${
@@ -418,7 +428,7 @@ function Landing() {
             reverse={false}
             agenda={"Pitch Competition"}
             description={
-              "Pitch Competitions for six companies will last from 5:30 PM to 7 PM, and winners will receive tuition-deductible prizes as awarded by the Lloyd Greif Center for Entrepreneurial Studies. "
+              "Pitch Competitions for six companies will last from 5:30 PM to 7 PM, and winners will receive tuition-deductible prizes as awarded by the Lloyd Greif Center for Entrepreneurial Studies."
             }
           />
           <img
@@ -433,47 +443,47 @@ function Landing() {
 
       {/* Keynote!! */}
 
+      {/* <div
+        className={`${
+          isMobile ? "flex-col" : "flex-row"
+        } w-full flex-start mt-10 gap-16 h-full flex`}
+      >
+        <div className="w-full justify-between h-full flex flex-col transition-all">
+          <p className="text-4xl font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text">
+            Opening Speech – Carol Folt, PhD
+          </p>
+          <p className="text-xl mt-2 font-semibold text-white">
+            President of the University of Southern California
+          </p>
+          <p
+            className={`${
+              isMobile ? "w-full" : "w-3/4"
+            } text-sm text-gray-300 mt-4 leading-loose font-light transition-all duration-700 ease-in-out `}
+          >
+            {isExpanded ? fullText : `${firstHalfText}...`}
+          </p>
+          <div className="w-full flex items-center">
+            <button
+              onClick={toggleExpanded}
+              className="text-blue-500 hover:text-blue-700 transition duration-300 ease-in-out mt-2"
+            >
+              {isExpanded ? "Read Less" : "Read More"}
+            </button>
+          </div>
+        </div>
+        <img
+          src={Carol}
+          className={`${
+            isMobile ? "w-full" : "w-[27.5%] h-[100%]"
+          } rounded-lg shadow-lg border border-blue-500 shadow-blue-500 object-contain`}
+        />
+      </div> */}
+
       <div
         className={`min-w-full min-h-screen w-full relative h-full flex flex-col ${
           isMobile ? "p-8" : "p-24"
         } text-white`}
       >
-        {/* <div
-          className={`${
-            isMobile ? "flex-col" : "flex-row"
-          } w-full flex-start mt-10 gap-16 h-full flex`}
-        >
-          <div className="w-full justify-between h-full flex flex-col transition-all">
-            <p className="text-4xl font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text">
-              Opening Speech – Carol Folt, PhD
-            </p>
-            <p className="text-xl mt-2 font-semibold text-white">
-              President of the University of Southern California
-            </p>
-            <p
-              className={`${
-                isMobile ? "w-full" : "w-3/4"
-              } text-sm text-gray-300 mt-4 leading-loose font-light transition-all duration-700 ease-in-out `}
-            >
-              {isExpanded ? fullText : `${firstHalfText}...`}
-            </p>
-            <div className="w-full flex items-center">
-              <button
-                onClick={toggleExpanded}
-                className="text-blue-500 hover:text-blue-700 transition duration-300 ease-in-out mt-2"
-              >
-                {isExpanded ? "Read Less" : "Read More"}
-              </button>
-            </div>
-          </div>
-          <img
-            src={Carol}
-            className={`${
-              isMobile ? "w-full" : "w-[27.5%] h-[100%]"
-            } rounded-lg shadow-lg border border-blue-500 shadow-blue-500 object-contain`}
-          />
-        </div> */}
-
         <div className="flex flex-col w-8/12 mt-8">
           <h3 className="text-[#747478] font-medium text-lg">
             Inspiring Founder Stories
@@ -485,8 +495,6 @@ function Landing() {
             APL, Nami Matcha, Shopify
           </h2>
         </div>
-
-        
 
         <div className="w-full relative z-20 h-auto py-4 gap-16 mt-12 flex flex-col items-center justify-between">
           {keynoteSpeakers.map((speaker, index) => {
@@ -525,61 +533,109 @@ function Landing() {
               </div>
             );
           })}
-
-          {/* <div
-            className={`${
-              isMobile ? "flex-col" : "flex-row"
-            } w-full flex-start mt-10 gap-16 h-full flex`}
-          >
-            <div className="w-full justify-between h-full flex flex-col">
-              <p 
-                className="text-4xl font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text cursor-pointer"
-                onClick={() => window.open("https://www.linkedin.com/in/glenn-r-fox-phd-2418bba1/", "_blank")}
-              >
-                Our Moderator – Glenn Fox
-              </p>
-              <p className="text-xl mt-2 font-semibold text-white">
-                Assistant Professor of Clinical Entrepreneurship
-              </p>
-              <p
-                className={`${
-                  isMobile ? "w-full" : "w-3/4"
-                } text-sm text-gray-300 mt-4 leading-loose font-light`}
-              >
-                Dr. Glenn Fox is a faculty member at the University of Southern
-                California's Lloyd Greif Center for Entrepreneurial Studies, in
-                the Marshall School of Business. His current projects focus on
-                neural systems for emotion regulation, high stakes training, and
-                developing entrepreneurial mindset skills in founders and
-                business leaders.Glenn received his Ph.D. in Neuroscience from
-                USC, where he focused on the neural correlates of gratitude,
-                empathy, and neuroplasticity. Currently, Glenn is the Director
-                and Founder of the USC Found Well Initiative which aims to
-                understand and promote entrepreneurial mindset in founders and
-                business leaders.
-              </p>
-            </div>
-            <img
-              src={GlennFox}
-              className={`${
-                isMobile ? "w-full" : "w-1/4"
-              } rounded-lg shadow-lg border border-blue-500 shadow-blue-500 object-cover`}
-            />
-          </div> */}
         </div>
 
-        <KeynoteBlur className="absolute pointer-events-none bottom-0 w-auto" />
-        <KeynoteCircle className="absolute pointer-events-none right-0 bottom-1/4 w-auto" />
+        <div className="flex flex-col w-8/12 mt-8">
+          <h1 className="text-5xl mt-2 font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text">
+            Our Moderators
+          </h1>
+
+          <h2 className="text-xl font-semibold text-white mt-4">
+            Glenn Fox, Maryann Xu
+          </h2>
+        </div>
+
+        <div
+          className={`${
+            isMobile ? "flex-col" : "flex-row"
+          } w-full flex-start mt-10 gap-16 h-full flex`}
+        >
+          <div className="w-full justify-between h-full flex flex-col">
+            <p 
+              className="text-4xl font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text cursor-pointer"
+              onClick={() => window.open("https://www.linkedin.com/in/glenn-r-fox-phd-2418bba1/", "_blank")}
+            >
+              Glenn Fox
+            </p>
+            <p className="text-xl mt-2 font-semibold text-white">
+              Assistant Professor of Clinical Entrepreneurship
+            </p>
+            <p
+              className={`${
+                isMobile ? "w-full" : "w-3/4"
+              } text-sm text-gray-300 mt-4 leading-loose font-light`}
+            >
+              Dr. Glenn Fox is a faculty member at the University of Southern
+              California's Lloyd Greif Center for Entrepreneurial Studies, in
+              the Marshall School of Business. His current projects focus on
+              neural systems for emotion regulation, high stakes training, and
+              developing entrepreneurial mindset skills in founders and
+              business leaders.Glenn received his Ph.D. in Neuroscience from
+              USC, where he focused on the neural correlates of gratitude,
+              empathy, and neuroplasticity. Currently, Glenn is the Director
+              and Founder of the USC Found Well Initiative which aims to
+              understand and promote entrepreneurial mindset in founders and
+              business leaders.
+            </p>
+          </div>
+          
+          <img
+            src={GlennFox}
+            className={`${
+              isMobile ? "w-full" : "w-1/4"
+            } rounded-lg shadow-lg border border-blue-500 shadow-blue-500 object-cover h-[500px]`}
+            />
+        </div>
+
+        <br></br> <br></br>
+
+        <div
+          className={`${
+            isMobile ? "flex-col" : "flex-row"
+          } w-full flex-start mt-10 gap-16 h-full flex`}
+        >
+          <div className="w-full justify-between h-full flex flex-col">
+            <p 
+              className="text-4xl font-bold bg-gradient-to-t from-[#116AB8] to-[#91BCE1] text-transparent leading-normal inline-block bg-clip-text cursor-pointer"
+              onClick={() => window.open("https://www.linkedin.com/in/maryannxu/", "_blank")}
+            >
+               Maryann Xu
+            </p>
+            <p className="text-xl mt-2 font-semibold text-white">
+              Incoming Software Engineering at Meta
+            </p>
+            <p
+              className={`${
+                isMobile ? "w-full" : "w-3/4"
+              } text-sm text-gray-300 mt-4 leading-loose font-light`}
+            >
+              Maryann Xu is a CS student at USC and an incoming software engineering intern at Meta.
+              She's built startups, published scientific research in biomedical engineering, and 
+              developed digital twins of microsatellites at Booz Allen Hamilton. Right now, she's 
+              co-president of TroyLabs and loves supporting USC's entrepreneurship community.
+            </p>
+          </div>
+          
+          <img
+            src={MaryannXu}
+            className={`${
+              isMobile ? "w-full" : "w-1/4"
+            } rounded-lg shadow-lg border border-blue-500 shadow-blue-500 object-cover h-[500px]`}
+            />
+        </div>
       </div>
+
+      <KeynoteBlur className="absolute pointer-events-none bottom-0 w-auto" />
+      <KeynoteCircle className="absolute pointer-events-none right-0 bottom-1/4 w-auto" />
 
       {/* Pitch Competition */}
 
-      {/* <div
+      <div
         className={`min-w-full min-h-screen w-full relative h-full flex flex-col ${
           isMobile ? "p-8" : "p-24"
         } text-white`}
       >
-        <div className={`${isMobile ? "flex-col" : "flex-row"} flex mt-8`}>
+        {/* <div className={`${isMobile ? "flex-col" : "flex-row"} flex mt-8`}>
           <div className={`${isMobile ? "w-full" : "w-8/12"} flex flex-col`}>
             <h3 className="text-[#747478] font-medium text-lg">
               Innovation in Action
@@ -595,7 +651,7 @@ function Landing() {
                 isMobile ? "w-[100%]" : "w-[60%]"
               }`}
             >
-              Pitch Competition for six startups will last from 5:30 PM to 7 PM,
+              Pitch Competition for six startups will last from 5:30 PM to 7 PM,
               and winners will receive tuition-deductible prizes as awarded by
               the Lloyd Greif Center for Entrepreneurial Studies, and credits to
               be used on Apsy's AI-Driven App Builder platform.
@@ -673,7 +729,7 @@ function Landing() {
             className="inline cursor-pointer text-green-500 hover:text-green-600 "
           >
             {" "}
-            Apsy’s innovative AI-Driven App Builder platform{" "}
+            Apsy's innovative AI-Driven App Builder platform{" "}
           </p>
         </h1>
 
@@ -698,7 +754,7 @@ function Landing() {
               </h1>
             </div>
           ))}
-        </div>
+        </div> */}
 
         <h1 className="text-3xl mt-24 font-semibold text-gray-400">
           Pitch Competition Judges
@@ -733,7 +789,7 @@ function Landing() {
         </div>
 
         <PitchBlur className="absolute pointer-events-none bottom-1/4 w-auto" />
-      </div> */}
+      </div>
 
       {/* Event */}
 
