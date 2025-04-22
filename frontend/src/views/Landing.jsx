@@ -120,7 +120,7 @@ var judges = [
   },
   {
     name: "Rachael McCrary",
-    title: "CEO of Spice World",
+    title: "CEO of Spice Rack",
     picture: Rachael,
     linkedIn: "https://www.linkedin.com/in/rachaelmccrary/",
     description: `Rachael McCrary is the CEO of a company redefining intimate apparel by 
