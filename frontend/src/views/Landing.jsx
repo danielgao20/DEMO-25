@@ -581,10 +581,9 @@ function Landing() {
           
           <img
             src={GlennFox}
-            className={`${
-              isMobile ? "w-full" : "w-1/4"
-            } rounded-lg shadow-lg border border-blue-500 shadow-blue-500 object-cover h-[500px]`}
-            />
+            className="w-64 h-64 object-cover rounded-3xl shadow-lg shadow-blue-500 border-blue-500 border-[1px] z-10"
+            alt="Glenn Fox"
+          />
         </div>
 
         <br></br> <br></br>
@@ -618,10 +617,9 @@ function Landing() {
           
           <img
             src={MaryannXu}
-            className={`${
-              isMobile ? "w-full" : "w-1/4"
-            } rounded-lg shadow-lg border border-blue-500 shadow-blue-500 object-cover h-[500px]`}
-            />
+            className="w-64 h-64 object-cover rounded-3xl shadow-lg shadow-blue-500 border-blue-500 border-[1px] z-10"
+            alt="Maryann Xu"
+          />
         </div>
       </div>
 
@@ -765,7 +763,7 @@ function Landing() {
             <div className={`${isMobile ? "flex-col" : "flex-row"} flex`}>
               <img
                 src={judge.picture}
-                className="w-64 h-64 object-cover rounded-3xl shadow-lg shadow-blue-500 border-blue-500 border-[1px]"
+                className="w-64 h-64 object-cover rounded-3xl shadow-lg shadow-blue-500 border-blue-500 border-[1px] relative z-30"
                 alt={judge.name}
               />
               <div
